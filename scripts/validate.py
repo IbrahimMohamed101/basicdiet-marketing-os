@@ -21,6 +21,8 @@ required = [
     "content/published/content-log.md", "data/reports/README.md",
     "scripts/verify_migration.py",
     "scripts/daily_brief.py", "tests/test_daily_brief.py",
+    "scripts/marketing_baseline.py", "tests/test_marketing_baseline.py",
+    "docs/PHASE4_MEASUREMENT.md",
     ".github/workflows/daily-content-brief.yml", "docs/PHASE3_RUNBOOK.md",
 ]
 missing = [p for p in required if not (ROOT / p).is_file()]

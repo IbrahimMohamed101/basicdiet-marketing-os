@@ -73,3 +73,21 @@ When evidence conflicts, identify the conflict before making decisions.
 - Vendor context discovery enters through `.agents/product-marketing.md`. Resolve the two optional missing vendor skills via `.agents/skill-overrides.json`; do not auto-install generic skills or follow moving external integration links as executable dependencies.
 - Verify: install validation dependencies from `requirements-dev.txt`, run `python3 scripts/validate.py` and `python3 -m unittest discover -s tests -v`; inspect an offline draft after creative changes.
 - Before ending meaningful work: record actual tests, unresolved blockers, resulting run/commit/report references and next action in the appropriate existing memory file. `STATE.md` owns current priorities; `decisions/log.md` owns adopted decisions; results go into dated aggregate reports, publications and experiments. Never write completion claims for unexecuted work.
+
+## Phase 4 commercial measurement — verified backend contract, live values pending
+
+- Commercial source: `basicdiet145/src/services/dashboard/marketingAnalyticsService.js` and `GET /api/dashboard/accounting/marketing-analytics` protected by dashboard role auth. Read-only reports; do not bypass authorization.
+- Run `scripts/marketing_baseline.py` **offline by default**, importing three API exports with exact date windows, or use `--live` only when expressly requested and an authorized dashboard token is available in a local environment.
+- Current provider metric names and caveats are in `docs/PHASE4_MEASUREMENT.md`; source code can change, so review current backend contract before trusting archived numbers.
+- Only retain whitelisted aggregated counts, halala totals and percentage rates. The API response may include more information: never commit raw responses or unknown fields.
+- Store verified, reviewed snapshots under `data/reports/` with period, capture time, source mode and filters. **Manual-imported** data are operator-supplied until source and date are verified; a file's presence alone is not evidence of production accuracy.
+- No app installs/first_open, UTM attribution or paid creative CAC/ROAS is supported by this server-only endpoint. Label unavailable metrics explicitly.
+- Import script does **not** authenticate a user, schedule collection, post content, charge cards, or change any production records. Access to protected analytics remains separately authorized.
+
+## Signed live data bridge — gated until production verified
+
+- Commercial source: backend OIDC endpoint GET /api/marketing-agent/commercial-report; workflow .github/workflows/sync-commerce.yml. Detailed contract docs/LIVE_AGENT_CONNECTOR.md.
+- Only exact private repo/main workflow identity has read-only access to aggregate KPI and plan/promo reports. No dashboard JWT or password is stored here.
+- Once a signed sync run succeeds, treat dated data/reports/commerce/<YYYY-MM-DD>/{30,60,90}d.json as the latest available commercial records and always preserve their overlapping period windows and capture time.
+- Do not assert live bridge connected until Actions succeeds against Railway. Reject invented or manually filled production values.
+- Social status at data/sources/social-connections.json is disconnected; provider OAuth is required. Never ask agents to guess credentials or enable posting/spending.

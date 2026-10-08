@@ -1,0 +1,35 @@
+name: Basic Diet - signed commercial data sync
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/sync-commerce.yml"
+  schedule:
+    - cron: "30 2 * * *" # 05:30 Asia/Riyadh; GitHub schedule may be delayed
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: basicdiet-commercial-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # pinned v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # pinned v5
+        with:
+          python-version: '3.12'
+      - name: Pull and store safe commercial aggregates
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 -m scripts.sync_commerce

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "last_checked": "2026-10-08",
+  "connections": [
+    {
+      "platform": "instagram",
+      "provider": "Metricool/Meta",
+      "status": "not_connected",
+      "account_id": null,
+      "metrics_enabled": false
+    },
+    {
+      "platform": "facebook",
+      "provider": "Metricool/Meta",
+      "status": "not_connected",
+      "account_id": null,
+      "metrics_enabled": false
+    },
+    {
+      "platform": "tiktok",
+      "provider": "Metricool",
+      "status": "not_connected",
+      "account_id": null,
+      "metrics_enabled": false
+    }
+  ],
+  "credentials_policy": "oauth_provider_only_never_commit_secrets",
+  "posting_enabled": false,
+  "paid_spend_enabled": false
+}
