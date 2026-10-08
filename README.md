@@ -1,6 +1,6 @@
 # Basic Diet Marketing OS
 
-**Status:** Phase 1 (legacy migration completed 2026-10-08). **Private GitHub repository**.
+**Status:** Phase 2 complete (2026-10-08) — core marketing skills integrated. **Private GitHub repository**.
 
 AI-assisted marketing system for the Saudi meal-subscription restaurant Basic Diet. This repository is a **durable knowledge and operational protocol**, not the app backend, live database, automated publisher or running ad platform.
 
@@ -19,9 +19,15 @@ AI-assisted marketing system for the Saudi meal-subscription restaurant Basic Di
 - **Basic Diet Mode — حلل المنافسين** → [historical competitor baseline](knowledge/competitors.md) + refreshed sources.
 - **Basic Diet Mode — حالة المشروع** → [STATE.md](STATE.md) + [ROADMAP.md](docs/ROADMAP.md).
 
+## Installed AI marketing skills (Phase 2)
+
+The **13 imported upstream skills** and their reference files are registered in [`.agents/skills/README.md`](.agents/skills/README.md). The project also includes its native Basic Diet skill and the user-supplied [storyboard-to-video skill](.agents/skills/storyboard-to-video/SKILL.md), bringing the project skill count to **15**.
+
+Source and license details: [Phase 2 skills provenance](docs/SKILLS_PHASE2.md). No automatic image generation, social publishing, scheduled tasks or advertising spend is enabled by installing these documents.
+
 ## Repository directories
 
-- `.agents/skills/`, `.agents/workflows/`: current native skill, original skill reference and workflows. **Third-party skills not installed yet**.
+- `.agents/skills/`, `.agents/workflows/`: current native skill, **13 pinned third-party marketing skills**, user-supplied storyboard workflow, supporting references and manual workflows.
 - `agents/`: six role descriptions; **not automatically running agents**.
 - `knowledge/`: brand, product, audience, VOC, competitors and historic offers.
 - `content/`: content ideas, legacy content log, verified publications and strategy.

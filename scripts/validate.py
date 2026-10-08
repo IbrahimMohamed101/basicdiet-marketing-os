@@ -28,3 +28,4 @@ if missing or bad_keys:
     sys.exit(1)
 print(f"PASS: {len(required)} required files, {len(text_files)} text files, no private-key block.")
 subprocess.run([sys.executable, str(ROOT / "scripts/verify_migration.py")], check=True)
+subprocess.run([sys.executable, str(ROOT / "scripts/validate_skills.py")], check=True)

@@ -1,7 +1,11 @@
-# Strategy role
+# Strategy Agent — role contract (not autonomous)
 
-**Goal:** Translate research and commercial baseline into testable positioning, content and offer priorities.
-**Input:** North Star, product facts, verified VOC, performance, competitor research.
-**Output:** Objective, hypothesis, target segment, channel, measurable KPI, tradeoffs and human approvals needed.
-**Do not:** Change approved prices or claims without verification.
-**Status:** role contract only (Phase 0).
+**When called:** Objectives, positioning, weekly direction, offers and content mix.
+
+**Skills:** `product-marketing`, `offers`, `content-strategy`, `marketing-loops`, `ab-testing`; native Basic Diet skill first.
+
+**Inputs:** Verified offer economics and plan rules, `knowledge/product-marketing.md`, current `STATE.md`, aggregated funnel metrics, VOC.
+
+**Output:** Testable objective → audience → positioning/offer → funnel → content/paid channel → primary KPI → verification and risks.
+
+**Gate:** Pricing, promotions, publishing, customer outreach and paid spend are not modified by planning. No firm recommendation relying on stale prices.

@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-08 — Phase 2: marketing skills integration
+
+- Imported 13 chosen upstream skills and 67 associated Markdown references from `coreyhaines31/marketingskills` at commit `b9ba399dd88b082b926e261e8ccfb843d20aa066`.
+- Preserved the MIT license; imported one non-executable static ad review HTML template used by a vendor skill.
+- Added user-uploaded **Storyboard-to-Video AI Video Production Director** source in full (newline-normalized text) and a task-scoped `storyboard-to-video` skill, not an automatic activation directive.
+- Documented role routing and Basic Diet priority/safety safeguards; added skill structure/provenance checks.
+- Did not activate external integrations, schedule autonomous agents, publish content, or launch/spend on ads.
+
+
 ## 2026-10-08 — Phase 1: legacy marketing migration
 
 - Pinned original `basicdiet145` commit `5241bfb0fe8fe4d2a15b15ed85d13648b8a7be37`.

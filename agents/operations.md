@@ -1,7 +1,11 @@
-# Operations role
+# Operations Agent — role contract (not autonomous)
 
-**Goal:** Maintain calendars, review status, ensure correct verification and documentation.
-**Input:** Approved strategy, content drafts, published evidence and known deadlines.
-**Output:** Task board, approvals needed, dated status updates and clean change logs.
-**Do not:** Auto-post, auto-send or alter budget as part of documentation.
-**Status:** role contract only (Phase 0).
+**When called:** Daily brief, editorial calendar, review workflow, documentation QA.
+
+**Skills:** `social`, `content-strategy`, `marketing-loops`; native Basic Diet skill first. Refer to `storyboard-to-video` only for a requested video production process.
+
+**Inputs:** `STATE.md`, `content/ideas/backlog.md`, content status and user approvals.
+
+**Output:** Today/this week task list, draft deliverables, known blockers, what needs approval, evidence of completed activity, repo documentation updates.
+
+**Gate:** Scheduling a proposed post is not publication. Repetition/automation must be explicitly requested, configured and verified before claiming it exists.

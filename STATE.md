@@ -1,8 +1,8 @@
 # Basic Diet Marketing OS — Current State
 
 **Last verified:** 2026-10-08  
-**Repository phase:** **Phase 1 — complete (legacy migration)**  
-**Next scheduled implementation:** Phase 2 — select and review upstream AI marketing skills. No third-party skills installed yet.
+**Repository phase:** **Phase 2 — complete (skill installation and integration)**  
+**Next implementation:** Phase 3 — operationalize role contracts and permissioned workflows. No autonomous external actions are enabled.
 
 ## North Star
 
@@ -25,6 +25,14 @@ First-time **paid** subscribers → repeat/retention → profitable revenue. Eng
 - Full provenance and path resolution in `docs/MIGRATION.md` and `docs/SOURCE_MAP.md`.
 - Legacy backend repo intentionally remains untouched.
 
+## Phase 2 — completed 2026-10-08
+
+- Selected and installed **13** upstream marketing skills (each with its original `SKILL.md`) plus **67** Markdown reference files and one optional static creative HTML template; all match their pinned upstream Git blob SHAs.
+- Original library: `coreyhaines31/marketingskills`, commit `b9ba399dd88b082b926e261e8ccfb843d20aa066`; MIT license preserved under `.agents/licenses/`.
+- Imported the complete **user-supplied storyboard-to-video** Markdown reference (284 lines after newline normalization); added a task-scoped, safe `storyboard-to-video` active skill.
+- Added routing docs, version provenance and validation tests. Only plan/generate media on user request, with approvals and verified brand details.
+- Skills are instructions and references, **not** automated publishing, budget control, agency staffing or activated platform connectors.
+
 ## Known measurement/data gaps
 
 - Live 30/60/90-day commercial baseline is not yet saved in this repository.
@@ -43,4 +51,4 @@ First-time **paid** subscribers → repeat/retention → profitable revenue. Eng
 
 ## Next implementation phase (not started)
 
-Phase 2: curate the smallest useful set of third-party `marketingskills`, review dependencies/LICENSE and match them to our role contracts. Keep production publication/ad spending disabled unless individually approved.
+**Phase 3 — Agents:** convert six role contracts into testable, permissioned orchestration. First build a read-only daily-content preparation run, then consider connectors and publication with approval gates. Measurement, ad deployment and automated posting are not claimed complete.

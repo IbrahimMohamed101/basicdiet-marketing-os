@@ -10,7 +10,7 @@ cd basicdiet-marketing-os
 python3 scripts/validate.py
 ```
 
-The validator performs basic structure checks and runs the Phase 1 byte-for-byte migration test (23 archived sources + 20 mapped working copies). The verified source commit is shown in `docs/MIGRATION.md`. For GitHub CLI users:
+The validator performs structure checks, runs the Phase 1 byte-for-byte migration test (23 archived sources + 20 working copies), and validates Phase 2 skill provenance (13 upstream skills + 67 references, license and user-supplied video reference). The verified source commit is shown in `docs/MIGRATION.md`. For GitHub CLI users:
 
 ```bash
 gh repo view IbrahimMohamed101/basicdiet-marketing-os --json isPrivate,nameWithOwner,url
@@ -18,6 +18,6 @@ git log -1 --oneline
 git ls-files
 ```
 
-Expected: private repository, `main` branch, the completed Phase 1 migration and `PASS` from both validation checks.
+Expected: private repository, `main` branch, the completed Phase 2 skill installation and earlier migration and `PASS` from both validation checks.
 
 Do not force-push `main`, rewrite archived originals, or commit production tokens/customer data. Use branch/PR review when extending agents or importing upstream skills.

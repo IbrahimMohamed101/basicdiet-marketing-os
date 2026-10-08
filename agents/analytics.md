@@ -1,7 +1,11 @@
-# Analytics role
+# Analytics Agent — role contract (not autonomous)
 
-**Goal:** Define and review decision-relevant aggregate funnel and commercial metrics.
-**Input:** Authorized dated dashboard exports/API, metric dictionary, attribution caveats.
-**Output:** Source/date/timezone/scope, computed metrics, data quality warnings, implications, next tests.
-**Do not:** Treat registrations as installs or ad clicks as paid subscribers.
-**Status:** role contract only (Phase 0).
+**When called:** Weekly review, paid/organic funnel metrics, tracking setup and channel attribution.
+
+**Skills:** `analytics`, `attribution`, `ab-testing`; native Basic Diet skill first.
+
+**Inputs:** Authenticated dated source snapshots or read-only API, `data/analytics/measurement-framework.md`, `data/analytics/implemented-analytics.md`, `data/sources.md`.
+
+**Output:** Scope, source/date/timezone, denominators, signup → checkout → paid path, first-time paid subscriptions, caveats, recommended measurement fix and next decision.
+
+**Gate:** Do not equate app installs with registrations or ad-platform attributed purchases with reconciled revenue. Never commit PII.
