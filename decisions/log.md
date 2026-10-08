@@ -17,3 +17,12 @@
 ## Future decisions
 
 Only add decisions when explicitly adopted or validated. A drafted idea or experiment is not an approved execution result.
+
+## 2026-10-08 — Audited deterministic drafting and durable state
+
+- **Decision implemented:** keep one deterministic orchestrator with six typed handoff contracts; no autonomous multi-agent runtime or new generic skills.
+- **Reason:** current work needs reliable evidence, reusable creative and state, not concurrent independent workers.
+- **Data:** version-1 JSON for original ideas, editorial profiles, reservations, verified publications and comparable performance. Preserve original Markdown and consult legacy publications.
+- **Persistence:** normal local runs reserve ideas; dry runs/Actions do not. Commit useful reservations and source-linked results. Immutable archives protect history while working records may evolve with evidence.
+- **Provider/CI:** one explicit bounded optional AI request; no retries, separate unverified output. Read-only pinned Actions and full-source PR checks.
+- **Verification:** local validator, 44 tests and C003 offline dry run. See `docs/AUDIT_2026-10-08.md`. No business outcomes or publishing claimed.

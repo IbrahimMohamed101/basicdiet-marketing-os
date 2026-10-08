@@ -1,63 +1,39 @@
-# Basic Diet Marketing OS — Current State
+# Basic Diet Marketing OS — current state
 
-**Last verified:** 2026-10-08  
-**Repository phase:** **Phase 3 — manual daily-content pilot implemented**  
-**Next implementation:** Phase 4 — read-only commercial measurement baseline and attribution QA. Automated social publishing and ad spend remain disabled.
+**Last verified: 2026-10-08. Phase 3: audited local draft workflow.**
+**Next phase: authorized read-only measurement and asset verification.**
 
-## North Star
+## Business and evidence
 
-First-time **paid** subscribers → repeat/retention → profitable revenue. Engagement and reach are diagnostic metrics, not the main outcome.
+Basic Diet is a Saudi meal-subscription restaurant. North star: first-time **paid** subscribers → retention/repeat → profitable revenue. Historical positioning: **الطعم، الاختيار، الراحة**; familiar food, portion choice and convenience. Audience segments are hypotheses. The 7/26/30-day plans, portions, menu, prices, promos and Jeddah coverage are 2026-10-07 historical context, requiring fresh official verification before claims. See `knowledge/` and `docs/SOURCE_MAP.md`.
 
-## Established brand/product context (legacy research, dated 2026-10-07)
+## Verified implementation
 
-- Saudi restaurant Basic Diet: meal subscriptions with 7/26/30-day plans, pickup/delivery. Verify current eligibility and price from official systems.
-- Positioning: **أكل حقيقي تحبه، بكميات محسوبة، بخيارات كثيرة، ويوفر عليك قرار الأكل كل يوم.**
-- Core pillars: **الطعم، الاختيار، الراحة**.
-- Content mix (experimental starting hypothesis): Food Desire 30%, Education 20%, Lifestyle/Problem 20%, Trust/Proof 15%, Conversion/Offer 15%.
-- Imported original backlog: **30 grounded concepts**, now at `content/ideas/backlog.md`.
-- Customer research and competitor pass 01 are historical snapshots, not fresh claims. See `knowledge/`.
+- Historical migration: 23 archive originals retain source blob hashes; 20 mapped working paths exist and still match their initial bytes at audit time. Working knowledge can evolve; archive content cannot.
+- 13 vendor skills + 67 references, MIT license and static creative template retain pinned upstream hashes. Native Basic Diet and storyboard entry points make 15 skills. Original user storyboard text is preserved and never auto-activates.
+- Daily CLI: versioned JSON ideas/publications/reservations/performance, lossless 30-idea migration, 30 editorial adaptations, source hashes, structured six-role handoffs and offline Arabic briefs.
+- Normal local runs reserve ideas; `--dry-run` and Actions produce drafts without reservation. Output is ignored by Git; reviewed ledger changes must be committed for future sessions.
+- Optional AI: one bounded explicit request, separate unverified output, safe failure status; no paid request executed in this audit.
+- Validation and 44 unit/integration tests passed locally during the audit. Final evidence and any remote CI result belong in `docs/AUDIT_2026-10-08.md` / the PR checks, not an assumed deployment claim.
 
-## Completed
+## Current operating records
 
-- Phase 0 private repository, boot protocol, six role definitions and guardrails.
-- Phase 1: **23/23 source files** pinned to commit `5241bfb0fe8fe4d2a15b15ed85d13648b8a7be37` preserved under `archive/basicdiet145-2026-10-07/` with matching Git blob SHA.
-- Phase 1: **20 working copies** mapped into `knowledge/`, `data/`, `content/`, `assets/`, `decisions/`, `experiments/`, `plans/`, `docs/`, and the original skill reference.
-- Full provenance and path resolution in `docs/MIGRATION.md` and `docs/SOURCE_MAP.md`.
-- Legacy backend repo intentionally remains untouched.
+- Ideas: `content/ideas/backlog.json`; original Markdown preserved.
+- Editorial scripts: `content/ideas/creative.json`; proposals, not approved product facts.
+- Reservations: `content/drafts/runs.json` (empty at audit; realistic test used `--dry-run`).
+- Publications: `content/published/publications.json` (empty); legacy Markdown template still consulted.
+- Performance: `data/analytics/creative-performance.json` (empty); no measured creative winners.
+- Adopted architecture: `decisions/log.md`; contracts/recovery: `docs/DATA_CONTRACTS.md`.
 
-## Phase 2 — completed 2026-10-08
+## Dry-run outcome
 
-- Selected and installed **13** upstream marketing skills (each with its original `SKILL.md`) plus **67** Markdown reference files and one optional static creative HTML template; all match their pinned upstream Git blob SHAs.
-- Original library: `coreyhaines31/marketingskills`, commit `b9ba399dd88b082b926e261e8ccfb843d20aa066`; MIT license preserved under `.agents/licenses/`.
-- Imported the complete **user-supplied storyboard-to-video** Markdown reference (284 lines after newline normalization); added a task-scoped, safe `storyboard-to-video` active skill.
-- Added routing docs, version provenance and validation tests. Only plan/generate media on user request, with approvals and verified brand details.
-- Skills are instructions and references, **not** automated publishing, budget control, agency staffing or activated platform connectors.
+The realistic offline Instagram run selected **C003**, awareness: **«إذا قلت أكل دايت… وش أول طبق يجي في بالك؟»**. It produced a 15-second Reel plan, Saudi Arabic caption, three Stories, audience/funnel, Reach as a diagnostic KPI and explicit review gates. No exact media file, current menu, destination link or rights were verified. Paid suitability remains NOT_READY. No publication, reservation, message, asset generation or advertising action occurred.
 
-## Phase 3 — implemented 2026-10-08
+## Blockers and next actions
 
-- Added a runnable, source-grounded, **approval-only** daily content orchestrator at `scripts/daily_brief.py`.
-- Six role handoffs: research, strategy, creative, analytics, media-buyer, operations. These are **deterministic steps**, not independent autonomous language-model agents.
-- A manually dispatched, read-only GitHub Actions workflow builds `daily-brief.md` and `daily-brief.json` artifacts. No schedule, posting, billing, production code changes or API calls by default.
-- Optional AI drafting uses a separately configured OpenAI API key and an explicit opt-in; no key or spend was provisioned here.
-- Unit tests cover unused-idea selection, trusted publication proof, duplicate prevention, safe output, and disabled-by-default API behavior.
-- Runbook: `docs/PHASE3_RUNBOOK.md`. External/social-connected end-to-end execution has **not** been verified.
+1. Verify recent actual social history and an exact approved media file/rights for the first reviewed idea; populate publication records only from real evidence.
+2. Obtain authorized, sanitized 30/60/90-day commercial snapshots under `data/reports/`, with dates, filters, Asia/Riyadh and definitions. No raw customer data.
+3. Reconcile source-to-first-paid attribution. Install/first-open counts, CAC and ROAS are not established here; historical backend capability claims were not reverified.
+4. Run a small human-approved organic pilot, capture URLs and seven-day measurements, then adjust creative hypotheses. Posting itself still requires explicit action authorization.
 
-## Known measurement/data gaps
-
-- Live 30/60/90-day commercial baseline is not yet saved in this repository.
-- Installs/first-open and source-to-paid attribution were incomplete according to last documented state; do not infer installs from registrations.
-- No confirmed campaign CAC/ROAS measurement here. Paid spend needs verification and approval before launch.
-- Google Drive asset references are not the same as synced, authenticated media assets.
-- No new actual social publishing or campaigns performed in this phase; migrated logs may contain templates/hypotheses.
-
-## Runbook: Basic Diet Mode — ننزل إيه النهارده؟
-
-1. Read `AGENTS.md`, active skill and this STATE.
-2. Read `content/ideas/backlog.md`, `content/published/content-log.md`, and `content/strategy.md`.
-3. Check verified `knowledge/offers-pricing.md` against live packages/promos, plus `assets/catalog.md` and available evidence.
-4. Choose an unused idea and deliver hook, script, caption, CTA, stories, creative/asset, one KPI and paid suitability.
-5. Never say a post was published until publication is verified. Record results only with confirmed source/date.
-
-## Next implementation phase (not started)
-
-**Phase 4 — Measurement:** obtain consented read-only 30/60/90-day commercial baseline and source-to-paid tracking evidence. Do not infer install counts or paid campaign ROAS from incomplete instrumentation.
+No live integrations, autonomous workers, publishing scheduler or paid campaigns are deployed. Existing user authorization governs requested local coding/review work; root `AGENTS.md` owns permissions and precedence.

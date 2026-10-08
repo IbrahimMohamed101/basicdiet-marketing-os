@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "missing_reference_routes": [
+    {
+      "source": ".agents/skills/ads/references/creative-research-automation.md",
+      "target": "../../copywriting/SKILL.md",
+      "fallback": ".agents/skills/social/SKILL.md",
+      "reason": "Generic copywriting skill not installed; use social for restaurant captions, native skill for brand facts. Landing-page work needs a separate task.",
+      "upstream": "https://github.com/coreyhaines31/marketingskills/blob/b9ba399dd88b082b926e261e8ccfb843d20aa066/skills/copywriting/SKILL.md"
+    },
+    {
+      "source": ".agents/skills/offers/references/offer-formats.md",
+      "target": "../../pricing/SKILL.md",
+      "fallback": "knowledge/offers-pricing.md",
+      "reason": "Generic pricing skill not installed. Historical Basic Diet offer context must be freshly verified; do not apply SaaS pricing frameworks automatically.",
+      "upstream": "https://github.com/coreyhaines31/marketingskills/blob/b9ba399dd88b082b926e261e8ccfb843d20aa066/skills/pricing/SKILL.md"
+    }
+  ]
+}

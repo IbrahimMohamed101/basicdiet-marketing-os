@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "status": "DRAFT_REVIEW_REQUIRED",
+  "date": "2026-10-08",
+  "timezone": "Asia/Riyadh",
+  "channel": "instagram",
+  "idea": {
+    "id": "C003",
+    "pillar": "Food Desire",
+    "format": "Reel",
+    "hook": "لو أول حاجة بتفكر فيها لما تسمع دايت هي فراخ ورز… شوف ده",
+    "grounding": "Familiar-menu variety",
+    "goal": "Awareness"
+  },
+  "objective": "Awareness",
+  "audience": "شخص يستكشف الاشتراك ويتوقع أكلًا متكررًا",
+  "audience_evidence": "Hypothesis from knowledge/audience-voc.md (2026-10-07)",
+  "funnel_stage": "Awareness",
+  "confirmed_published_count": 0,
+  "creative": {
+    "hook": "إذا قلت أكل دايت… وش أول طبق يجي في بالك؟",
+    "format": "Reel",
+    "direction": "0–3 ثوانٍ: لقطة قريبة لطبق حقيقي معتمد، والنص: وش تتوقع؟\n3–9 ثوانٍ: ثلاث لقطات متتابعة لأطباق مختلفة من المنيو المعتمد، اسم كل طبق فقط\n9–15 ثانية: لقطة علوية للوجبات مع شعار Basic Diet والنص: أي طبق تبدأ فيه؟",
+    "caption_draft": "وش يخلّيك تتحمّس لوجبتك؟ الطعم، شكل الطبق، أو إنك تغيّر عن المعتاد؟ 👀\nخلّ الصورة تقرّب لك الاختيار. أي طبق لفتك؟\n\nشوف تفاصيل الخيارات من القناة الرسمية لـ Basic Diet.\n#BasicDiet",
+    "cta": "شوف تفاصيل الخيارات من القناة الرسمية لـ Basic Diet.",
+    "destination_url": null,
+    "story": "1. صورة مقرّبة لطبق دون اسمه: تتوقعون وش الطبق؟\n2. اكشف اسم الطبق بعد مطابقته بالمنيو، واعرض طبقًا ثانيًا مع تصويت: أي واحد تبدأ فيه؟\n3. صورة التشكيلة مع دعوة لمراجعة التفاصيل من القناة الرسمية بعد التحقق من الرابط.",
+    "asset": {
+      "catalog": "assets/catalog.md",
+      "suggested_group": "Videos/",
+      "subject": "تشكيلة أطباق",
+      "verified_file_id": null,
+      "rights_verified": false,
+      "status": "UNVERIFIED_CATALOG_REFERENCE",
+      "required": "تحقق من الأصل الفعلي وحقوق الاستخدام ومطابقته للمنيو الحالي؛ لا يوجد ملف وسائط معتمد في المستودع."
+    },
+    "kpi": "Reach",
+    "kpi_definition": "Unique accounts reached, seven days after publication; diagnostic only",
+    "paid_suitability": "NOT_READY: concept may be evaluated after organic results, approved media rights, offer economics and paid attribution; no budget proposed"
+  },
+  "live_facts_verified": false,
+  "ai": {
+    "status": "disabled"
+  },
+  "checks": [
+    "Verify actual platform history; missing records do not prove an idea was never posted",
+    "Verify exact source asset, rights and current menu before production",
+    "Verify any price, promotion, nutrition, fulfillment or testimonial independently",
+    "Approve final Arabic copy, crop and official destination URL",
+    "Obtain action-specific approval for asset generation, posting, messages or ad spend",
+    "NO publishing, scheduling, spending or production changes performed"
+  ],
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "ddf35fdbde44663a7f5fe1aefdb6b6d0ea00ea9f2e5248452c751501add24d74",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": "STATE.md",
+      "sha256": "bae086b7a05606258be96808fa6c7d7baaf32e69ef29b3a2386c6c71c9a5cd58",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": ".agents/skills/basic-diet-marketing/SKILL.md",
+      "sha256": "66c21414f4bf309ce8ccd9e2cd6f83c94e76b0f41e865ab65ec39f8c48c36dad",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": "content/strategy.md",
+      "sha256": "d6cbfd1afd215fbce61b5bab23585e45a0cc5e3e259b54206f5fd57f4aff7d54",
+      "classification": "historical_unverified"
+    },
+    {
+      "path": "content/winners.md",
+      "sha256": "0c5df378f72ac0ec316ea250fa1d50b0e08a841d238e830a1a919fb4d1b5301f",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": "knowledge/brand.md",
+      "sha256": "f996a1b8d41f9b6643c61400947db672f0cd33fca3eb67a28025c23d252c7207",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": "knowledge/product-marketing.md",
+      "sha256": "b3a21b8db2d2766fb8c540c40b64f3713b2879ed283cfd4065914c3f43d8c066",
+      "classification": "historical_unverified"
+    },
+    {
+      "path": "knowledge/positioning-messaging.md",
+      "sha256": "6925af9ecadbd116a28912dd636f1f58164369501b4a23baaeb41b60f8d9fd9f",
+      "classification": "historical_unverified"
+    },
+    {
+      "path": "knowledge/audience-voc.md",
+      "sha256": "359970867e5781910e01a4c20da030ec836e7afcd06a19a1e6029b13ceaab5f0",
+      "classification": "historical_unverified"
+    },
+    {
+      "path": "knowledge/voc-findings.md",
+      "sha256": "b277bb112e5180e45a3a5c65c23f985aed88a4b593d1bd3eb3a388b805b516fa",
+      "classification": "historical_unverified"
+    },
+    {
+      "path": "knowledge/offers-pricing.md",
+      "sha256": "94cab3bc8f6ff9a90e638726e09893984bd4a8dee64a5d2724cc82397ac57c19",
+      "classification": "historical_unverified"
+    },
+    {
+      "path": "assets/catalog.md",
+      "sha256": "19c06dc6c8ecdd5b67c39c8d932414cf20d57f3ac56702e27faa975037ac9ed7",
+      "classification": "historical_unverified"
+    },
+    {
+      "path": "data/analytics/measurement-framework.md",
+      "sha256": "0f8bc376e5141d631620586151b758bd982423d6332c09fd573ff06ebef04087",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": ".agents/product-marketing.md",
+      "sha256": "80e7aafb0ec3d0a2b159fbb24162e887a351bd321c68eb90a1eebc82c38aaace",
+      "classification": "historical_unverified"
+    },
+    {
+      "path": "scripts/daily_brief.py",
+      "sha256": "30a4070c944e445df9968942ac491ae4c45d8922bd6aeb72f5b07e5e5fd51fc1",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": "scripts/records.py",
+      "sha256": "5c77e59fdbaa295bf94309447ad800e764720ce44c3427a5fd8eab8ec662fb76",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": "scripts/provider.py",
+      "sha256": "3238dfd69c3f277f7f2fe84072d2183ed90ac4d1e04001612308e83aa2a7b2ef",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": "content/ideas/backlog.json",
+      "sha256": "c522ff5ec347b9851cd9dc9d503c8c0d8c754ed49806216d086e549e48a8ccd6",
+      "classification": "historical_unverified"
+    },
+    {
+      "path": "content/published/content-log.md",
+      "sha256": "ae8b6d562d20e09e8bc91dc0c12940c6f1dcb5e6e5266ffa348494abdeb3d8fb",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": "content/published/publications.json",
+      "sha256": "c54189cca1342fe21a7b9d23b6d8aa4402012326c8fefceeb875fb66792ffc84",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": "content/drafts/runs.json",
+      "sha256": "0baa326b40eaa2961eb00ac405a6e29735a2188f3a617ee681ab212bd8d14f79",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": "data/analytics/creative-performance.json",
+      "sha256": "eb42d8b5451d47b3724d6a833bf2040633b23aa12e0596e15bf6b1395e26b6e4",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": "content/ideas/creative.json",
+      "sha256": "1d8e4133d7c9668c729231d50f016c7fa706316c7a7ca7dab8b1de5c88a60600",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": ".agents/skills/ad-creative/SKILL.md",
+      "sha256": "75a35c0bd6043d816f0194bd3a2fa290ef01231197aad466332116b8d624d8f8",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": ".agents/skills/ads/SKILL.md",
+      "sha256": "3d4c797cf052b49d3b8a057f9892ca397769cfba39696d9a97fd9447261f5f85",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": ".agents/skills/analytics/SKILL.md",
+      "sha256": "fc8ab32a93032d705c6a21214102b55f666be5800b6734a179755f4a741d1e83",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": ".agents/skills/attribution/SKILL.md",
+      "sha256": "ea76606713906c19d7b736ddda6454cef5a0b11ecd1c77cf1f6a45761841d3aa",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": ".agents/skills/content-strategy/SKILL.md",
+      "sha256": "dce9f4027ae129691e92623541a360bee9356137a7eecf68afa95674af118e68",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": ".agents/skills/customer-research/SKILL.md",
+      "sha256": "905e65e67268448d88b3b96cf045c6b3615cdd87c1060e129b148a31aa627669",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": ".agents/skills/social/SKILL.md",
+      "sha256": "1fa237bc6884b7b6c048a334aee02aeaff23f7d6dcb06868ca4fb123e3b71379",
+      "classification": "local_record_or_instructions"
+    },
+    {
+      "path": ".agents/skills/video/SKILL.md",
+      "sha256": "0a35e32dda553707996bf383c00ecf971d05127d35d5d814577457c23a3ab591",
+      "classification": "local_record_or_instructions"
+    }
+  ],
+  "agents": [
+    {
+      "role": "research",
+      "skills": [
+        "customer-research"
+      ],
+      "inputs": [
+        "sources",
+        "idea.grounding"
+      ],
+      "outputs": [
+        "audience_evidence",
+        "live_facts_verified"
+      ],
+      "status": "historical_context_only"
+    },
+    {
+      "role": "strategy",
+      "skills": [
+        "content-strategy"
+      ],
+      "inputs": [
+        "idea",
+        "selection"
+      ],
+      "outputs": [
+        "objective",
+        "audience",
+        "funnel_stage"
+      ],
+      "status": "proposal"
+    },
+    {
+      "role": "creative",
+      "skills": [
+        "social",
+        "video"
+      ],
+      "inputs": [
+        "audience",
+        "idea",
+        "sources"
+      ],
+      "outputs": [
+        "creative"
+      ],
+      "status": "draft"
+    },
+    {
+      "role": "analytics",
+      "skills": [
+        "analytics",
+        "attribution"
+      ],
+      "inputs": [
+        "objective",
+        "performance"
+      ],
+      "outputs": [
+        "creative.kpi",
+        "creative.kpi_definition"
+      ],
+      "status": "measurement_proposed"
+    },
+    {
+      "role": "media-buyer",
+      "skills": [
+        "ads",
+        "ad-creative"
+      ],
+      "inputs": [
+        "creative",
+        "live_facts_verified"
+      ],
+      "outputs": [
+        "creative.paid_suitability"
+      ],
+      "status": "blocked_pending_evidence_and_approval"
+    },
+    {
+      "role": "operations",
+      "skills": [],
+      "inputs": [
+        "checks",
+        "agents"
+      ],
+      "outputs": [
+        "status",
+        "run_id"
+      ],
+      "status": "review_required"
+    }
+  ],
+  "selection": {
+    "reserved_count": 0,
+    "rationale": "Excluded published and reserved ideas across all platforms; rotate recent pillars; use comparable same-channel performance only as a tie-break; then historical priority and ID. No verified creative performance recorded.",
+    "requested_goal": "auto",
+    "requested_id": ""
+  },
+  "performance": {
+    "record_count": 0,
+    "recent_record_count": 0,
+    "status": "missing"
+  },
+  "run_id": "2026-10-08-instagram-C003-d4b34d00e2e1"
+}

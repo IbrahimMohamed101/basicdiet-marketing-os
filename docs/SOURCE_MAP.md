@@ -13,7 +13,7 @@
 - Original: https://github.com/IbrahimMohamed101/basicdiet145 at commit `5241bfb0fe8fe4d2a15b15ed85d13648b8a7be37`.
 - 23 original files are preserved without edits in `archive/basicdiet145-2026-10-07/`.
 - 20 working copies and source SHA path mapping are listed in [MIGRATION.md](MIGRATION.md).
-- Current knowledge: `knowledge/`, `content/`, `data/`, `decisions/`, `experiments/`, `plans/`. Content ideas are at `content/ideas/backlog.md`.
+- Current knowledge: `knowledge/`, `content/`, `data/`, `decisions/`, `experiments/`, `plans/`. Historical content ideas are at `content/ideas/backlog.md`; executable ideas are in the lossless `content/ideas/backlog.json`.
 - The original backend repo is read-only from the marketing OS. Historic sources should be dated and cited.
 
 ## Imported upstream marketing skills — Phase 2
@@ -33,3 +33,12 @@
 ## Rule for disagreement
 
 Fresh, verified official source > dated working reports > dated marketing research > unverified ideas. Label uncertainties and do not rewrite old archive copies.
+
+## Current executable records
+
+- `content/ideas/backlog.json`: original 30 ideas plus future appended IDs. `creative.json`: reviewed editorial adaptations, still draft hypotheses.
+- `content/drafts/runs.json`: reserved/released drafts. `content/published/publications.json`: verified publication records; legacy Markdown still read.
+- `data/analytics/creative-performance.json`: sourced comparable aggregates, initially empty. Reports and live snapshots belong in `data/reports/` (resolve old `analytics/snapshots/` references here).
+- `docs/DATA_CONTRACTS.md`: field contracts, migration and recovery; `docs/PHASE3_RUNBOOK.md`: commands and review; `docs/AUDIT_2026-10-08.md`: findings and test evidence.
+- `.agents/product-marketing.md`: vendor discovery adapter; `.agents/skill-overrides.json`: optional absent vendor reference routes.
+- Historical statements labelled production/confirmed in imported files retain their old date and are not independently verified by this audit.
