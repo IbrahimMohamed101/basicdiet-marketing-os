@@ -1,3 +1,3 @@
-# Campaigns
+# Campaigns — pending activation
 
-Phase 0: empty by design. Later: objective, creative, landing path, event tracking, approved budget, outcome and stop/scale rules. Planning a campaign is **not** authorization to launch it.
+No campaign was launched as part of Phase 0 or Phase 1. Future campaign plans should specify goal, verified economics, approved offer and landing flow, creatives, measurement, budget approval and stopping/learning rules. Plans are **not authorization to publish or spend money**.

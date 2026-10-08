@@ -1,5 +1,5 @@
-# Audience — evidence boundary
+# Audience — index
 
-Customer segments, voice-of-customer findings and objections are documented historically in `basicdiet145/marketing/context/audience-voc.md` and `voc-findings.md`.
+The complete historical audience research is now in [`audience-voc.md`](audience-voc.md); first public voice-of-customer findings are in [`voc-findings.md`](voc-findings.md).
 
-**Phase 0:** not migrated. Do not state customer demographics, regional coverage or preferences as confirmed until sources are reviewed in Phase 1.
+Customer segments are hypotheses unless grounded in actual dated customer or funnel data. No raw customer identifiers may be committed. Source baseline: 2026-10-07.

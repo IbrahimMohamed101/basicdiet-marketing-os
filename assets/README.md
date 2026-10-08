@@ -1,3 +1,5 @@
-# Asset index only
+# Asset catalog
 
-Do not commit full-size photos, videos or licensed design files. Document Drive or approved storage IDs, ownership, permissions, usage rights, meal linkage and best formats in a future manifest.
+Imported historical asset catalog: [`catalog.md`](catalog.md). Large videos and food photo originals stay in Google Drive or approved media hosting.
+
+The catalog is **not** proof that every link remains reachable or that the current agent has authenticated Drive access. Validate usage rights, actual photo/video content and version before public publication.

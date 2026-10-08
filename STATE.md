@@ -1,39 +1,46 @@
-# Marketing OS — Current State
+# Basic Diet Marketing OS — Current State
 
-**Checked:** 2026-10-08  
-**Repository stage:** Phase 0 (foundation scaffold, published to private GitHub)  
-**Source baseline:** `basicdiet145/marketing/STATE.md` v2, updated 2026-10-07. Refer to live systems for current metrics.
+**Last verified:** 2026-10-08  
+**Repository phase:** **Phase 1 — complete (legacy migration)**  
+**Next scheduled implementation:** Phase 2 — select and review upstream AI marketing skills. No third-party skills installed yet.
 
 ## North Star
 
-First-time **paid** subscriptions → repeat / retention → profitable revenue. Engagement is diagnostic, not the ultimate business result.
+First-time **paid** subscribers → repeat/retention → profitable revenue. Engagement and reach are diagnostic metrics, not the main outcome.
 
-## Established context (from verified historical marketing docs)
+## Established brand/product context (legacy research, dated 2026-10-07)
 
-- Business: Basic Diet, Saudi meal subscriptions, pickup/delivery.
-- Plan durations documented: 7, 26 and 30 days.
+- Saudi restaurant Basic Diet: meal subscriptions with 7/26/30-day plans, pickup/delivery. Verify current eligibility and price from official systems.
 - Positioning: **أكل حقيقي تحبه، بكميات محسوبة، بخيارات كثيرة، ويوفر عليك قرار الأكل كل يوم.**
-- Core messaging: **الطعم، الاختيار، الراحة**.
-- Proposed initial content mix, **hypothesis**: food desire 30%, education 20%, lifestyle/problems 20%, trust/proof 15%, conversion/offer 15%.
-- Existing backlog in source repo: 30 grounded content concepts, **not yet migrated into this repository**.
-- The source docs say organic publishing may begin; paid scaling requires better attribution and baseline measurement.
+- Core pillars: **الطعم، الاختيار، الراحة**.
+- Content mix (experimental starting hypothesis): Food Desire 30%, Education 20%, Lifestyle/Problem 20%, Trust/Proof 15%, Conversion/Offer 15%.
+- Imported original backlog: **30 grounded concepts**, now at `content/ideas/backlog.md`.
+- Customer research and competitor pass 01 are historical snapshots, not fresh claims. See `knowledge/`.
 
-## Known measurement gaps (do not fabricate)
+## Completed
 
-- 30/60/90-day live dashboard baseline is not stored as verified snapshots here.
-- App installs / first-open and end-to-end creative/campaign attribution were not fully instrumented as of the last documented source state.
-- No confirmed live campaign CAC/ROAS baseline in this repository.
+- Phase 0 private repository, boot protocol, six role definitions and guardrails.
+- Phase 1: **23/23 source files** pinned to commit `5241bfb0fe8fe4d2a15b15ed85d13648b8a7be37` preserved under `archive/basicdiet145-2026-10-07/` with matching Git blob SHA.
+- Phase 1: **20 working copies** mapped into `knowledge/`, `data/`, `content/`, `assets/`, `decisions/`, `experiments/`, `plans/`, `docs/`, and the original skill reference.
+- Full provenance and path resolution in `docs/MIGRATION.md` and `docs/SOURCE_MAP.md`.
+- Legacy backend repo intentionally remains untouched.
 
-## Completed in Phase 0
+## Known measurement/data gaps
 
-- Standalone architecture and source map designed.
-- Native agent bootstrap and initial Basic Diet skill written.
-- Role contracts, governance, content/data directories and validation prepared.
-- Private GitHub repository created and Phase 0 foundation published.
+- Live 30/60/90-day commercial baseline is not yet saved in this repository.
+- Installs/first-open and source-to-paid attribution were incomplete according to last documented state; do not infer installs from registrations.
+- No confirmed campaign CAC/ROAS measurement here. Paid spend needs verification and approval before launch.
+- Google Drive asset references are not the same as synced, authenticated media assets.
+- No new actual social publishing or campaigns performed in this phase; migrated logs may contain templates/hypotheses.
 
-## Next action
+## Runbook: Basic Diet Mode — ننزل إيه النهارده؟
 
-1. Phase 1: migrate legacy verified `marketing/` documents and legacy skill; preserve file provenance, dates and edit history; do not delete source files before confirmation.
-2. Later phases: import selected third-party skills; operationalize agents; connect read-only data and daily workflows.
+1. Read `AGENTS.md`, active skill and this STATE.
+2. Read `content/ideas/backlog.md`, `content/published/content-log.md`, and `content/strategy.md`.
+3. Check verified `knowledge/offers-pricing.md` against live packages/promos, plus `assets/catalog.md` and available evidence.
+4. Choose an unused idea and deliver hook, script, caption, CTA, stories, creative/asset, one KPI and paid suitability.
+5. Never say a post was published until publication is verified. Record results only with confirmed source/date.
 
-For detail: `docs/ROADMAP.md` and `docs/MIGRATION.md`.
+## Next implementation phase (not started)
+
+Phase 2: curate the smallest useful set of third-party `marketingskills`, review dependencies/LICENSE and match them to our role contracts. Keep production publication/ad spending disabled unless individually approved.

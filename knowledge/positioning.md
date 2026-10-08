@@ -1,7 +1,7 @@
-# Positioning — initial hypothesis
+# Positioning — index
 
-- Core messages: desirable, familiar food; measured portions; many choices; convenience of subscription.
-- Avoid competing solely on discount size or making unsupported health/weight-loss claims.
-- Treat the original 30/20/20/15/15 content-mix percentages in `STATE.md` as **hypotheses**, not fixed rules.
+Original messaging ladder: [`positioning-messaging.md`](positioning-messaging.md), original product context: [`product-marketing.md`](product-marketing.md).
 
-Source: `basicdiet145/marketing/STATE.md` (2026-10-07). Detailed historic messaging to migrate in Phase 1.
+Historic proposition: **أكل حقيقي تحبه، بكميات محسوبة، بخيارات كثيرة، ويوفر عليك قرار الأكل كل يوم.**
+
+Core pillars: **الطعم، الاختيار، الراحة**. Treat the 30/20/20/15/15 creative mix as an experimental starting hypothesis rather than a rule. See `STATE.md` for current phase.

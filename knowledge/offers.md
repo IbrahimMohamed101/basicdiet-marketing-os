@@ -1,7 +1,5 @@
-# Offers — historical summary, not live price sheet
+# Offers — index
 
-Historical source documents mention 7/26/30-day meal subscriptions with portion and meals/day configuration, delivery or pickup, and promo labels `KSA96` and `BASIC15`.
+The original verified historical package/offer notes have been imported to [`offers-pricing.md`](offers-pricing.md) (as documented on 2026-10-07). Contains 7/26/30-day subscriptions and promo labels `KSA96`, `BASIC15`.
 
-All amounts, active promo eligibility, geographical fulfillment coverage and current offer availability **must** be checked against the live backend/dashboard before publication. Do not use this file to issue quotes.
-
-Historical source: `basicdiet145/marketing/context/offers-pricing.md`; see `docs/SOURCE_MAP.md`.
+**Current price/eligibility always needs verification** with authorized live Basic Diet app/backend/dashboard before publication or campaign planning. Do not assume historical discounts still work.

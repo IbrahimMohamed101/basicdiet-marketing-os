@@ -1,47 +1,40 @@
 # Basic Diet Marketing OS
 
-**Status:** Phase 0 — foundation scaffold, 2026-10-08. **Published in the private GitHub repository.**
+**Status:** Phase 1 (legacy migration completed 2026-10-08). **Private GitHub repository**.
 
-A private, version-controlled operating system for Basic Diet marketing. It holds durable decisions, current state, source references, editorial activity and instructions for AI assistants. It is **not** the restaurant's transactional backend, a database, or an autonomous advertising bot.
+AI-assisted marketing system for the Saudi meal-subscription restaurant Basic Diet. This repository is a **durable knowledge and operational protocol**, not the app backend, live database, automated publisher or running ad platform.
 
-## Quick start
+## Starting a marketing session
 
-1. Read [`AGENTS.md`](AGENTS.md), then [`STATE.md`](STATE.md).
-2. For marketing tasks, read [`.agents/skills/basic-diet-marketing/SKILL.md`](.agents/skills/basic-diet-marketing/SKILL.md).
-3. Read the smallest task-specific sources from `knowledge/`, `content/`, `data/`, `experiments/`, or `decisions/`.
-4. Execute → Verify → Document. Only document completed actions as completed.
+1. Read [`AGENTS.md`](AGENTS.md) → [`STATE.md`](STATE.md) → [native skill](.agents/skills/basic-diet-marketing/SKILL.md).
+2. Read only relevant current working docs, with [source/path manifest](docs/MIGRATION.md) for historic references.
+3. Where real-time accuracy matters, check authorized backend/dashboard, asset owner or dated public source before publishing claims.
+4. Follow **Read → Research → Plan → Execute (only with approval) → Verify → Document**.
 
-## Trigger commands
+## Short commands
 
-- `Basic Diet Mode — ننزل إيه النهارده؟`
-- `Basic Diet Mode — راجع الأسبوع`
-- `Basic Diet Mode — اعمل حملة`
-- `Basic Diet Mode — حلل النتائج`
-- `Basic Diet Mode — حالة المشروع`
+- **Basic Diet Mode — ننزل إيه النهارده؟** → [30-item backlog](content/ideas/backlog.md), [content strategy](content/strategy.md), [publication log](content/published/content-log.md), [asset catalog](assets/catalog.md).
+- **Basic Diet Mode — راجع الأسبوع** → [analytics dictionary](data/analytics/measurement-framework.md), [baseline status](data/analytics/baseline-status.md), and live verified measurements.
+- **Basic Diet Mode — اعمل حملة** → [offers](knowledge/offers-pricing.md), [audience research](knowledge/audience-voc.md), [previous experiments](experiments/history.md).
+- **Basic Diet Mode — حلل المنافسين** → [historical competitor baseline](knowledge/competitors.md) + refreshed sources.
+- **Basic Diet Mode — حالة المشروع** → [STATE.md](STATE.md) + [ROADMAP.md](docs/ROADMAP.md).
 
-## Repository map
+## Repository directories
 
-| Path | Purpose |
-| --- | --- |
-| `AGENTS.md`, `STATE.md` | Agent boot sequence and current truth |
-| `.agents/skills/` | Native agent skill and future selected external skills |
-| `.agents/workflows/` | Repeatable manual workflows |
-| `agents/` | Role contracts, **not deployed autonomous agents** |
-| `knowledge/` | Verified brand, audience, offer and positioning facts |
-| `content/` | Backlog, planned and actually published content |
-| `data/` | Source inventory and aggregate snapshots only |
-| `campaigns/`, `experiments/`, `decisions/` | Paid plans, hypotheses, and rationale |
-| `docs/` | Source map, safeguards, roadmap, and migration checklist |
-| `scripts/` | Local validation and GitHub bootstrapping |
+- `.agents/skills/`, `.agents/workflows/`: current native skill, original skill reference and workflows. **Third-party skills not installed yet**.
+- `agents/`: six role descriptions; **not automatically running agents**.
+- `knowledge/`: brand, product, audience, VOC, competitors and historic offers.
+- `content/`: content ideas, legacy content log, verified publications and strategy.
+- `assets/`: historical asset index; media originals remain in approved storage.
+- `data/`: measurement rules, sources and later aggregated dated snapshots.
+- `campaigns/`, `experiments/`, `decisions/`, `plans/`: controlled execution and history.
+- `archive/basicdiet145-2026-10-07/`: **all 23 original marketing/skill source files**, unchanged.
+- `docs/`: roadmap, privacy safeguards, provenance and migration manifest.
 
-## Source boundaries
+## Migration evidence
 
-- Live business facts: Basic Diet backend/dashboard (**read-only, permissioned exports** in later phases).
-- Brand assets: Google Drive / approved asset storage. Store links and indexes, **not large media** here.
-- Archived marketing records: [`basicdiet145/marketing`](https://github.com/IbrahimMohamed101/basicdiet145/tree/main/marketing) until verified migration.
-- Original Basic Diet marketing skill: [`basicdiet145/skills/basic-diet-marketing`](https://github.com/IbrahimMohamed101/basicdiet145/tree/main/skills/basic-diet-marketing).
-- External framework: [`coreyhaines31/marketingskills`](https://github.com/coreyhaines31/marketingskills); selected components may be imported in Phase 2 with license preservation.
+Legacy repo: [basicdiet145](https://github.com/IbrahimMohamed101/basicdiet145) at commit `5241bfb0fe8fe4d2a15b15ed85d13648b8a7be37`. **23 archived exact copies + 20 mapped working copies**; original files were not changed or removed. See [MIGRATION.md](docs/MIGRATION.md) for file-by-file original/new paths and Git SHA verification.
 
-**Do not** upload customer identities, payment records, credentials, tokens, private support messages, or unverified medical claims. Repository is intended to be private even when documents contain only sanitized information.
+## Safety
 
-See [`docs/ROADMAP.md`](docs/ROADMAP.md) for phase boundaries and [`docs/BOOTSTRAP.md`](docs/BOOTSTRAP.md) for repository setup and verification.
+Never commit raw customer records, secrets, payment data, unpublished private customer conversations or large raw video. Current prices, current promo eligibility and attributed return on ad spend **require live verification**. Publishing, changing offers and spending money require express human authorization.
