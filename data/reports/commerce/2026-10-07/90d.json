@@ -1,0 +1,1048 @@
+{
+  "schema_version": 1,
+  "kind": "marketing_baseline",
+  "verification": "official_authenticated_aggregate_response",
+  "period": {
+    "from": "2026-07-10",
+    "to": "2026-10-07",
+    "days": 90
+  },
+  "captured_at": "2026-10-08T16:08:52.662382+00:00",
+  "timezone": "Asia/Riyadh",
+  "currency": "SAR",
+  "money_unit": "halala",
+  "source": "GET /api/dashboard/accounting/marketing-analytics",
+  "source_mode": "live",
+  "filters": {},
+  "kpis": {
+    "registrations": 425,
+    "loggedInUsers": 349,
+    "checkoutStarted": 205,
+    "checkoutUsers": 148,
+    "pendingCheckouts": 58,
+    "abandonedCheckouts": 9,
+    "failedPayments": 6,
+    "paidTransactions": 138,
+    "paidCustomers": 114,
+    "firstTimeSubscribers": 114,
+    "repeatSubscribers": 0,
+    "newRegistrationsPaid": 114,
+    "cancellations": 33,
+    "appRevenueHalala": 13848180,
+    "totalSubscriptionRevenueHalala": 25066400,
+    "aovHalala": 100349,
+    "registerToPaidRate": 26.8,
+    "checkoutToPaidRate": 77,
+    "repeatCustomerRate": 0
+  },
+  "limitations": [
+    "No app installs/first_open in the backend metric layer",
+    "No reliable ad/creative source-to-first-paid attribution",
+    "Registration and login metrics are not necessarily filtered by checkout segments",
+    "Paid customers/revenue and conversion rates have backend-specific definitions"
+  ],
+  "origin": "signed_github_actions_oidc_readonly",
+  "breakdowns": {
+    "promoPerformance": [
+      {
+        "code": "KSA96",
+        "attempts": 109,
+        "consumed": 81,
+        "reserved": 0,
+        "cancelled": 28,
+        "paidCount": 81,
+        "discountHalala": 3333090,
+        "revenueHalala": 7777210,
+        "conversionRate": 74.3
+      },
+      {
+        "code": "BASIC15",
+        "attempts": 58,
+        "consumed": 35,
+        "reserved": 0,
+        "cancelled": 23,
+        "paidCount": 35,
+        "discountHalala": 482610,
+        "revenueHalala": 2734790,
+        "conversionRate": 60.3
+      },
+      {
+        "code": "unknown",
+        "attempts": 2,
+        "consumed": 2,
+        "reserved": 0,
+        "cancelled": 0,
+        "paidCount": 2,
+        "discountHalala": 19190,
+        "revenueHalala": 364610,
+        "conversionRate": 100
+      },
+      {
+        "code": "WELCOME",
+        "attempts": 3,
+        "consumed": 3,
+        "reserved": 0,
+        "cancelled": 0,
+        "paidCount": 3,
+        "discountHalala": 15000,
+        "revenueHalala": 255200,
+        "conversionRate": 100
+      },
+      {
+        "code": "M15",
+        "attempts": 3,
+        "consumed": 2,
+        "reserved": 0,
+        "cancelled": 1,
+        "paidCount": 2,
+        "discountHalala": 41700,
+        "revenueHalala": 236300,
+        "conversionRate": 66.7
+      },
+      {
+        "code": "unknown",
+        "attempts": 1,
+        "consumed": 1,
+        "reserved": 0,
+        "cancelled": 0,
+        "paidCount": 1,
+        "discountHalala": 6040,
+        "revenueHalala": 114760,
+        "conversionRate": 100
+      },
+      {
+        "code": "AHMED10",
+        "attempts": 1,
+        "consumed": 1,
+        "reserved": 0,
+        "cancelled": 0,
+        "paidCount": 1,
+        "discountHalala": 5675,
+        "revenueHalala": 107825,
+        "conversionRate": 100
+      },
+      {
+        "code": "DUNYA20",
+        "attempts": 2,
+        "consumed": 2,
+        "reserved": 0,
+        "cancelled": 0,
+        "paidCount": 2,
+        "discountHalala": 5480,
+        "revenueHalala": 104120,
+        "conversionRate": 100
+      },
+      {
+        "code": "WELCOME01",
+        "attempts": 2,
+        "consumed": 1,
+        "reserved": 0,
+        "cancelled": 1,
+        "paidCount": 1,
+        "discountHalala": 3975,
+        "revenueHalala": 75525,
+        "conversionRate": 50
+      },
+      {
+        "code": "unknown",
+        "attempts": 4,
+        "consumed": 1,
+        "reserved": 0,
+        "cancelled": 3,
+        "paidCount": 1,
+        "discountHalala": 2175,
+        "revenueHalala": 41325,
+        "conversionRate": 25
+      },
+      {
+        "code": "KS30",
+        "attempts": 1,
+        "consumed": 1,
+        "reserved": 0,
+        "cancelled": 0,
+        "paidCount": 1,
+        "discountHalala": 13170,
+        "revenueHalala": 30730,
+        "conversionRate": 100
+      },
+      {
+        "code": "AHMED11",
+        "attempts": 2,
+        "consumed": 0,
+        "reserved": 0,
+        "cancelled": 2,
+        "paidCount": 0,
+        "discountHalala": 0,
+        "revenueHalala": 0,
+        "conversionRate": 0
+      },
+      {
+        "code": "KARIM",
+        "attempts": 1,
+        "consumed": 1,
+        "reserved": 0,
+        "cancelled": 0,
+        "paidCount": 1,
+        "discountHalala": 32800,
+        "revenueHalala": 0,
+        "conversionRate": 100
+      }
+    ],
+    "planPerformance": [
+      {
+        "daysCount": 26,
+        "grams": 150,
+        "mealsPerDay": 2,
+        "paidTransactions": 38,
+        "customersCount": 34,
+        "revenueHalala": 3853780,
+        "discountHalala": 931020
+      },
+      {
+        "daysCount": 30,
+        "grams": 150,
+        "mealsPerDay": 2,
+        "paidTransactions": 11,
+        "customersCount": 11,
+        "revenueHalala": 1360700,
+        "discountHalala": 315400
+      },
+      {
+        "daysCount": 26,
+        "grams": 150,
+        "mealsPerDay": 3,
+        "paidTransactions": 9,
+        "customersCount": 8,
+        "revenueHalala": 1258550,
+        "discountHalala": 257250
+      },
+      {
+        "daysCount": 26,
+        "grams": 200,
+        "mealsPerDay": 2,
+        "paidTransactions": 9,
+        "customersCount": 9,
+        "revenueHalala": 1046800,
+        "discountHalala": 223900
+      },
+      {
+        "daysCount": 30,
+        "grams": 200,
+        "mealsPerDay": 3,
+        "paidTransactions": 4,
+        "customersCount": 3,
+        "revenueHalala": 730040,
+        "discountHalala": 182360
+      },
+      {
+        "daysCount": 30,
+        "grams": 150,
+        "mealsPerDay": 3,
+        "paidTransactions": 4,
+        "customersCount": 3,
+        "revenueHalala": 622420,
+        "discountHalala": 116580
+      },
+      {
+        "daysCount": 26,
+        "grams": 100,
+        "mealsPerDay": 2,
+        "paidTransactions": 6,
+        "customersCount": 5,
+        "revenueHalala": 539775,
+        "discountHalala": 69225
+      },
+      {
+        "daysCount": 26,
+        "grams": 200,
+        "mealsPerDay": 5,
+        "paidTransactions": 2,
+        "customersCount": 1,
+        "revenueHalala": 503865,
+        "discountHalala": 151635
+      },
+      {
+        "daysCount": 26,
+        "grams": 150,
+        "mealsPerDay": 5,
+        "paidTransactions": 2,
+        "customersCount": 2,
+        "revenueHalala": 464330,
+        "discountHalala": 132870
+      },
+      {
+        "daysCount": 26,
+        "grams": 200,
+        "mealsPerDay": 4,
+        "paidTransactions": 2,
+        "customersCount": 2,
+        "revenueHalala": 451410,
+        "discountHalala": 84990
+      },
+      {
+        "daysCount": 30,
+        "grams": 200,
+        "mealsPerDay": 2,
+        "paidTransactions": 4,
+        "customersCount": 4,
+        "revenueHalala": 446180,
+        "discountHalala": 158520
+      },
+      {
+        "daysCount": 7,
+        "grams": 150,
+        "mealsPerDay": 2,
+        "paidTransactions": 10,
+        "customersCount": 10,
+        "revenueHalala": 410480,
+        "discountHalala": 16520
+      },
+      {
+        "daysCount": 26,
+        "grams": 150,
+        "mealsPerDay": 4,
+        "paidTransactions": 2,
+        "customersCount": 2,
+        "revenueHalala": 337260,
+        "discountHalala": 144540
+      },
+      {
+        "daysCount": 30,
+        "grams": 100,
+        "mealsPerDay": 2,
+        "paidTransactions": 3,
+        "customersCount": 3,
+        "revenueHalala": 275475,
+        "discountHalala": 67025
+      },
+      {
+        "daysCount": 26,
+        "grams": 150,
+        "mealsPerDay": 1,
+        "paidTransactions": 5,
+        "customersCount": 5,
+        "revenueHalala": 269090,
+        "discountHalala": 63510
+      },
+      {
+        "daysCount": 30,
+        "grams": 150,
+        "mealsPerDay": 1,
+        "paidTransactions": 3,
+        "customersCount": 3,
+        "revenueHalala": 182800,
+        "discountHalala": 26600
+      },
+      {
+        "daysCount": 7,
+        "grams": 200,
+        "mealsPerDay": 2,
+        "paidTransactions": 5,
+        "customersCount": 3,
+        "revenueHalala": 175100,
+        "discountHalala": 24600
+      },
+      {
+        "daysCount": 26,
+        "grams": 200,
+        "mealsPerDay": 3,
+        "paidTransactions": 1,
+        "customersCount": 1,
+        "revenueHalala": 171000,
+        "discountHalala": 0
+      },
+      {
+        "daysCount": 30,
+        "grams": 200,
+        "mealsPerDay": 1,
+        "paidTransactions": 2,
+        "customersCount": 2,
+        "revenueHalala": 144760,
+        "discountHalala": 24840
+      },
+      {
+        "daysCount": 26,
+        "grams": 100,
+        "mealsPerDay": 4,
+        "paidTransactions": 1,
+        "customersCount": 1,
+        "revenueHalala": 126420,
+        "discountHalala": 54180
+      }
+    ],
+    "sourceChannels": [
+      {
+        "key": "dashboard",
+        "count": 141,
+        "customersCount": 108,
+        "amountHalala": 11218220
+      },
+      {
+        "key": "app",
+        "count": 98,
+        "customersCount": 86,
+        "amountHalala": 9427210
+      },
+      {
+        "key": "other",
+        "count": 40,
+        "customersCount": 37,
+        "amountHalala": 4420970
+      }
+    ],
+    "fulfillmentPerformance": [
+      {
+        "key": "pickup",
+        "paidTransactions": 86,
+        "customersCount": 68,
+        "revenueHalala": 7540955
+      },
+      {
+        "key": "delivery",
+        "paidTransactions": 52,
+        "customersCount": 46,
+        "revenueHalala": 6307225
+      }
+    ],
+    "paymentProviders": [
+      {
+        "key": "moyasar",
+        "paidTransactions": 138,
+        "customersCount": 114,
+        "revenueHalala": 13848180
+      }
+    ],
+    "daily": [
+      {
+        "date": "2026-07-10",
+        "registrations": 0,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-07-11",
+        "registrations": 0,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-07-12",
+        "registrations": 0,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-07-13",
+        "registrations": 0,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-07-14",
+        "registrations": 0,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-07-15",
+        "registrations": 0,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-07-16",
+        "registrations": 0,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-07-17",
+        "registrations": 0,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-07-18",
+        "registrations": 0,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-07-19",
+        "registrations": 0,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-07-20",
+        "registrations": 0,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-07-21",
+        "registrations": 0,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-07-22",
+        "registrations": 0,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-07-23",
+        "registrations": 0,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-07-24",
+        "registrations": 0,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-07-25",
+        "registrations": 0,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-07-26",
+        "registrations": 0,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-07-27",
+        "registrations": 15,
+        "checkouts": 2,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-07-28",
+        "registrations": 14,
+        "checkouts": 4,
+        "paidTransactions": 2,
+        "revenueHalala": 217300
+      },
+      {
+        "date": "2026-07-29",
+        "registrations": 7,
+        "checkouts": 1,
+        "paidTransactions": 1,
+        "revenueHalala": 75525
+      },
+      {
+        "date": "2026-07-30",
+        "registrations": 5,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-07-31",
+        "registrations": 3,
+        "checkouts": 2,
+        "paidTransactions": 1,
+        "revenueHalala": 135800
+      },
+      {
+        "date": "2026-08-01",
+        "registrations": 6,
+        "checkouts": 1,
+        "paidTransactions": 1,
+        "revenueHalala": 120800
+      },
+      {
+        "date": "2026-08-02",
+        "registrations": 16,
+        "checkouts": 6,
+        "paidTransactions": 5,
+        "revenueHalala": 598860
+      },
+      {
+        "date": "2026-08-03",
+        "registrations": 10,
+        "checkouts": 3,
+        "paidTransactions": 3,
+        "revenueHalala": 370300
+      },
+      {
+        "date": "2026-08-04",
+        "registrations": 5,
+        "checkouts": 1,
+        "paidTransactions": 1,
+        "revenueHalala": 38600
+      },
+      {
+        "date": "2026-08-05",
+        "registrations": 9,
+        "checkouts": 3,
+        "paidTransactions": 2,
+        "revenueHalala": 225600
+      },
+      {
+        "date": "2026-08-06",
+        "registrations": 3,
+        "checkouts": 5,
+        "paidTransactions": 4,
+        "revenueHalala": 524180
+      },
+      {
+        "date": "2026-08-07",
+        "registrations": 1,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-08-08",
+        "registrations": 2,
+        "checkouts": 1,
+        "paidTransactions": 1,
+        "revenueHalala": 71200
+      },
+      {
+        "date": "2026-08-09",
+        "registrations": 8,
+        "checkouts": 1,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-08-10",
+        "registrations": 8,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-08-11",
+        "registrations": 3,
+        "checkouts": 1,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-08-12",
+        "registrations": 4,
+        "checkouts": 1,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-08-13",
+        "registrations": 9,
+        "checkouts": 1,
+        "paidTransactions": 1,
+        "revenueHalala": 120800
+      },
+      {
+        "date": "2026-08-14",
+        "registrations": 2,
+        "checkouts": 1,
+        "paidTransactions": 1,
+        "revenueHalala": 128100
+      },
+      {
+        "date": "2026-08-15",
+        "registrations": 7,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-08-16",
+        "registrations": 8,
+        "checkouts": 2,
+        "paidTransactions": 1,
+        "revenueHalala": 89500
+      },
+      {
+        "date": "2026-08-17",
+        "registrations": 4,
+        "checkouts": 3,
+        "paidTransactions": 2,
+        "revenueHalala": 78200
+      },
+      {
+        "date": "2026-08-18",
+        "registrations": 7,
+        "checkouts": 1,
+        "paidTransactions": 1,
+        "revenueHalala": 35700
+      },
+      {
+        "date": "2026-08-19",
+        "registrations": 6,
+        "checkouts": 1,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-08-20",
+        "registrations": 4,
+        "checkouts": 2,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-08-21",
+        "registrations": 7,
+        "checkouts": 3,
+        "paidTransactions": 1,
+        "revenueHalala": 41325
+      },
+      {
+        "date": "2026-08-22",
+        "registrations": 4,
+        "checkouts": 3,
+        "paidTransactions": 3,
+        "revenueHalala": 257400
+      },
+      {
+        "date": "2026-08-23",
+        "registrations": 11,
+        "checkouts": 2,
+        "paidTransactions": 2,
+        "revenueHalala": 333065
+      },
+      {
+        "date": "2026-08-24",
+        "registrations": 5,
+        "checkouts": 4,
+        "paidTransactions": 4,
+        "revenueHalala": 448800
+      },
+      {
+        "date": "2026-08-25",
+        "registrations": 6,
+        "checkouts": 2,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-08-26",
+        "registrations": 4,
+        "checkouts": 5,
+        "paidTransactions": 3,
+        "revenueHalala": 509915
+      },
+      {
+        "date": "2026-08-27",
+        "registrations": 5,
+        "checkouts": 3,
+        "paidTransactions": 3,
+        "revenueHalala": 310845
+      },
+      {
+        "date": "2026-08-28",
+        "registrations": 4,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-08-29",
+        "registrations": 5,
+        "checkouts": 7,
+        "paidTransactions": 7,
+        "revenueHalala": 809590
+      },
+      {
+        "date": "2026-08-30",
+        "registrations": 11,
+        "checkouts": 5,
+        "paidTransactions": 4,
+        "revenueHalala": 436100
+      },
+      {
+        "date": "2026-08-31",
+        "registrations": 6,
+        "checkouts": 8,
+        "paidTransactions": 5,
+        "revenueHalala": 472770
+      },
+      {
+        "date": "2026-09-01",
+        "registrations": 4,
+        "checkouts": 3,
+        "paidTransactions": 3,
+        "revenueHalala": 232095
+      },
+      {
+        "date": "2026-09-02",
+        "registrations": 3,
+        "checkouts": 1,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-09-03",
+        "registrations": 7,
+        "checkouts": 3,
+        "paidTransactions": 1,
+        "revenueHalala": 23460
+      },
+      {
+        "date": "2026-09-04",
+        "registrations": 2,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-09-05",
+        "registrations": 3,
+        "checkouts": 3,
+        "paidTransactions": 2,
+        "revenueHalala": 265030
+      },
+      {
+        "date": "2026-09-06",
+        "registrations": 3,
+        "checkouts": 3,
+        "paidTransactions": 3,
+        "revenueHalala": 167200
+      },
+      {
+        "date": "2026-09-07",
+        "registrations": 7,
+        "checkouts": 2,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-09-08",
+        "registrations": 7,
+        "checkouts": 6,
+        "paidTransactions": 5,
+        "revenueHalala": 583030
+      },
+      {
+        "date": "2026-09-09",
+        "registrations": 5,
+        "checkouts": 3,
+        "paidTransactions": 2,
+        "revenueHalala": 55400
+      },
+      {
+        "date": "2026-09-10",
+        "registrations": 2,
+        "checkouts": 2,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-09-11",
+        "registrations": 0,
+        "checkouts": 3,
+        "paidTransactions": 1,
+        "revenueHalala": 55165
+      },
+      {
+        "date": "2026-09-12",
+        "registrations": 3,
+        "checkouts": 2,
+        "paidTransactions": 2,
+        "revenueHalala": 44370
+      },
+      {
+        "date": "2026-09-13",
+        "registrations": 5,
+        "checkouts": 3,
+        "paidTransactions": 2,
+        "revenueHalala": 163115
+      },
+      {
+        "date": "2026-09-14",
+        "registrations": 1,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-09-15",
+        "registrations": 4,
+        "checkouts": 1,
+        "paidTransactions": 1,
+        "revenueHalala": 34850
+      },
+      {
+        "date": "2026-09-16",
+        "registrations": 2,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-09-17",
+        "registrations": 5,
+        "checkouts": 4,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-09-18",
+        "registrations": 8,
+        "checkouts": 3,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-09-19",
+        "registrations": 6,
+        "checkouts": 8,
+        "paidTransactions": 3,
+        "revenueHalala": 230230
+      },
+      {
+        "date": "2026-09-20",
+        "registrations": 9,
+        "checkouts": 5,
+        "paidTransactions": 3,
+        "revenueHalala": 217940
+      },
+      {
+        "date": "2026-09-21",
+        "registrations": 5,
+        "checkouts": 1,
+        "paidTransactions": 1,
+        "revenueHalala": 56630
+      },
+      {
+        "date": "2026-09-22",
+        "registrations": 4,
+        "checkouts": 3,
+        "paidTransactions": 2,
+        "revenueHalala": 174580
+      },
+      {
+        "date": "2026-09-23",
+        "registrations": 5,
+        "checkouts": 2,
+        "paidTransactions": 1,
+        "revenueHalala": 121170
+      },
+      {
+        "date": "2026-09-24",
+        "registrations": 5,
+        "checkouts": 2,
+        "paidTransactions": 1,
+        "revenueHalala": 75950
+      },
+      {
+        "date": "2026-09-25",
+        "registrations": 3,
+        "checkouts": 3,
+        "paidTransactions": 3,
+        "revenueHalala": 263130
+      },
+      {
+        "date": "2026-09-26",
+        "registrations": 5,
+        "checkouts": 5,
+        "paidTransactions": 4,
+        "revenueHalala": 276360
+      },
+      {
+        "date": "2026-09-27",
+        "registrations": 16,
+        "checkouts": 8,
+        "paidTransactions": 4,
+        "revenueHalala": 501600
+      },
+      {
+        "date": "2026-09-28",
+        "registrations": 12,
+        "checkouts": 7,
+        "paidTransactions": 7,
+        "revenueHalala": 720790
+      },
+      {
+        "date": "2026-09-29",
+        "registrations": 11,
+        "checkouts": 11,
+        "paidTransactions": 8,
+        "revenueHalala": 1076830
+      },
+      {
+        "date": "2026-09-30",
+        "registrations": 12,
+        "checkouts": 10,
+        "paidTransactions": 10,
+        "revenueHalala": 1017240
+      },
+      {
+        "date": "2026-10-01",
+        "registrations": 10,
+        "checkouts": 2,
+        "paidTransactions": 2,
+        "revenueHalala": 176540
+      },
+      {
+        "date": "2026-10-02",
+        "registrations": 4,
+        "checkouts": 4,
+        "paidTransactions": 3,
+        "revenueHalala": 236600
+      },
+      {
+        "date": "2026-10-03",
+        "registrations": 2,
+        "checkouts": 2,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-10-04",
+        "registrations": 5,
+        "checkouts": 4,
+        "paidTransactions": 4,
+        "revenueHalala": 507360
+      },
+      {
+        "date": "2026-10-05",
+        "registrations": 2,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      },
+      {
+        "date": "2026-10-06",
+        "registrations": 2,
+        "checkouts": 1,
+        "paidTransactions": 1,
+        "revenueHalala": 121240
+      },
+      {
+        "date": "2026-10-07",
+        "registrations": 2,
+        "checkouts": 0,
+        "paidTransactions": 0,
+        "revenueHalala": 0
+      }
+    ]
+  }
+}
