@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "source": "content/ideas/backlog.md",
+  "source_date": "2026-10-07",
+  "ideas": [
+    {
+      "id": "C001",
+      "pillar": "Food Desire",
+      "format": "Reel",
+      "hook": "مين قال الدايت مفيهوش كبسة؟",
+      "grounding": "Kabsa menu/food assets",
+      "goal": "Awareness"
+    },
+    {
+      "id": "C002",
+      "pillar": "Food Desire",
+      "format": "Reel",
+      "hook": "سليق… بس داخل يومك المحسوب",
+      "grounding": "Saliq item/assets",
+      "goal": "Awareness"
+    },
+    {
+      "id": "C003",
+      "pillar": "Food Desire",
+      "format": "Reel",
+      "hook": "لو أول حاجة بتفكر فيها لما تسمع دايت هي فراخ ورز… شوف ده",
+      "grounding": "Familiar-menu variety",
+      "goal": "Awareness"
+    },
+    {
+      "id": "C004",
+      "pillar": "Food Desire",
+      "format": "Carousel",
+      "hook": "5 أكلات ما تتوقعهاش في منيو دايت",
+      "grounding": "Moussaka/lasagna/béchamel/kebab/burger assets",
+      "goal": "Awareness"
+    },
+    {
+      "id": "C005",
+      "pillar": "Food Desire",
+      "format": "Reel",
+      "hook": "باستا وإنت ماشي على نظامك؟ أيوه",
+      "grounding": "Pasta items/assets",
+      "goal": "Awareness"
+    },
+    {
+      "id": "C006",
+      "pillar": "Education",
+      "format": "Carousel",
+      "hook": "100g ولا 150g ولا 200g؟ الفرق في Basic Diet",
+      "grounding": "Portion options",
+      "goal": "Consideration"
+    },
+    {
+      "id": "C007",
+      "pillar": "Education",
+      "format": "Reel",
+      "hook": "تختار كام وجبة في اليوم؟",
+      "grounding": "1–5 meals/day product rule",
+      "goal": "Consideration"
+    },
+    {
+      "id": "C008",
+      "pillar": "Education",
+      "format": "Story sequence",
+      "hook": "بروتين اليوم: اختار من 3 وجبات فعلية",
+      "grounding": "Verified menu macros",
+      "goal": "Engagement"
+    },
+    {
+      "id": "C009",
+      "pillar": "Education",
+      "format": "Carousel",
+      "hook": "اقرأ الوجبة في 10 ثواني: سعرات / بروتين / كارب / دهون",
+      "grounding": "Menu spreadsheet fields",
+      "goal": "Trust"
+    },
+    {
+      "id": "C010",
+      "pillar": "Education",
+      "format": "Reel",
+      "hook": "الدايت مش اسم أكلة… هو كمية واختيار",
+      "grounding": "Portion + menu variety",
+      "goal": "Consideration"
+    },
+    {
+      "id": "C011",
+      "pillar": "Lifestyle",
+      "format": "Reel",
+      "hook": "آخر اليوم ومش عايز تفكر هتاكل إيه؟",
+      "grounding": "Subscription convenience",
+      "goal": "Awareness"
+    },
+    {
+      "id": "C012",
+      "pillar": "Lifestyle",
+      "format": "Reel",
+      "hook": "موظف؟ دي المشكلة اللي الاشتراك بيشيلها من يومك",
+      "grounding": "Convenience JTBD hypothesis",
+      "goal": "Awareness"
+    },
+    {
+      "id": "C013",
+      "pillar": "Lifestyle",
+      "format": "Story",
+      "hook": "اختار: توصيل ولا استلام؟",
+      "grounding": "Fulfillment options",
+      "goal": "Engagement"
+    },
+    {
+      "id": "C014",
+      "pillar": "Lifestyle",
+      "format": "Reel",
+      "hook": "الجيم خلص… ووجبتك already محسوبة",
+      "grounding": "grams/macros + fitness persona",
+      "goal": "Consideration"
+    },
+    {
+      "id": "C015",
+      "pillar": "Lifestyle",
+      "format": "Carousel",
+      "hook": "3 أسباب تخلي الالتزام أصعب لما كل يوم تقرر من الصفر",
+      "grounding": "Convenience hypothesis",
+      "goal": "Awareness"
+    },
+    {
+      "id": "C016",
+      "pillar": "Trust",
+      "format": "Reel",
+      "hook": "من المطبخ للعلبة",
+      "grounding": "Kitchen/packaging assets",
+      "goal": "Trust"
+    },
+    {
+      "id": "C017",
+      "pillar": "Trust",
+      "format": "Reel",
+      "hook": "ليه النظافة والطعم الاتنين مهمين؟",
+      "grounding": "Public review signal + prep assets",
+      "goal": "Trust"
+    },
+    {
+      "id": "C018",
+      "pillar": "Trust",
+      "format": "Static/Story",
+      "hook": "كلام عميل حقيقي: \"clean & so tasty\"",
+      "grounding": "Public review, short quote",
+      "goal": "Trust"
+    },
+    {
+      "id": "C019",
+      "pillar": "Trust",
+      "format": "Reel",
+      "hook": "جرّب الوجبة… وبعدها قرر الاشتراك",
+      "grounding": "Public trial-to-membership signal",
+      "goal": "Conversion"
+    },
+    {
+      "id": "C020",
+      "pillar": "Trust",
+      "format": "Carousel",
+      "hook": "إيه اللي تقدر تتحكم فيه في اشتراكك؟",
+      "grounding": "days/grams/meals/fulfillment",
+      "goal": "Consideration"
+    },
+    {
+      "id": "C021",
+      "pillar": "Conversion",
+      "format": "Reel",
+      "hook": "الباقة المناسبة مش لازم تكون أكبر باقة",
+      "grounding": "plan flexibility",
+      "goal": "Conversion"
+    },
+    {
+      "id": "C022",
+      "pillar": "Conversion",
+      "format": "Carousel",
+      "hook": "7 / 26 / 30 يوم — اختار حسب احتياجك",
+      "grounding": "plan durations",
+      "goal": "Conversion"
+    },
+    {
+      "id": "C023",
+      "pillar": "Conversion",
+      "format": "Story",
+      "hook": "Poll: وجبة / وجبتين / 3؟",
+      "grounding": "meals/day",
+      "goal": "Conversion"
+    },
+    {
+      "id": "C024",
+      "pillar": "Conversion",
+      "format": "Reel",
+      "hook": "KSA96: العرض موجود، بس الأول اختار الباقة الصح",
+      "grounding": "active promo rules",
+      "goal": "Conversion"
+    },
+    {
+      "id": "C025",
+      "pillar": "Conversion",
+      "format": "Static",
+      "hook": "BASIC15 على الباقة — مش التوصيل والإضافات",
+      "grounding": "verified discount scope",
+      "goal": "Conversion"
+    },
+    {
+      "id": "C026",
+      "pillar": "Food Desire",
+      "format": "Reel",
+      "hook": "كريسبي من غير إحساس إنك كسرت اليوم كله",
+      "grounding": "public \"without feeling guilty\" signal + crispy asset if available",
+      "goal": "Awareness"
+    },
+    {
+      "id": "C027",
+      "pillar": "Food Desire",
+      "format": "Carousel",
+      "hook": "فطور Basic Diet مش بيض بس",
+      "grounding": "breakfast menu breadth",
+      "goal": "Awareness"
+    },
+    {
+      "id": "C028",
+      "pillar": "Food Desire",
+      "format": "Reel",
+      "hook": "48g بروتين في اختيار فطور؟",
+      "grounding": "tuna breakfast row; verify before publish",
+      "goal": "Consideration"
+    },
+    {
+      "id": "C029",
+      "pillar": "Food Desire",
+      "format": "Reel",
+      "hook": "حلو دايت بعد الأكل؟ اعرض المنتج الأول وسيب الأرقام تظهر بعدين",
+      "grounding": "dessert assets/menu",
+      "goal": "Awareness"
+    },
+    {
+      "id": "C030",
+      "pillar": "Engagement",
+      "format": "Stories",
+      "hook": "كبسة ولا باستا؟ فطور ولا ساندوتش؟ اختار منيو بكرة",
+      "grounding": "real menu categories",
+      "goal": "Engagement"
+    }
+  ]
+}
