@@ -1,0 +1,2 @@
+# Validation only; daily_brief.py uses Python 3.11+ standard library.
+PyYAML==6.0.3

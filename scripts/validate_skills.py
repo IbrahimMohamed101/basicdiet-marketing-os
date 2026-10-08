@@ -4,6 +4,8 @@ from __future__ import annotations
 from hashlib import sha1
 from pathlib import Path
 import json
+import re
+import yaml
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -49,17 +51,36 @@ def main() -> int:
         if not file.is_file():
             problems.append(f"Missing skill: {name}")
             continue
-        parts = file.read_text(encoding="utf-8").split("---", 2)
-        if len(parts) < 3:
-            problems.append(f"Missing YAML frontmatter: {name}")
+        contents = file.read_text(encoding="utf-8")
+        match = re.match(r"\A---\n(.*?)\n---(?:\n|$)", contents, re.S)
+        try:
+            meta = yaml.safe_load(match.group(1)) if match else None
+        except yaml.YAMLError:
+            meta = None
+        if not isinstance(meta, dict) or meta.get("name") != name or not isinstance(meta.get("description"), str) or not meta["description"].strip():
+            problems.append(f"Invalid skill YAML/name/description: {name}")
+    # Preserve upstream bytes; resolve exactly two optional absent skills explicitly.
+    routes = json.loads((ROOT / ".agents/skill-overrides.json").read_text())["missing_reference_routes"]
+    overrides = {(r["source"], r["target"]): r for r in routes}
+    used = set()
+    for file in (ROOT / ".agents/skills").rglob("*.md"):
+        # Historical originals are evidence, not active repository navigation.
+        if file.name in {"original-2026-10-07.md", "user-submitted-2026-10-08.md"}:
             continue
-        declared = None
-        for line in parts[1].splitlines():
-            if line.strip().startswith("name:"):
-                declared = line.split(":", 1)[1].strip().strip(chr(34)).strip(chr(39))
-                break
-        if declared != name:
-            problems.append(f"Skill name mismatch: {name} -> {declared}")
+        for target in re.findall(r"\]\(([^)]+)\)", file.read_text()):
+            if re.match(r"https?://|mailto:|#", target):
+                continue
+            path = file.parent / target.split("#")[0]
+            if path.exists():
+                continue
+            identity = (file.relative_to(ROOT).as_posix(), target)
+            route = overrides.get(identity)
+            if not route or not (ROOT / route["fallback"]).is_file():
+                problems.append(f"Unresolved local reference: {identity}")
+            else:
+                used.add(identity)
+    if used != overrides.keys():
+        problems.append("Reference overrides are stale or duplicated")
     user_source = ROOT / data["user_source_text_path"]
     if user_source.is_file():
         contents = user_source.read_text(encoding="utf-8")

@@ -54,20 +54,26 @@ def run() -> int:
     if mapped != EXPECTED_WORKING:
         problems.append(f"Expected {EXPECTED_WORKING} working copies, found {mapped}")
 
+    unchanged_working = 0
     for original, archive, working, expected in rows:
-        for path in [archive] + ([working] if working else []):
-            f = ROOT / path
-            if not f.is_file():
-                problems.append(f"Missing: {path}")
-            elif git_blob_sha(f.read_bytes()) != expected:
-                problems.append(f"SHA mismatch: {path} (source {original})")
+        file = ROOT / archive
+        if not file.is_file():
+            problems.append(f"Missing: {archive}")
+        elif git_blob_sha(file.read_bytes()) != expected:
+            problems.append(f"SHA mismatch: {archive} (source {original})")
+        if working:
+            file = ROOT / working
+            if not file.is_file():
+                problems.append(f"Missing working path: {working}")
+            elif git_blob_sha(file.read_bytes()) == expected:
+                unchanged_working += 1
 
     if problems:
         print("FAIL: Phase 1 migration verification")
         for problem in problems:
             print(" - " + problem)
         return 1
-    print(f"PASS: {EXPECTED_COUNT}/{EXPECTED_COUNT} original files preserved; {mapped} mapped working copies byte-identical.")
+    print(f"PASS: {EXPECTED_COUNT}/{EXPECTED_COUNT} original files preserved; {mapped} working paths present, {unchanged_working} still byte-identical to initial migration.")
     return 0
 
 if __name__ == "__main__":

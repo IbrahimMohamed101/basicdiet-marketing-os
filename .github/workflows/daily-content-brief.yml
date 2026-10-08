@@ -33,31 +33,41 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           persist-credentials: false
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: '3.12'
+      - name: Install validation dependency
+        run: python3 -m pip install -r requirements-dev.txt
       - name: Validate and test
         run: |
           python3 scripts/validate.py
           python3 -m unittest discover -s tests -v
-      - name: Prepare approval-only brief
+      - name: Prepare offline draft
+        if: ${{ !inputs.use_ai }}
         env:
           CHANNEL: ${{ inputs.channel }}
           GOAL: ${{ inputs.goal }}
           IDEA_ID: ${{ inputs.idea_id }}
-          USE_AI: ${{ inputs.use_ai }}
+        run: python3 scripts/daily_brief.py --channel "$CHANNEL" --goal "$GOAL" --idea-id "$IDEA_ID" --dry-run --out-dir output/daily
+      - name: Prepare draft with explicitly requested AI suggestions
+        if: ${{ inputs.use_ai }}
+        env:
+          CHANNEL: ${{ inputs.channel }}
+          GOAL: ${{ inputs.goal }}
+          IDEA_ID: ${{ inputs.idea_id }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          args=(--channel "$CHANNEL" --goal "$GOAL" --idea-id "$IDEA_ID" --out-dir output/daily)
-          if [ "$USE_AI" = true ]; then args+=(--ai); fi
-          python3 scripts/daily_brief.py "${args[@]}"
-      - name: Upload draft artifact; no public posting
-        uses: actions/upload-artifact@v4
+        run: python3 scripts/daily_brief.py --channel "$CHANNEL" --goal "$GOAL" --idea-id "$IDEA_ID" --dry-run --ai --max-output-tokens 1200 --out-dir output/daily
+      - name: Upload inspectable draft even if optional AI failed
+        if: ${{ always() && hashFiles('output/daily/**/daily-brief.json') != '' }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: basic-diet-daily-draft-${{ github.run_number }}
-          path: output/daily/
+          path: |
+            output/daily/**/daily-brief.json
+            output/daily/**/daily-brief.md
+            output/daily/**/ai-suggestions.md
           if-no-files-found: error
           retention-days: 14

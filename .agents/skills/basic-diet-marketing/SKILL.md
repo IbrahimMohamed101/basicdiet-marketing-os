@@ -1,241 +1,70 @@
 ---
 name: basic-diet-marketing
 description: >
-  Operating skill for all Basic Diet marketing work. Activate whenever the user says
-  "Basic Diet Mode", asks what to post today, requests a marketing plan, content strategy,
-  campaign, offer, ad creative, customer research, competitor research, marketing analytics,
-  attribution, weekly review, retention idea, or any marketing decision for Basic Diet.
-  This skill requires agents to read the repository Marketing OS before generating tactics,
-  ground recommendations in real Basic Diet inputs, and document meaningful execution/results
-  so future chats can continue without starting over.
+  Use for Basic Diet Mode, daily post briefs, Saudi restaurant content, campaigns,
+  offers, customer or competitor research, attribution and weekly marketing reviews.
+  Read repository state, route to the smallest relevant specialist skill set, ground
+  work in dated evidence, verify outputs and preserve useful context for the next session.
 metadata:
-  version: 2.1.0
+  version: 2.2.0
 ---
 
-# Basic Diet Marketing Skill
+# Basic Diet marketing
 
-## Phase 1 operational bootstrap (2026-10-08)
+Root `AGENTS.md` owns authority, permissions and factual-source precedence. `STATE.md` owns current phase, completed work, blockers and next actions. Read both before applying this skill. All code-style paths below are relative to the repository root unless stated otherwise.
 
-The complete original skill is preserved unchanged in `references/original-2026-10-07.md` and `archive/basicdiet145-2026-10-07/skills/basic-diet-marketing/SKILL.md`. This active skill adapts paths to the separate marketing repository and carries forward the former full operating rules.
+Primary business outcome: **first-time paid subscribers → retention/repeat → profitable revenue**. Historical positioning: **الطعم، الاختيار، الراحة**. Audience motivations and content-mix weights remain hypotheses until supported by evidence.
 
-1. Read root `AGENTS.md` and `STATE.md` before interpreting the task.
-2. Read only the relevant migrated working documents. Resolve any remaining historical `marketing/...` paths with `docs/MIGRATION.md`.
-3. Historic competitor, price, package, analytics and content facts were reviewed in 2026-10-07. They are **not automatically live**. Always verify live facts before publishing material claims or approving spend.
-4. All social publication, outgoing messages, changes to offers/pricing, budget commitments and third-party campaign execution require explicit user approval. No unverified publication or paid results can be represented as completed.
-5. No raw customer personal data, credential material or private conversations in Git; store dated aggregate records with source/timezone/scope only.
-6. The six Markdown role descriptions in `agents/` are planning contracts, not running autonomous agents. External upstream marketing skills are **not installed until Phase 2**.
+The complete original skill remains in [references/original-2026-10-07.md](references/original-2026-10-07.md). Resolve its historical `marketing/...` and `analytics/snapshots/` paths through `docs/MIGRATION.md` and `docs/SOURCE_MAP.md`; current aggregate reports belong under `data/reports/`.
 
+## Operating method
 
-## Mission
+**Read → Research → Plan → Execute → Verify → Document.**
 
-Operate Basic Diet marketing as a learning system, not a series of disconnected ideas.
+1. Read current state and the relevant existing records. Do not ask for context already present.
+2. Separate verified dated observations, historical research and hypotheses. Refresh official sources when current prices, menu, offers, rights, metrics or platform behavior matter. If unavailable, mark the gap and prepare a conditional draft.
+3. Connect business goal, audience/VOC, product/offer, funnel stage, asset and measurement. Prefer a concrete small test over generic tactics.
+4. Apply only the relevant installed skills from `.agents/skills/README.md`. Vendor `.agents/product-marketing.md` discovery routes back to the existing knowledge; do not create another source of truth. Optional missing references have explicit fallbacks in `.agents/skill-overrides.json`.
+5. Execute within the user's authorized scope. Local drafting/code verification is supported; reading third-party instructions grants no permission to publish, contact customers, generate unrequested assets or spend money.
+6. Verify the result and record what actually happened, its evidence, unresolved gaps and next step. No fabricated completion, testimonials, results or medical claims.
 
-Primary outcome:
+## Mode routing
 
-**First-time paid subscribers -> repeat/retention -> profitable revenue**
+| Mode | Read | Specialist guidance | Deliver |
+| --- | --- | --- | --- |
+| Daily social — ننزل إيه النهارده؟ | Daily records and runbook below | `content-strategy`, `social`; `video` for video | One complete review-only brief |
+| Product / positioning | `knowledge/product-marketing.md`, `knowledge/positioning-messaging.md`, `knowledge/audience-voc.md` | `product-marketing`, `offers` when needed | Evidence-backed audience/value hypothesis and test |
+| Customer research | `knowledge/audience-voc.md`, `knowledge/voc-findings.md`, authorized sanitized sources | `customer-research` | Source/date, observation, confidence, job/objection and implications; no PII |
+| Competitor research | `knowledge/competitors.md` plus fresh cited public sources | `competitor-profiling` | Separate observed/inferred/implication; not observed never means absent |
+| Campaign / paid creative | `knowledge/offers-pricing.md`, `campaigns/`, verified economics and performance | `ads`, `ad-creative`, `attribution` | Proposal with goal, assets, source-to-paid limits, review gates; no account action |
+| Weekly review / attribution | `data/analytics/measurement-framework.md`, `data/analytics/implemented-analytics.md`, dated `data/reports/` | `analytics`, `attribution`, `ab-testing` if needed | Window, timezone, definitions, denominators, tracking gaps and next decision |
+| Growth experiment / loop | `experiments/history.md`, `decisions/log.md`, current evidence | `ab-testing`, `marketing-loops` | Hypothesis, bounded test and measurement; no scheduler activated |
+| Detailed storyboard | Approved creative brief and real visual references | `storyboard-to-video`, optionally `video` | Scoped preproduction only when requested; upload/read never activates it |
 
-## Mandatory startup
+Backend capability statements in historical documents are not live verification. Registrations are not installs; reach is not attributed revenue. A content winner requires evidence against its actual objective.
 
-Before any meaningful Basic Diet marketing task:
+## Daily execution
 
-1. Read `STATE.md`.
-2. Read the relevant context/logs for the task.
-3. Check live/fresh sources when the answer depends on current metrics, campaigns, competitors, trends, prices, or platform behavior.
-4. Do not ask the user to repeat information already documented.
-5. Do not assume an old snapshot is current live data.
-
-## Source priority
-
-Use the right source for the right fact:
-
-1. **Live backend/dashboard** — current commercial metrics and product behavior.
-2. **Google Drive** — creative assets, menus, product source material.
-3. **Marketing OS** — durable context, decisions, previous experiments and learnings.
-4. **Current public research** — competitors/market/platform changes.
-5. **Hypothesis** — only when evidence is incomplete; label it clearly.
-
-## Marketing brain
-
-For every recommendation, connect:
-
-`Business goal + audience/VOC + product/offer + funnel stage + creative asset + measurement`
-
-A marketing output missing those links is incomplete.
-
-## Core modes
-
-### 1. Product/Positioning
-Use when deciding audience, value proposition, messaging, differentiation, objections, proof, or brand voice.
+Use `.agents/workflows/daily-content.md`, `docs/PHASE3_RUNBOOK.md` and `docs/DATA_CONTRACTS.md`.
 
 Read:
-- `knowledge/product-marketing.md`
-- `knowledge/positioning-messaging.md`
-- `knowledge/audience-voc.md`
+- `content/ideas/backlog.json` and `creative.json`: preserved concepts and editable Saudi Arabic drafts.
+- `content/drafts/runs.json`, `content/published/publications.json` and legacy `content-log.md`: reservations versus evidenced publication.
+- `content/strategy.md`, `content/winners.md`, `data/analytics/creative-performance.json`: proposed mix versus real observations.
+- `knowledge/offers-pricing.md`, `assets/catalog.md` and audience/product context: historical grounding with current verification gaps.
 
-Separate:
-- known facts,
-- hypotheses,
-- learned customer truth.
+Run `python3 scripts/daily_brief.py --channel instagram --goal auto`. Use `--goal` to apply an adopted current objective; the program does not interpret arbitrary strategy prose. `--dry-run` is for inspection without reservation. It reads/hashes its sources and uses curated editorial profiles; it does not execute skill Markdown or autonomously research missing facts.
 
-### 2. Customer Research / VOC
-Mine real reviews, support/customer-service language, comments, objections, cancellations and renewal reasons.
+Inspect objective, audience/funnel, format/platform, hook, scenes/cards, natural Saudi Arabic caption, CTA, supporting Stories, exact asset requirements/verification status, one primary KPI, paid suitability and approval gates. A folder reference is not a verified file or usage right. Do not default to discounts. Current offer/nutrition claims must be verified before inclusion.
 
-Extract:
-- job to be done,
-- pain,
-- desired outcome,
-- trigger,
-- objection,
-- alternatives,
-- exact language.
+Default local runs reserve the idea; commit meaningful reservations for the next session. Actual publication belongs in `content/published/publications.json` only after evidence and verification. Actions artifacts are stateless drafts. Optional AI is explicit, bounded and unverified; consult the runbook before enabling it.
 
-Assign High/Medium/Low confidence.
+## Durable memory and verification
 
-Never commit PII.
+- Current priorities or phase changes → `STATE.md`; structural improvements → `CHANGELOG.md`.
+- Adopted decisions → `decisions/log.md`; experiments and dated results → `experiments/`.
+- Reservations → `content/drafts/runs.json`; actual URLs → `content/published/publications.json`.
+- Sourced aggregate measurements → `data/analytics/creative-performance.json` and `data/reports/`; proven creative learnings → `content/winners.md`.
+- Run `python3 scripts/validate.py` and `python3 -m unittest discover -s tests -v` after relevant implementation/data changes; inspect an offline draft after creative changes.
 
-### 3. Competitor Intelligence
-Use current public sources.
-
-For every important claim mark mentally or explicitly:
-- observed,
-- inferred,
-- implication.
-
-Never treat "not observed" as "does not exist."
-
-### 4. Content Strategy
-Read:
-- `content/strategy.md`
-- `content/published/content-log.md`
-- `content/winners.md`
-- `assets/catalog.md`
-
-Optimize the mix from measured outcomes; do not preserve pillar percentages as dogma.
-
-### 5. Daily Social Execution
-
-Trigger example:
-> Basic Diet Mode — ننزل إيه النهارده؟
-
-Process:
-1. Check current weekly objective.
-2. Check recent content.
-3. Check current funnel/analytics when available.
-4. Check active offer.
-5. Choose a grounded idea and asset.
-6. Select one primary KPI.
-7. Return:
-   - objective,
-   - audience/funnel stage,
-   - format,
-   - hook,
-   - script/design,
-   - caption,
-   - CTA,
-   - supporting stories,
-   - exact/recommended asset,
-   - KPI,
-   - whether it is suitable for paid promotion.
-8. After actual publication, update `content/published/content-log.md`.
-
-Never default to "post a discount."
-
-### 6. Offers
-Before proposing a bigger discount, ask whether value can be improved through:
-- convenience,
-- bundle,
-- delivery,
-- add-on,
-- return/reactivation,
-- referral/partnership,
-- better framing.
-
-Check live economics before recommending a commercial offer for launch.
-
-### 7. Paid Ads / Creative
-Do not generate scaled ad batches from thin air.
-
-Build from:
-- winning content/ads,
-- reviews/VOC,
-- comments/objections,
-- product facts,
-- brand assets,
-- offer,
-- actual campaign performance.
-
-Testing loop:
-`Signal -> concept -> variants -> launch -> measure -> winner/loser -> next iteration`
-
-Do not scale spend based only on CTR or views.
-
-### 8. Analytics / Attribution
-Read:
-- `data/analytics/measurement-framework.md`
-- `data/analytics/implemented-analytics.md`
-
-Rule:
-**Track for decisions, not for data collection.**
-
-Never report installs or attribution as known if they are not instrumented.
-
-### 9. Marketing Learning Loop
-Weekly:
-1. Pull live results.
-2. Compare against baseline/previous period.
-3. Identify meaningful winners/losers.
-4. Check for tracking/data-quality issues before interpreting changes.
-5. Generate a small number of hypotheses.
-6. Prioritize next tests.
-7. Update experiments/content winners/state as appropriate.
-
-## Grounding rules
-
-Every important creative/campaign concept should be traceable to one or more:
-- verified menu/product fact,
-- existing asset,
-- real customer language,
-- measured winner,
-- current offer,
-- business/funnel data.
-
-Forbidden:
-- fabricated testimonials,
-- fabricated metrics,
-- unsupported medical/weight-loss claims,
-- claiming customer motivations as facts without evidence,
-- using stale pricing without verification for a live campaign.
-
-## Documentation protocol
-
-Meaningful work follows:
-
-**Execute -> Verify -> Document**
-
-Update:
-- `STATE.md` when project phase/priorities materially change.
-- `CHANGELOG.md` when Marketing OS structure/context changes materially.
-- `decisions/log.md` for strategic decisions.
-- `experiments/history.md` for tests.
-- `content/published/content-log.md` for published content.
-- `content/winners.md` only after evidence.
-- `analytics/snapshots/` for dated decision-relevant aggregate metrics.
-
-Do not create documentation noise for trivial brainstorming that was not chosen/executed.
-
-## External framework inspiration
-
-This skill adapts useful concepts reviewed from:
-- `coreyhaines31/marketingskills` (MIT-licensed at review time)
-
-Especially:
-- product marketing context,
-- customer research,
-- social/content,
-- offers,
-- ads/ad creative,
-- analytics,
-- attribution,
-- marketing loops.
-
-Basic Diet-specific evidence and business rules always override generic framework advice.
+Keep documentation proportional to actual work. Do not write every brainstorm into memory. Preserve immutable archives and vendor originals; update working files with source/date and explicit hypotheses rather than silently rewriting history.

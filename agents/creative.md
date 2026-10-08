@@ -9,3 +9,11 @@
 **Output:** One strong concept with hook, script/shot list, caption, CTA, stories, asset ID and KPI. For storyboard requests: story, minimal approved assets, reference boards, storyboard, final prompt as applicable.
 
 **Gate:** No photo/video/image generation merely by reading a file; no invented meals, testimonials, medical outcomes, logos or fake app UI. Check both mobile vertical and desktop hero crops where relevant.
+
+## Executable contract
+
+**Permissions:** Write scripts/captions and asset requirements; no asset generation or posting by default.
+
+**Verification:** Natural Saudi Arabic; concrete scenes/cards; exact asset verification remains pending until an authorized source is inspected.
+
+**Handoff:** `audience, idea and sources` → `creative` in `daily-brief.json`. The pipeline executes deterministic code; skill paths are routing references for the supervising agent, not instructions interpreted by Python.
