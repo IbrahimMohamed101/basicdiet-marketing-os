@@ -1,7 +1,7 @@
 # Basic Diet Marketing OS — current state
 
 **Last verified: 2026-10-08. Phase 3: audited local draft workflow.**
-**Current implementation: Phase 4 measurement intake prepared; authenticated live snapshots not yet obtained.**
+**Current implementation: Phase 4 commercial read-only OIDC sync LIVE and verified 2026-10-08; official 30/60/90-day aggregate snapshots through 2026-10-07 are recorded.**
 
 ## Business and evidence
 
@@ -35,7 +35,7 @@ The realistic offline Instagram run selected **C003**, awareness: **«إذا ق�
 - Added `scripts/marketing_baseline.py` and `tests/test_marketing_baseline.py`: safe import of three period reports or explicit authenticated read-only GETs, with strict exact period and currency checks.
 - Outputs contain only selected aggregate KPIs and provenance, **not** raw response arrays, customer data, bearer tokens or invented values.
 - Outputs stay ignored locally until independently reviewed and explicitly documented as source-verified.
-- Current blocker: no dashboard session or production credentials are available to this repository. No live baseline numbers have been captured. Full runbook in `docs/PHASE4_MEASUREMENT.md`.
+- The offline importer remains available. A separate signed OIDC workflow now retrieves official aggregated 30/60/90-day reports without a dashboard token; successful production evidence in `data/reports/commerce/2026-10-07/VERIFICATION.md`.
 
 ## Asset discovery status — 2026-10-08
 
@@ -47,18 +47,18 @@ The realistic offline Instagram run selected **C003**, awareness: **«إذا ق�
 ## Blockers and next actions
 
 1. Verify recent actual social history and an exact approved media file/rights for the first reviewed idea; populate publication records only from real evidence.
-2. Obtain authorized, sanitized 30/60/90-day commercial snapshots using `scripts/marketing_baseline.py`, review them, then commit approved aggregate-only results under `data/reports/`.
+2. Commercial 30/60/90-day baseline is now available under `data/reports/commerce/2026-10-07/`. Use and compare it with official dashboard records; verify next scheduled run before claiming recurring updates are proven.
 3. Reconcile source-to-first-paid attribution. Install/first-open counts, CAC and ROAS are not established here; historical backend capability claims were not reverified.
 4. Run a small human-approved organic pilot, capture URLs and seven-day measurements, then adjust creative hypotheses. Posting itself still requires explicit action authorization.
 
-No live integrations, autonomous workers, publishing scheduler or paid campaigns are deployed. Existing user authorization governs requested local coding/review work; root `AGENTS.md` owns permissions and precedence.
+Only the signed commercial read-only data integration is active; no autonomous LLM workers, social account posting, public publishing or paid ad campaigns are deployed. Existing user authorization governs requested local coding/review work; root `AGENTS.md` owns permissions and precedence.
 
-## Signed agent / dashboard bridge (integration pending)
+## Signed agent / dashboard bridge (live commercial data enabled)
 
-- Backend PR: https://github.com/IbrahimMohamed101/basicdiet145/pull/143 adds default-off authenticated GET-only marketing report using GitHub Actions OIDC.
-- Marketing OS workflow sync-commerce.yml plus scripts/sync_commerce.py validates 30/60/90-day reports and will write aggregate-only daily snapshots once deployed/enabled on main.
-- Backend Railway service flag MARKETING_AGENT_OIDC_ENABLED must be enabled after backend PR merges; no dashboard admin token is shared.
-- Actual production OIDC roundtrip and stored fresh commercial snapshots are **NOT VERIFIED YET** at this documentation stage.
+- Backend PR #143 was merged and the authenticated GET-only marketing reporting endpoint is active with GitHub Actions OIDC.
+- Marketing OS workflow `sync-commerce.yml` and `scripts/sync_commerce.py` wrote three aggregate-only daily snapshots for 2026-10-07 to the private repository after successful end-to-end production authentication.
+- Backend Railway service contains the enabled `MARKETING_AGENT_OIDC_ENABLED` configuration, and its deployment is successful; no dashboard admin token was shared.
+- Verified production OIDC roundtrip: [GitHub Actions run #37805596216, attempt 2](https://github.com/IbrahimMohamed101/basicdiet-marketing-os/actions/runs/37805596216) succeeded, and the three snapshots plus a verification note are committed.
 - Social account status: Metricool connection inspection found no connected network. Instagram/Facebook OAuth authorization still needs account owner action.
 - Data source and operator runbook: docs/LIVE_AGENT_CONNECTOR.md.
 
@@ -66,7 +66,7 @@ No live integrations, autonomous workers, publishing scheduler or paid campaigns
 
 - Backend GitHub PR #143 merged, production Railway basicdiet145 deployment marked SUCCESS; dedicated OIDC contract test succeeded.
 - Marketing OS PR #3 merged; 65 tests passed on the branch and main quality CI is green.
-- Initial signed sync GitHub Actions run #37805596216 **FAILED** with a safe HTTPError and wrote **no** commercial snapshots. Do not mark live data available.
-- Backend production Railway variable MARKETING_AGENT_OIDC_ENABLED is still **absent** (the default is disabled). An attempt to set this through the available connector was blocked; no configuration change was applied.
-- Required activation: set MARKETING_AGENT_OIDC_ENABLED=true on backend Railway production service, allow redeploy, then manually rerun Actions workflow Basic Diet - signed commercial data sync. Verify 30d/60d/90d in data/reports/commerce/ before claiming successful data communication.
+- Initial signed sync GitHub Actions run #37805596216 attempt 1 failed while Railway flag was disabled; **attempt 2 succeeded** after the user enabled the variable. The three 2026-10-07 snapshots are present.
+- Backend production Railway variable `MARKETING_AGENT_OIDC_ENABLED` is now present, and the Railway production deployment completed successfully.
+- Verified: the workflow wrote `data/reports/commerce/2026-10-07/{30d,60d,90d}.json`. Integrity details and limitations: `data/reports/commerce/2026-10-07/VERIFICATION.md`. Next scheduled day's automation has not run yet.
 - Instagram/Facebook OAuth is not connected; do not infer social metrics from the backend commercial totals.
