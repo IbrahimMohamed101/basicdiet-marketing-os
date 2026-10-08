@@ -1,0 +1,26 @@
+# Never commit secrets and temporary local data
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key
+*service-account*.json
+*credentials*.json
+**/.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+.cache/
+*.log
+*.zip
+*.tar.gz
+*.mp4
+*.mov
+*.psd
+*.ai
+*.raw
+*.xlsx
+*.csv
+!data/examples/*.csv
