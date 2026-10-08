@@ -37,6 +37,13 @@ The realistic offline Instagram run selected **C003**, awareness: **«إذا ق�
 - Outputs stay ignored locally until independently reviewed and explicitly documented as source-verified.
 - Current blocker: no dashboard session or production credentials are available to this repository. No live baseline numbers have been captured. Full runbook in `docs/PHASE4_MEASUREMENT.md`.
 
+## Asset discovery status — 2026-10-08
+
+- Authenticated Drive browse located C003 candidate images with exact file IDs under `صور الوجبات / New` (butter chicken, steak meal, Alfredo pasta). Index: `assets/c003-asset-candidates.md`.
+- File metadata access confirmed; image content, current menu eligibility and commercial reuse rights are **not yet verified**.
+- Drive metadata reports `anyone: writer` on these assets; owner should review permissions before relying on them for approved campaigns. No permissions changed.
+- Metricool brand connector currently has no social network connected, so platform publication history cannot yet be corroborated there.
+
 ## Blockers and next actions
 
 1. Verify recent actual social history and an exact approved media file/rights for the first reviewed idea; populate publication records only from real evidence.
