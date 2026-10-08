@@ -61,3 +61,12 @@ No live integrations, autonomous workers, publishing scheduler or paid campaigns
 - Actual production OIDC roundtrip and stored fresh commercial snapshots are **NOT VERIFIED YET** at this documentation stage.
 - Social account status: Metricool connection inspection found no connected network. Instagram/Facebook OAuth authorization still needs account owner action.
 - Data source and operator runbook: docs/LIVE_AGENT_CONNECTOR.md.
+
+## Live connector verification — 2026-10-08
+
+- Backend GitHub PR #143 merged, production Railway basicdiet145 deployment marked SUCCESS; dedicated OIDC contract test succeeded.
+- Marketing OS PR #3 merged; 65 tests passed on the branch and main quality CI is green.
+- Initial signed sync GitHub Actions run #37805596216 **FAILED** with a safe HTTPError and wrote **no** commercial snapshots. Do not mark live data available.
+- Backend production Railway variable MARKETING_AGENT_OIDC_ENABLED is still **absent** (the default is disabled). An attempt to set this through the available connector was blocked; no configuration change was applied.
+- Required activation: set MARKETING_AGENT_OIDC_ENABLED=true on backend Railway production service, allow redeploy, then manually rerun Actions workflow Basic Diet - signed commercial data sync. Verify 30d/60d/90d in data/reports/commerce/ before claiming successful data communication.
+- Instagram/Facebook OAuth is not connected; do not infer social metrics from the backend commercial totals.
