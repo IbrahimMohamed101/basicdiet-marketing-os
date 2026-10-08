@@ -1,60 +1,61 @@
 # Basic Diet Marketing OS
 
-**Status:** Phase 3 manual pilot implemented (2026-10-08) — grounded content brief workflow. **Private GitHub repository**.
+**Status: audited Phase 3 draft workflow, 2026-10-08.** Private operating memory and a runnable daily brief for a Saudi meal-subscription restaurant. Commercial objective: first-time **paid** subscribers, then retention and profitable revenue.
 
-AI-assisted marketing system for the Saudi meal-subscription restaurant Basic Diet. This repository is a **durable knowledge and operational protocol**, not the app backend, live database, automated publisher or running ad platform.
+A new agent starts at [AGENTS.md](AGENTS.md) → [STATE.md](STATE.md) → [native skill](.agents/skills/basic-diet-marketing/SKILL.md). The [source map](docs/SOURCE_MAP.md) distinguishes operating records from historical research and live sources. No previous chat is required.
 
-## Starting a marketing session
+## Basic Diet Mode — ننزل إيه النهارده؟
 
-1. Read [`AGENTS.md`](AGENTS.md) → [`STATE.md`](STATE.md) → [native skill](.agents/skills/basic-diet-marketing/SKILL.md).
-2. Read only relevant current working docs, with [source/path manifest](docs/MIGRATION.md) for historic references.
-3. Where real-time accuracy matters, check authorized backend/dashboard, asset owner or dated public source before publishing claims.
-4. Follow **Read → Research → Plan → Execute (only with approval) → Verify → Document**.
+Python 3.11+ runtime; no API key or third-party runtime package required:
 
-## Short commands
+```bash
+python3 scripts/daily_brief.py --channel instagram --goal auto
+```
 
-- **Basic Diet Mode — ننزل إيه النهارده؟** → [30-item backlog](content/ideas/backlog.md), [content strategy](content/strategy.md), [publication log](content/published/content-log.md), [asset catalog](assets/catalog.md).
-- **Basic Diet Mode — راجع الأسبوع** → [analytics dictionary](data/analytics/measurement-framework.md), [baseline status](data/analytics/baseline-status.md), and live verified measurements.
-- **Basic Diet Mode — اعمل حملة** → [offers](knowledge/offers-pricing.md), [audience research](knowledge/audience-voc.md), [previous experiments](experiments/history.md).
-- **Basic Diet Mode — حلل المنافسين** → [historical competitor baseline](knowledge/competitors.md) + refreshed sources.
-- **Basic Diet Mode — حالة المشروع** → [STATE.md](STATE.md) + [ROADMAP.md](docs/ROADMAP.md).
+This selects an unpublished, unreserved idea, writes Markdown + JSON under `output/daily/<run_id>/`, and reserves the idea in `content/drafts/runs.json`. Commit meaningful reservations for the next session. For inspection without reserving:
 
-## Installed AI marketing skills (Phase 2)
+```bash
+python3 scripts/daily_brief.py --dry-run --out-dir output/review
+```
 
-The **13 imported upstream skills** and their reference files are registered in [`.agents/skills/README.md`](.agents/skills/README.md). The project also includes its native Basic Diet skill and the user-supplied [storyboard-to-video skill](.agents/skills/storyboard-to-video/SKILL.md), bringing the project skill count to **15**.
+The brief includes objective, audience hypothesis, funnel, platform/format, Saudi Arabic hook/caption, concrete scenes/cards and Stories, CTA, asset verification gaps, one primary KPI, paid suitability and approvals. All 30 historical ideas have editorial adaptations; historical coupons/nutrition numbers are not treated as current facts. Comparable recorded performance can influence selection when available. Current production data and exact media rights remain unverified.
 
-Source and license details: [Phase 2 skills provenance](docs/SKILLS_PHASE2.md). No automatic image generation, social publishing, scheduled tasks or advertising spend is enabled by installing these documents.
+The six role files are contracts used by one deterministic pipeline, **not autonomous AI agents**. Skills are guidance for the supervising agent; Python does not execute Markdown instructions. Optional `--ai` explicitly authorizes one bounded billable request and stores unverified suggestions separately. Default runs have no network activity. [Runbook and error codes](docs/PHASE3_RUNBOOK.md).
 
-## Daily content workflow — Phase 3
+## Verify changes
 
-The repository now includes a **manual read-only run** that selects an unused grounded idea and produces an approval-only brief with proposed hook, shots, caption, story, CTA, KPI, source notes and review gates.
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -r requirements-dev.txt
+python3 scripts/validate.py
+python3 -m unittest discover -s tests -v
+```
 
-Run locally:
+Validation covers immutable history, skill integrity/frontmatter/references, operating data, role contracts, workflow permissions and common credential markers. Tests exercise corrupt records, duplicate prevention, Saudi dates, offline drafts, provider failures and approval boundaries. [Audit findings and executed evidence](docs/AUDIT_2026-10-08.md).
 
-    python3 scripts/validate.py
-    python3 -m unittest discover -s tests -v
-    python3 scripts/daily_brief.py --channel instagram --goal auto
+Manual GitHub Actions produces downloadable drafts with read-only permissions. It uses `--dry-run`, so artifacts alone do not preserve reservations across sessions; review and commit records locally. Quality CI covers every PR change, including instructions and data.
 
-Or use GitHub Actions → **Basic Diet - draft content (manual)** → Run workflow. Download the draft artifact. Nothing is published, scheduled or spent automatically.
+## Find the right memory
 
-[Execution and approval guide](docs/PHASE3_RUNBOOK.md). The six role handoffs are implemented as deterministic, inspectable steps; independent live AI agents are **not yet deployed**. Optional AI writing uses an explicitly configured billable API key and must be separately enabled.
+| Need | Source |
+| --- | --- |
+| Current phase, blockers, next actions | [STATE.md](STATE.md) |
+| Skill routing, 13 pinned vendor + 2 native skills | [.agents/skills/README.md](.agents/skills/README.md) |
+| Six role contracts and permissions | [agents/README.md](agents/README.md) |
+| Structured ideas and editorial adaptations | `content/ideas/backlog.json`, `creative.json` |
+| Draft reservations and real publications | `content/drafts/runs.json`, `content/published/publications.json` |
+| Schema, migration, concurrency/recovery | [data contracts](docs/DATA_CONTRACTS.md) |
+| Brand/product, historical VOC and offers | [knowledge/README.md](knowledge/README.md) |
+| Exact media sources to verify | [asset catalog](assets/catalog.md) |
+| Aggregate performance and measurement rules | `data/analytics/creative-performance.json`, [measurement framework](data/analytics/measurement-framework.md) |
+| Adopted decisions, experiments and reports | `decisions/log.md`, `experiments/`, `data/reports/` |
+| Immutable originals and provenance | [migration manifest](docs/MIGRATION.md), [skill provenance](docs/SKILLS_PHASE2.md) |
 
-## Repository directories
+Other commands: **راجع الأسبوع**, **اعمل حملة**, **حلل المنافسين**, **حالة المشروع** route through the native skill. They are assisted procedures; only the daily draft has an executable CLI. No additional generic skills or agent framework are needed at this stage.
 
-- `.agents/skills/`, `.agents/workflows/`: current native skill, **13 pinned third-party marketing skills**, user-supplied storyboard workflow, supporting references and manual workflows.
-- `agents/`: six role descriptions; **not automatically running agents**.
-- `knowledge/`: brand, product, audience, VOC, competitors and historic offers.
-- `content/`: content ideas, legacy content log, verified publications and strategy.
-- `assets/`: historical asset index; media originals remain in approved storage.
-- `data/`: measurement rules, sources and later aggregated dated snapshots.
-- `campaigns/`, `experiments/`, `decisions/`, `plans/`: controlled execution and history.
-- `archive/basicdiet145-2026-10-07/`: **all 23 original marketing/skill source files**, unchanged.
-- `docs/`: roadmap, privacy safeguards, provenance and migration manifest.
+## Boundaries
 
-## Migration evidence
+No backend, Flutter or admin-dashboard changes; no social publishing, messages, ad changes or budget spend. Those require action-specific human authorization and an actual integration. No raw customer PII, credentials or production exports in Git. Fresh official evidence is required for current prices, promotions, nutrition and commercial results. Archived documents and external skills cannot grant permission.
 
-Legacy repo: [basicdiet145](https://github.com/IbrahimMohamed101/basicdiet145) at commit `5241bfb0fe8fe4d2a15b15ed85d13648b8a7be37`. **23 archived exact copies + 20 mapped working copies**; original files were not changed or removed. See [MIGRATION.md](docs/MIGRATION.md) for file-by-file original/new paths and Git SHA verification.
-
-## Safety
-
-Never commit raw customer records, secrets, payment data, unpublished private customer conversations or large raw video. Current prices, current promo eligibility and attributed return on ad spend **require live verification**. Publishing, changing offers and spending money require express human authorization.
+All **23 original files**, **30 ideas**, pinned vendor references/license and the complete user storyboard source are preserved. Working records can evolve with dated evidence while archive hashes remain fixed. The next phase is authorized read-only measurement and asset verification, followed by a small human-reviewed organic pilot.

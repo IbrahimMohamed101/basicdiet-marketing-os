@@ -41,7 +41,7 @@
 ## Verification contract
 
 - Compare archived blob SHAs with the source blob SHAs shown in the manifest. Git SHA is derived from raw file bytes; equal hashes verify exact copies.
-- Check the 20 working-copy paths exist and initially match their source Git blob SHAs.
+- Check the 20 working-copy paths exist. The manifest hashes describe their initial migration bytes. Current working copies may evolve with dated evidence; only archive copies are immutable. The validator reports how many working copies still match without blocking legitimate updates.
 - Check all 23 listed sources are accounted for (22 marketing documents + 1 skill).
 - Review potential personal data, credentials, signed links before every future public export; the initial source scan did not identify clear customer phone numbers, emails, private-key blocks or access tokens. **This automated scan is not a guarantee**.
 - Historic `marketing/...` references within the imported files refer to original source paths. Resolve them through this manifest when operating in this repository.
