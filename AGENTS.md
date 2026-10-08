@@ -83,3 +83,11 @@ When evidence conflicts, identify the conflict before making decisions.
 - Store verified, reviewed snapshots under `data/reports/` with period, capture time, source mode and filters. **Manual-imported** data are operator-supplied until source and date are verified; a file's presence alone is not evidence of production accuracy.
 - No app installs/first_open, UTM attribution or paid creative CAC/ROAS is supported by this server-only endpoint. Label unavailable metrics explicitly.
 - Import script does **not** authenticate a user, schedule collection, post content, charge cards, or change any production records. Access to protected analytics remains separately authorized.
+
+## Signed live data bridge — gated until production verified
+
+- Commercial source: backend OIDC endpoint GET /api/marketing-agent/commercial-report; workflow .github/workflows/sync-commerce.yml. Detailed contract docs/LIVE_AGENT_CONNECTOR.md.
+- Only exact private repo/main workflow identity has read-only access to aggregate KPI and plan/promo reports. No dashboard JWT or password is stored here.
+- Once a signed sync run succeeds, treat dated data/reports/commerce/<YYYY-MM-DD>/{30,60,90}d.json as the latest available commercial records and always preserve their overlapping period windows and capture time.
+- Do not assert live bridge connected until Actions succeeds against Railway. Reject invented or manually filled production values.
+- Social status at data/sources/social-connections.json is disconnected; provider OAuth is required. Never ask agents to guess credentials or enable posting/spending.

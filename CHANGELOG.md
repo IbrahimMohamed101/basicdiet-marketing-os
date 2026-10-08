@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-08 — Machine identity bridge prepared
+
+- Coordinated backend default-off, OIDC-secured commercial aggregate endpoint and private Marketing OS signed read-only connector.
+- Added dedicated daily/dispatch GitHub Actions sync workflow and immutable date-stamped aggregate repository recording.
+- Added social OAuth onboarding registry; social networks remain unconnected, posting/ad spend disabled.
+- Live production authentication, reporting and deployment remain to be verified after merges.
+
+
 ## 2026-10-08 — Phase 4 (measurement intake; live baseline pending)
 
 - Reviewed existing backend read-only marketing analytics route and current KPI schema.

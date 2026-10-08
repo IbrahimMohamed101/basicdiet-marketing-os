@@ -90,3 +90,9 @@ Other commands: **راجع الأسبوع**, **اعمل حملة**, **حلل ا�
 No backend, Flutter or admin-dashboard changes; no social publishing, messages, ad changes or budget spend. Those require action-specific human authorization and an actual integration. No raw customer PII, credentials or production exports in Git. Fresh official evidence is required for current prices, promotions, nutrition and commercial results. Archived documents and external skills cannot grant permission.
 
 All **23 original files**, **30 ideas**, pinned vendor references/license and the complete user storyboard source are preserved. Working records can evolve with dated evidence while archive hashes remain fixed. Next: obtain authorized live 30/60/90-day aggregates using the read-only collector, verify an actual approved asset and previous social posts, then plan a human-reviewed organic pilot.
+
+## Signed agent communication (OIDC)
+
+The private Marketing OS now has an opt-in GitHub Actions to backend commercial analytics connector. It uses short-lived GitHub-signed OIDC identity, not a copied admin token. Once enabled on the backend and merged on main, the 05:30 Saudi daily workflow stores sanitized read-only 30/60/90-day commercial snapshots under data/reports/commerce/.
+
+See docs/LIVE_AGENT_CONNECTOR.md and data/sources/social-connections.json. Social accounts remain disconnected until the restaurant owner authorizes them through the provider. No customer PII, social posting, ad spend, or autonomous background agent is enabled merely by checking in these files.

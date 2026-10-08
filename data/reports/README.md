@@ -17,3 +17,5 @@ timezone Asia/Riyadh, money in **halala**, the definition of first-time paid
 subscribers, and limits of missing app-install/ad attribution metrics.
 
 **No live reports have been captured as part of Phase 4 implementation.**
+
+After successful signed OIDC sync, immutable daily three-window snapshots are stored at data/reports/commerce/YYYY-MM-DD/30d.json, 60d.json and 90d.json. Check source_mode=live, date range, capture timestamp and backend data scope; overlapping windows cannot be summed. The workflow never writes individual customer records.

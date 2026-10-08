@@ -52,3 +52,12 @@ The realistic offline Instagram run selected **C003**, awareness: **«إذا ق�
 4. Run a small human-approved organic pilot, capture URLs and seven-day measurements, then adjust creative hypotheses. Posting itself still requires explicit action authorization.
 
 No live integrations, autonomous workers, publishing scheduler or paid campaigns are deployed. Existing user authorization governs requested local coding/review work; root `AGENTS.md` owns permissions and precedence.
+
+## Signed agent / dashboard bridge (integration pending)
+
+- Backend PR: https://github.com/IbrahimMohamed101/basicdiet145/pull/143 adds default-off authenticated GET-only marketing report using GitHub Actions OIDC.
+- Marketing OS workflow sync-commerce.yml plus scripts/sync_commerce.py validates 30/60/90-day reports and will write aggregate-only daily snapshots once deployed/enabled on main.
+- Backend Railway service flag MARKETING_AGENT_OIDC_ENABLED must be enabled after backend PR merges; no dashboard admin token is shared.
+- Actual production OIDC roundtrip and stored fresh commercial snapshots are **NOT VERIFIED YET** at this documentation stage.
+- Social account status: Metricool connection inspection found no connected network. Instagram/Facebook OAuth authorization still needs account owner action.
+- Data source and operator runbook: docs/LIVE_AGENT_CONNECTOR.md.
