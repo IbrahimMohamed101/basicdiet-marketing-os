@@ -1,8 +1,8 @@
 # Basic Diet Marketing OS — Current State
 
 **Last verified:** 2026-10-08  
-**Repository phase:** **Phase 2 — complete (skill installation and integration)**  
-**Next implementation:** Phase 3 — operationalize role contracts and permissioned workflows. No autonomous external actions are enabled.
+**Repository phase:** **Phase 3 — manual daily-content pilot implemented**  
+**Next implementation:** Phase 4 — read-only commercial measurement baseline and attribution QA. Automated social publishing and ad spend remain disabled.
 
 ## North Star
 
@@ -33,6 +33,15 @@ First-time **paid** subscribers → repeat/retention → profitable revenue. Eng
 - Added routing docs, version provenance and validation tests. Only plan/generate media on user request, with approvals and verified brand details.
 - Skills are instructions and references, **not** automated publishing, budget control, agency staffing or activated platform connectors.
 
+## Phase 3 — implemented 2026-10-08
+
+- Added a runnable, source-grounded, **approval-only** daily content orchestrator at `scripts/daily_brief.py`.
+- Six role handoffs: research, strategy, creative, analytics, media-buyer, operations. These are **deterministic steps**, not independent autonomous language-model agents.
+- A manually dispatched, read-only GitHub Actions workflow builds `daily-brief.md` and `daily-brief.json` artifacts. No schedule, posting, billing, production code changes or API calls by default.
+- Optional AI drafting uses a separately configured OpenAI API key and an explicit opt-in; no key or spend was provisioned here.
+- Unit tests cover unused-idea selection, trusted publication proof, duplicate prevention, safe output, and disabled-by-default API behavior.
+- Runbook: `docs/PHASE3_RUNBOOK.md`. External/social-connected end-to-end execution has **not** been verified.
+
 ## Known measurement/data gaps
 
 - Live 30/60/90-day commercial baseline is not yet saved in this repository.
@@ -51,4 +60,4 @@ First-time **paid** subscribers → repeat/retention → profitable revenue. Eng
 
 ## Next implementation phase (not started)
 
-**Phase 3 — Agents:** convert six role contracts into testable, permissioned orchestration. First build a read-only daily-content preparation run, then consider connectors and publication with approval gates. Measurement, ad deployment and automated posting are not claimed complete.
+**Phase 4 — Measurement:** obtain consented read-only 30/60/90-day commercial baseline and source-to-paid tracking evidence. Do not infer install counts or paid campaign ROAS from incomplete instrumentation.

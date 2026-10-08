@@ -1,0 +1,63 @@
+name: Basic Diet - draft content (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: Target platform
+        type: choice
+        options: [instagram, tiktok, facebook, snapchat]
+        default: instagram
+        required: true
+      goal:
+        description: Marketing objective
+        type: choice
+        options: [auto, awareness, consideration, trust, conversion, engagement]
+        default: auto
+        required: true
+      idea_id:
+        description: Optional backlog ID (C003), blank to auto-select
+        required: false
+        type: string
+      use_ai:
+        description: Paid AI optional; requires separately configured OPENAI_API_KEY
+        type: boolean
+        default: false
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate and test
+        run: |
+          python3 scripts/validate.py
+          python3 -m unittest discover -s tests -v
+      - name: Prepare approval-only brief
+        env:
+          CHANNEL: ${{ inputs.channel }}
+          GOAL: ${{ inputs.goal }}
+          IDEA_ID: ${{ inputs.idea_id }}
+          USE_AI: ${{ inputs.use_ai }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          args=(--channel "$CHANNEL" --goal "$GOAL" --idea-id "$IDEA_ID" --out-dir output/daily)
+          if [ "$USE_AI" = true ]; then args+=(--ai); fi
+          python3 scripts/daily_brief.py "${args[@]}"
+      - name: Upload draft artifact; no public posting
+        uses: actions/upload-artifact@v4
+        with:
+          name: basic-diet-daily-draft-${{ github.run_number }}
+          path: output/daily/
+          if-no-files-found: error
+          retention-days: 14

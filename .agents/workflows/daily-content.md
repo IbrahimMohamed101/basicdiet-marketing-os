@@ -11,3 +11,7 @@
 7. After verified publication, write platform URL/date/results to `content/published/` and update state/learning log. Do not invent performance or attribution.
 
 No posting integration, scheduler or live advertising account is connected by Phase 2.
+
+## Executable manual pilot
+
+Run `python3 scripts/daily_brief.py --channel instagram --goal auto` or manually dispatch `.github/workflows/daily-content-brief.yml`. The result is an offline approval-only creative brief in output/daily or a GitHub Actions artifact. Optional AI suggestions require explicit opt-in and OPENAI_API_KEY. This does not publish, schedule, spend or verify current live pricing/media.

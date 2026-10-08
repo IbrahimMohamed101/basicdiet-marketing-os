@@ -24,3 +24,6 @@ node_modules/
 *.xlsx
 *.csv
 !data/examples/*.csv
+
+# Generated drafts and local artifacts (never publish accidentally)
+output/

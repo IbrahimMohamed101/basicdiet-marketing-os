@@ -15,6 +15,8 @@ required = [
     "decisions/log.md", "content/ideas/backlog.md",
     "content/published/content-log.md", "data/reports/README.md",
     "scripts/verify_migration.py",
+    "scripts/daily_brief.py", "tests/test_daily_brief.py",
+    ".github/workflows/daily-content-brief.yml", "docs/PHASE3_RUNBOOK.md",
 ]
 missing = [p for p in required if not (ROOT / p).is_file()]
 text_files = [p for p in ROOT.rglob("*") if p.is_file() and p.suffix in {".md", ".py", ".sh"} and ".git" not in p.parts]

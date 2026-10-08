@@ -1,6 +1,6 @@
 # Basic Diet Marketing OS
 
-**Status:** Phase 2 complete (2026-10-08) — core marketing skills integrated. **Private GitHub repository**.
+**Status:** Phase 3 manual pilot implemented (2026-10-08) — grounded content brief workflow. **Private GitHub repository**.
 
 AI-assisted marketing system for the Saudi meal-subscription restaurant Basic Diet. This repository is a **durable knowledge and operational protocol**, not the app backend, live database, automated publisher or running ad platform.
 
@@ -24,6 +24,20 @@ AI-assisted marketing system for the Saudi meal-subscription restaurant Basic Di
 The **13 imported upstream skills** and their reference files are registered in [`.agents/skills/README.md`](.agents/skills/README.md). The project also includes its native Basic Diet skill and the user-supplied [storyboard-to-video skill](.agents/skills/storyboard-to-video/SKILL.md), bringing the project skill count to **15**.
 
 Source and license details: [Phase 2 skills provenance](docs/SKILLS_PHASE2.md). No automatic image generation, social publishing, scheduled tasks or advertising spend is enabled by installing these documents.
+
+## Daily content workflow — Phase 3
+
+The repository now includes a **manual read-only run** that selects an unused grounded idea and produces an approval-only brief with proposed hook, shots, caption, story, CTA, KPI, source notes and review gates.
+
+Run locally:
+
+    python3 scripts/validate.py
+    python3 -m unittest discover -s tests -v
+    python3 scripts/daily_brief.py --channel instagram --goal auto
+
+Or use GitHub Actions → **Basic Diet - draft content (manual)** → Run workflow. Download the draft artifact. Nothing is published, scheduled or spent automatically.
+
+[Execution and approval guide](docs/PHASE3_RUNBOOK.md). The six role handoffs are implemented as deterministic, inspectable steps; independent live AI agents are **not yet deployed**. Optional AI writing uses an explicitly configured billable API key and must be separately enabled.
 
 ## Repository directories
 

@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-08 — Phase 3: executable daily-brief pilot
+
+- Added `scripts/daily_brief.py`: deterministic role pipeline, grounded idea selection and review-only creative draft, with optional manual AI rewriting.
+- Added a manually-dispatched GitHub Actions workflow with read-only repository permissions and downloadable draft artifact.
+- Added unit tests, local validator integration, runbook, and execution-state rules.
+- No autonomous AI agents, social scheduling, posts, media spend or external data sync activated.
+
+
 ## 2026-10-08 — Phase 2: marketing skills integration
 
 - Imported 13 chosen upstream skills and 67 associated Markdown references from `coreyhaines31/marketingskills` at commit `b9ba399dd88b082b926e261e8ccfb843d20aa066`.
