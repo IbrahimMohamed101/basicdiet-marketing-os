@@ -21,3 +21,5 @@
 ### Evidence gaps and follow-up
 
 To audit the *actual* latest 9–12 Instagram posts, obtain owner/authorized browser screenshots or link to individual posts accessible in a browser. Record each actual URL, date, format, hook, visual layout, palette, proof of publication, obvious performance metrics if visible and source capture date. Update this note; do not backfill observations from the official website as Instagram content.
+
+**Source and originality rule:** The competitor's images, visual templates, logos and copy are not copied into Basic Diet outputs. Only general communication mechanisms may inspire separately developed creative using Basic Diet's own visual evidence.
