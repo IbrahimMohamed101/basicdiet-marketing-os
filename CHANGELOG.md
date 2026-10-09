@@ -1,3 +1,11 @@
+## 2026-10-09 — P1 audit response: operability, evidence tests and first actual visual review
+
+- Replaced static "unverified forever" assertions with conditional evidence checks: reviewed pixels and rights/menu approvals can progress when verified by/date/evidence exists.
+- Added validated creative record frontmatter with distinct concepts, editorial scoring, real indexed source IDs, KPI threshold and gated approval/publication statuses; tracked one **draft only** with original source images.
+- Added compact BOOT and skill digest; reduced mandatory cold-start reads and preserved former verbose AGENTS as historical documentation.
+- Inspected actual Drive logo and plated-dish image: pixel-based descriptions and provisional palette, no claimed owner/usage/menu approvals. Draft Saudi voice and claims registers added.
+- Audited 30-day dashboard/app channel revenue and promo-scope caveats without changing live data or claiming attribution. No posts, ads, payments or customer records changed.
+
 ## 2026-10-09 — AI Creative Director operating protocol
 
 - Added mandatory cold-start instructions for content creation in AGENTS.md and the native marketing skill, preserving existing permissions.

@@ -11,7 +11,7 @@ metadata:
 
 # Basic Diet marketing
 
-Root `AGENTS.md` owns authority, permissions and factual-source precedence. `STATE.md` owns current phase, completed work, blockers and next actions. Read both before applying this skill. All code-style paths below are relative to the repository root unless stated otherwise.
+Root `AGENTS.md` owns authority, permissions and factual-source precedence. `STATE.md` owns current phase, completed work, blockers and next actions. Read both and the compact docs/BOOT.md before applying this skill; only top current STATE section is needed initially. All code-style paths below are relative to the repository root unless stated otherwise.
 
 Primary business outcome: **first-time paid subscribers → retention/repeat → profitable revenue**. Historical positioning: **الطعم، الاختيار، الراحة**. Audience motivations and content-mix weights remain hypotheses until supported by evidence.
 
@@ -30,7 +30,7 @@ The complete original skill remains in [references/original-2026-10-07.md](refer
 
 ## AI creative director activation (adopted 2026-10-09)
 
-For **every** content, caption, graphic, Reel or Flow request, read docs/CREATIVE_AGENT_PROTOCOL.md and follow .agents/workflows/ai-creative-production.md. The controlling skills are content-strategy + social; add ad-creative for images, video + docs/GOOGLE_FLOW_PRODUCTION.md for animation, and storyboard-to-video for explicit detailed board-based preproduction only. Select exact Drive IDs from assets/drive-source-index.json and inspect originals when access allows.
+For **every** content, caption, graphic, Reel or Flow request, read docs/CREATIVE_AGENT_PROTOCOL.md and follow .agents/workflows/ai-creative-production.md. Use docs/SKILL_DIGEST.md first and load full vendor files selectively, not all in one cold start. The controlling skills are content-strategy + social; add ad-creative for images, video + docs/GOOGLE_FLOW_PRODUCTION.md for animation, and storyboard-to-video for explicit detailed board-based preproduction only. Select exact Drive IDs from assets/drive-source-index.json and inspect originals when access allows.
 
 The Python daily brief is a deterministic base and may remain available for regression/offline drafts; it does not itself autonomously create new AI concepts. When a capable model is supervising a content task, originate multiple distinct concepts, verify sources, and produce a complete creative, prompts and durable evidence-aware records. Never imply that this protocol turns Markdown or GitHub Actions into background LLM agents.
 

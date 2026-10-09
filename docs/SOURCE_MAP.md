@@ -2,6 +2,13 @@
 
 ## AI-first creative operating entry points (2026-10-09)
 
+- docs/BOOT.md: short task-based read path; docs/SKILL_DIGEST.md: vendor skill routing summary, full originals on demand.
+- docs/OPERATING_HISTORY_2026-10-09.md: archived verbose root contract to avoid repeated cold-start context load.
+- knowledge/brand-visual-review.md: two pixels-inspected Drive images with sampled provisional color observations (not approved brand style).
+- knowledge/saudi-voice.md and knowledge/claims-register.md: draft local-language examples and risk-aware claim checks.
+- scripts/validate_creative.py and schemas/creative-record.schema.json: metadata/creative record validation. docs/COMMERCIAL_AUDIT_2026-10-09.md: channel/promo caveats.
+
+
 - docs/CREATIVE_AGENT_PROTOCOL.md: mandatory original ideation, skill loading, proof, six role handoffs, creative deliverable, review gates, and durable memory.
 - .agents/workflows/ai-creative-production.md: AI supervisor procedure; does not add an autonomous runtime.
 - docs/GOOGLE_FLOW_PRODUCTION.md: companion to video and task-specific storyboard-to-video skills.
