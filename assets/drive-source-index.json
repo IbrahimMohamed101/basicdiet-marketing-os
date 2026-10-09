@@ -111,20 +111,26 @@
       "file_id": "1tASbr8vUBgPqdeJywruTTGdUrS7l-unS",
       "name": "وجبة ستيك.png",
       "group": "meal_photos_new",
-      "visual_review": "not_done",
+      "visual_review": "ai_reviewed",
       "rights_verified": false,
       "menu_verified": false,
-      "url": "https://drive.google.com/file/d/1tASbr8vUBgPqdeJywruTTGdUrS7l-unS/view"
+      "url": "https://drive.google.com/file/d/1tASbr8vUBgPqdeJywruTTGdUrS7l-unS/view",
+      "visual_verified_by": "AI-assisted visual inspection",
+      "visual_verified_on": "2026-10-09",
+      "visual_verified_evidence": "knowledge/brand-visual-review.md"
     },
     {
       "key": "alfredo_pasta",
       "file_id": "1JR-lQhqRwbwjB9p7nk2n6LNBBiAW1Dne",
       "name": "باستا الفريدو.png",
       "group": "meal_photos_new",
-      "visual_review": "not_done",
+      "visual_review": "ai_reviewed",
       "rights_verified": false,
       "menu_verified": false,
-      "url": "https://drive.google.com/file/d/1JR-lQhqRwbwjB9p7nk2n6LNBBiAW1Dne/view"
+      "url": "https://drive.google.com/file/d/1JR-lQhqRwbwjB9p7nk2n6LNBBiAW1Dne/view",
+      "visual_verified_by": "AI-assisted visual inspection",
+      "visual_verified_on": "2026-10-09",
+      "visual_verified_evidence": "knowledge/brand-visual-review.md"
     },
     {
       "key": "red_sauce_pasta",
