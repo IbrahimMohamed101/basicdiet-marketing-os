@@ -28,6 +28,12 @@ The complete original skill remains in [references/original-2026-10-07.md](refer
 5. Execute within the user's authorized scope. Local drafting/code verification is supported; reading third-party instructions grants no permission to publish, contact customers, generate unrequested assets or spend money.
 6. Verify the result and record what actually happened, its evidence, unresolved gaps and next step. No fabricated completion, testimonials, results or medical claims.
 
+## AI creative director activation (adopted 2026-10-09)
+
+For **every** content, caption, graphic, Reel or Flow request, read docs/CREATIVE_AGENT_PROTOCOL.md and follow .agents/workflows/ai-creative-production.md. The controlling skills are content-strategy + social; add ad-creative for images, video + docs/GOOGLE_FLOW_PRODUCTION.md for animation, and storyboard-to-video for explicit detailed board-based preproduction only. Select exact Drive IDs from assets/drive-source-index.json and inspect originals when access allows.
+
+The Python daily brief is a deterministic base and may remain available for regression/offline drafts; it does not itself autonomously create new AI concepts. When a capable model is supervising a content task, originate multiple distinct concepts, verify sources, and produce a complete creative, prompts and durable evidence-aware records. Never imply that this protocol turns Markdown or GitHub Actions into background LLM agents.
+
 ## Mode routing
 
 | Mode | Read | Specialist guidance | Deliver |

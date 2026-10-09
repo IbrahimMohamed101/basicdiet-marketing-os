@@ -1,5 +1,15 @@
 # AI agent operating instructions — Basic Diet Marketing OS
 
+## Required creative start — additional mandatory gate (2026-10-09)
+
+For **any** Basic Diet post, creative idea, caption, image or video prompt, Story, campaign asset or content calendar:
+1. Read root AGENTS.md (this file) → STATE.md → .agents/skills/basic-diet-marketing/SKILL.md → docs/CREATIVE_AGENT_PROTOCOL.md **before ideation**.
+2. Read the relevant actual installed skill file(s). Organic: content-strategy + social. Image creative: also ad-creative. Video/Google Flow: also video and docs/GOOGLE_FLOW_PRODUCTION.md. Storyboard-to-video is reserved for explicit detailed storyboard requests. Paid campaigns additionally require ads + attribution.
+3. Use assets/drive-source-index.json + assets/catalog.md and official authenticated Drive media with exact IDs. AI should propose original options, **not** merely restate the deterministic daily_brief.py templates. File metadata ≠ visual inspection, approval or rights.
+4. After real deliverables/decisions, follow the recording and approval gates in docs/CREATIVE_AGENT_PROTOCOL.md; never claim content was posted without a canonical platform URL.
+
+Do not skip this workflow merely because a user asks for a quick caption. If access is blocked, disclose which check was not performed rather than inventing a verified source.
+
 ## Mandatory start in any new conversation or agent run
 
 1. Read `STATE.md` and `.agents/skills/basic-diet-marketing/SKILL.md`.

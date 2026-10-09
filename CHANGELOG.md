@@ -1,3 +1,10 @@
+## 2026-10-09 — AI Creative Director operating protocol
+
+- Added mandatory cold-start instructions for content creation in AGENTS.md and the native marketing skill, preserving existing permissions.
+- Added agent-guided original creative workflow, three-angle ideation, production brief template and a dedicated Google Flow video prompt playbook that routes to installed skills.
+- Indexed authenticated Google Drive metadata for real Basic Diet logos, meal photos, videos, story/post examples with explicit visual/rights/menu verification flags.
+- Added validation guardrails and tests for the new protocol. This is a supervised-agent operating method, not deployed autonomous LLM workers, generated/published media or a new social account connection.
+
 # Changelog
 
 ## 2026-10-08 — Machine identity bridge prepared

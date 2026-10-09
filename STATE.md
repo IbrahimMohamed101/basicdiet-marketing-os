@@ -3,6 +3,13 @@
 **Last verified: 2026-10-08. Phase 3: audited local draft workflow.**
 **Current implementation: Phase 4 commercial read-only OIDC sync LIVE and verified 2026-10-08; official 30/60/90-day aggregate snapshots through 2026-10-07 are recorded.**
 
+## 2026-10-09 — proposed AI-first creative protocol
+
+- The canonical original-content workflow is docs/CREATIVE_AGENT_PROTOCOL.md plus .agents/workflows/ai-creative-production.md, gated in AGENTS.md and the native skill. It instructs a supervising capable AI to generate and evaluate distinct creative options; it does not transform deterministic Python into autonomous model workers.
+- Authenticated Google Drive folder listing found the Basic Diet materials child 1ZplIhzIZKcK5ZCoe454exU445cL-Vhz-, logo variants, a 49-entry New meal-photo folder, three direct MP4s and existing social designs. Exact selected IDs are indexed in assets/drive-source-index.json. **Filename/ID access only; visual quality, logo approval, up-to-date menu and legal rights are not verified.**
+- Video prompt guidance: docs/GOOGLE_FLOW_PRODUCTION.md (used after installed video skill; detailed storyboard skill only for explicit requests). No video was generated, no social accounts connected, and no campaign changes performed.
+- Next: visually inspect/approve the real Drive source files and brand marks, choose one AI-originated creative pilot, verify its claims and official CTA, then review before any production or publication.
+
 ## Business and evidence
 
 Basic Diet is a Saudi meal-subscription restaurant. North star: first-time **paid** subscribers → retention/repeat → profitable revenue. Historical positioning: **الطعم، الاختيار، الراحة**; familiar food, portion choice and convenience. Audience segments are hypotheses. The 7/26/30-day plans, portions, menu, prices, promos and Jeddah coverage are 2026-10-07 historical context, requiring fresh official verification before claims. See `knowledge/` and `docs/SOURCE_MAP.md`.
