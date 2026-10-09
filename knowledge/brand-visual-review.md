@@ -24,3 +24,15 @@ Source: authenticated Google Drive raw image reads; observer: AI-assisted visual
 4. One approved example of Saudi copy and a reference style, to calibrate tone.
 
 Related asset metadata: `assets/drive-source-index.json`. Proposed copy guardrails: `knowledge/saudi-voice.md`. No media published or generated during this review.
+
+
+## Additional authentic images inspected for first content pilot — 2026-10-09
+
+Authenticated Drive image inspection:
+- Steak photo, file ID 1tASbr8vUBgPqdeJywruTTGdUrS7l-unS: black plate with sliced brown steak and white rice, pale warm background. Original resolution 1856 x 2304.
+- Alfredo pasta photo, file ID 1JR-lQhqRwbwjB9p7nk2n6LNBBiAW1Dne: black plate of light creamy penne pasta. Original 1024 x 1024.
+- Butter chicken photo, file ID 1H2InhiMdECMrs8bsf6L_h9yM-rOfYqw6, and original candidate logo 1I8-a2wQiP26JnHRblQYdM3fgE0WEQnAg, were reused without regenerating their pixels.
+
+Creative test: initial AI image generation was rejected because it altered actual food, invented decoration and made unsupported nutritional claims. Corrected test assets were produced as original-image photo crops and precise Arabic typography in 1080x1350 Feed and 1080x1920 Story formats. Temporary chat exports: basicdiet_pilot01_feed_1080x1350.png and basicdiet_pilot01_story_1080x1920.png. Binary images are not stored in this repository or Drive.
+
+AI visual inspection only. Restaurant owner must still confirm photo usage rights, final logo and the current availability of named dishes. No real social publication or performance has been claimed.
