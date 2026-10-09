@@ -12,6 +12,6 @@ This concise digest supplements and **does not replace** the installed full skil
 | Commercial analysis | analytics + attribution | Distinguish app vs dashboard revenue, time windows, paid customers vs paid transactions, promo observations vs channels. |
 | Customer insight | customer-research | Separate a VOC quote with source from an untested audience hypothesis; no invented real people. |
 
-Originals live under \`.agents/skills/<name>/SKILL.md\`. Root AGENTS.md governs permissions. To inspect the original skill's fine-grained technique, open the relevant file on demand, not all at once.
+Originals live under `.agents/skills/<name>/SKILL.md`. Root AGENTS.md governs permissions. To inspect the original skill's fine-grained technique, open the relevant file on demand, not all at once.
 
 **Critical writing checks:** avoid "مو بس X بل Y", forced emojis, unsupported superlatives, medical/body transformation claims, old promotional rates, generic "اختر الأنسب" without tangible visual or benefit.

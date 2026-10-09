@@ -1,12 +1,12 @@
 # Source/channel and promotion metrics audit — 2026-10-09
 
-Source: committed, signed read-only backend aggregates \`data/reports/commerce/2026-10-08/30d.json\` and \`2026-10-07/30d.json\`. These are different **rolling 30-day windows**; snapshot capture time differs. Calculations below audit arithmetic; they do not verify the backend aggregation business semantics.
+Source: committed, signed read-only backend aggregates `data/reports/commerce/2026-10-08/30d.json` and `2026-10-07/30d.json`. These are different **rolling 30-day windows**; snapshot capture time differs. Calculations below audit arithmetic; they do not verify the backend aggregation business semantics.
 
 ## Window through 2026-10-08 (2026-09-09 → 2026-10-08)
 
 | Measure | Observed | Valid calculation / limitation |
 | --- | --- | --- |
-| App source transactions | 65 | Equals app \`paidTransactions=65\` |
+| App source transactions | 65 | Equals app `paidTransactions=65` |
 | Dashboard source transactions | 50 | Separate channel; no established origin WhatsApp/DM |
 | Combined source channel count | 115 | 65 + 50; **not** the app-only paidTransactions KPI |
 | App revenue | 6,127,090 halala | Matches appRevenueHalala |
@@ -30,4 +30,4 @@ KSA96 entries (attempts 109, consumed 81, paidCount 81, promo revenue 7,777,210 
 
 ## Follow-up and limitation
 
-A lightweight offline checker may assert the documented **source revenue** sum and **app source revenue** mapping, but MUST NOT fail on \`promoPerformance.paidCount > app.paidTransactions\` without a shared denominator/contract. No dashboard, payment or promo source code was changed by this audit. Live backend behavior remains to be investigated before interpreting "discount dependence."
+A lightweight offline checker may assert the documented **source revenue** sum and **app source revenue** mapping, but MUST NOT fail on `promoPerformance.paidCount > app.paidTransactions` without a shared denominator/contract. No dashboard, payment or promo source code was changed by this audit. Live backend behavior remains to be investigated before interpreting "discount dependence."

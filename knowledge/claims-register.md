@@ -15,4 +15,4 @@ A claim without a fresh, attributable official source is **BLOCKED from final ma
 | Medical/weight-loss outcomes | BLOCKED pending qualified regulatory/legal evidence | Approved substantiation and appropriate Saudi advertising guidance |
 | "No 1", "best", absolute guaranteed results | BLOCKED | Independent substantiation (avoid by default) |
 
-For each verified claim, record \`claim_id\`, exact authorized source, captured date, validity constraints, verifier and next review date. Missing a claim row does not imply permission to state it.
+For each verified claim, record `claim_id`, exact authorized source, captured date, validity constraints, verifier and next review date. Missing a claim row does not imply permission to state it.

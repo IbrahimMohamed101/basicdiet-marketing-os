@@ -4,12 +4,12 @@ Status: adopted creative operating process on 2026-10-09. This document instruct
 
 ## Context-light start — required, but targeted
 
-1. Read \`AGENTS.md\` → \`docs/BOOT.md\` → current top section of \`STATE.md\` → native \`.agents/skills/basic-diet-marketing/SKILL.md\`. This protocol is then the creative task guide. Do not pre-load 15+ files.
-2. Consult \`docs/SKILL_DIGEST.md\`; load the relevant *full* specialist skill if needed to execute the method correctly. Full vendor skills are on-demand and never override Basic Diet rules. For video use its full video skill and project Flow guide.
+1. Read `AGENTS.md` → `docs/BOOT.md` → current top section of `STATE.md` → native `.agents/skills/basic-diet-marketing/SKILL.md`. This protocol is then the creative task guide. Do not pre-load 15+ files.
+2. Consult `docs/SKILL_DIGEST.md`; load the relevant *full* specialist skill if needed to execute the method correctly. Full vendor skills are on-demand and never override Basic Diet rules. For video use its full video skill and project Flow guide.
 3. Retrieve only relevant, dated facts and one latest appropriate report window; never concatenate 30/60/90d aggregates. Browse *specific* creative IDs/titles as needed to avoid duplication rather than loading all 30 profiles as anchor text.
-4. Resolve exact source IDs in \`assets/drive-source-index.json\`, then visually inspect the selected real asset. Metadata, pixels, commercial rights and current menu truth are separate verified fields. If permissions or menu verification is missing, keep the creative a draft.
+4. Resolve exact source IDs in `assets/drive-source-index.json`, then visually inspect the selected real asset. Metadata, pixels, commercial rights and current menu truth are separate verified fields. If permissions or menu verification is missing, keep the creative a draft.
 5. Produce three materially distinct creative angles with a clear audience problem, brand-fit check, primary KPI and selection rationale. An AI supervising this workflow must actually originate the proposals; the deterministic daily CLI is not a creative reasoning engine.
-6. Document accepted selected work through validated frontmatter in \`content/production/\`. Do not create fictitious publication/performance records or treat YAML as evidence of reality. No external posting, spend, messaging, permissions or billable generation is authorized by a Markdown file.
+6. Document accepted selected work through validated frontmatter in `content/production/`. Do not create fictitious publication/performance records or treat YAML as evidence of reality. No external posting, spend, messaging, permissions or billable generation is authorized by a Markdown file.
 
 ## Required skill activation matrix
 
@@ -34,7 +34,7 @@ A capable AI assistant should NOT paste the fixed daily_brief.py or creative.jso
 5. Write **original** Saudi Arabic copy, not generic emoji-heavy sales filler. No pressure to use a promo code. Make the opening visual and the caption mutually reinforcing.
 6. Include a production specification tied to a **specific existing Drive item** when possible. If the asset is only metadata-checked, recommend as a candidate, not a confirmed visual match.
 7. Provide a paste-ready image-edit/generation prompt and/or Flow prompt when requested, preserving real food geometry and brand logo. Typeset Arabic CTA outside the video/image model when accuracy matters.
-8. State readiness accurately: CONCEPT_DRAFT, NEEDS_ASSET_VISUAL_REVIEW, READY_FOR_HUMAN_APPROVAL, or APPROVED_BY_OWNER (the last only after evidence of approval). No publication without action-specific authorization.
+8. State readiness accurately: CONCEPT_DRAFT, NEEDS_ASSET_VISUAL_REVIEW, READY_FOR_HUMAN_APPROVAL, APPROVED_BY_OWNER, PRODUCED, or PUBLISHED_VERIFIED (later stages require evidence-backed state gates). No publication without action-specific authorization.
 
 ## Six role handoffs — agent reasoning, not six deployed LLM workers
 

@@ -36,7 +36,7 @@ publication: null
 
 **Objective:** Awareness that can feed first paid subscriptions, not established purchase attribution. **Audience hypothesis:** prospective customer who expects repetitive diet food; not confirmed from live customer research.
 
-**Actual source:** Google Drive \`دجاج بالزبدة.png\` (ID above); inspected as pixels 2026-10-09 and documented in \`knowledge/brand-visual-review.md\`. Black plate, white rice, orange/golden pieces on white; **current dish availability and commercial usage permission not verified**.
+**Actual source:** Google Drive `دجاج بالزبدة.png` (ID above); inspected as pixels 2026-10-09 and documented in `knowledge/brand-visual-review.md`. Black plate, white rice, orange/golden pieces on white; **current dish availability and commercial usage permission not verified**.
 
 **Opening 0–2s:** Slow close-up of real chicken/rice; on-screen Arabic text added by editor: **"وش رايك نبدأ بالغدا؟"**
 

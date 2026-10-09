@@ -33,7 +33,7 @@ publication: null
 
 # Creative — replace with actual subject
 
-**This is a template, not an active creative.** The validation scanner ignores this file. Replace all placeholders before creating a dated creative Markdown file in \`content/production/\`.
+**This is a template, not an active creative.** The validation scanner ignores this file. Replace all placeholders before creating a dated creative Markdown file in `content/production/`.
 
 ## Evidence and audience
 - Audience/hypothesis:
@@ -58,4 +58,4 @@ publication: null
 - Performance (only when real and measured):
 - Next action:
 
-The YAML frontmatter is machine-validated against \`schemas/creative-record.schema.json\` plus semantic rules in \`scripts/validate_creative.py\`. Allowed statuses: CONCEPT_DRAFT → NEEDS_ASSET_VISUAL_REVIEW → READY_FOR_HUMAN_APPROVAL → APPROVED_BY_OWNER → PRODUCED → PUBLISHED_VERIFIED. A record cannot jump ahead without the required evidence; a YAML claim alone never independently proves approval or publication.
+The YAML frontmatter is machine-validated against `schemas/creative-record.schema.json` plus semantic rules in `scripts/validate_creative.py`. Allowed statuses: CONCEPT_DRAFT → NEEDS_ASSET_VISUAL_REVIEW → READY_FOR_HUMAN_APPROVAL → APPROVED_BY_OWNER → PRODUCED → PUBLISHED_VERIFIED. A record cannot jump ahead without the required evidence; a YAML claim alone never independently proves approval or publication.
