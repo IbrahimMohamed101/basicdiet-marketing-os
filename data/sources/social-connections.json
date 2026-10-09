@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked": "2026-10-08",
+  "last_checked": "2026-10-09",
   "connections": [
     {
       "platform": "instagram",
@@ -19,12 +19,13 @@
     {
       "platform": "tiktok",
       "provider": "Metricool",
-      "status": "not_connected",
-      "account_id": null,
-      "metrics_enabled": false
+      "status": "connected",
+      "account_id": "basicdiet.sa",
+      "metrics_enabled": true
     }
   ],
   "credentials_policy": "oauth_provider_only_never_commit_secrets",
   "posting_enabled": false,
-  "paid_spend_enabled": false
+  "paid_spend_enabled": false,
+  "notes": "Connected network analytics were verified through Metricool read-only reports 2026-10-09. Platform connection does not imply posting permission or TikTok Ads connection. TikTok full tracking to paid subscriptions is not implemented."
 }

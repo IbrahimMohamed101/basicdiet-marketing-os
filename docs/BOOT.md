@@ -6,7 +6,7 @@
 
 Saudi healthy meal-subscription restaurant. Brand hypothesis: **الطعم + الاختيار + الراحة**. Primary commercial metric is **first-time paid subscribers**, not engagement or registrations. Accurate paid attribution is not yet available. Discounts, menu, delivery regions, calories, price and subscription eligibility must be verified against current official backend/admin/menu before public claims.
 
-**Connected:** read-only signed daily backend aggregate snapshots in `data/reports/commerce/YYYY-MM-DD/{30d,60d,90d}.json`; authenticated Google Drive access to assets. **Not connected:** Metricool social network OAuth; no verified post history or creative results. Never treat empty local logs as proof of zero published posts.
+**Connected:** read-only signed daily backend aggregate snapshots in `data/reports/commerce/YYYY-MM-DD/{30d,60d,90d}.json`; authenticated Google Drive access to assets. **TikTok connected since 2026-10-09:** Metricool read-only data for @basicdiet.sa is verified and its video data (including 4 historical TikToks) is now captured. Instagram/Facebook remain disconnected and no source-to-first-paid attribution exists. See docs/TIKTOK_INSIGHTS_2026-10-09.md. No social publishing or ad-spend permission has been granted. Never treat empty local logs as proof of zero published posts.
 
 The main Drive source: https://drive.google.com/drive/folders/1ZplIhzIZKcK5ZCoe454exU445cL-Vhz- ; exact verified IDs and human checks in `assets/drive-source-index.json`. Brand logo and one food source photograph had an **AI visual inspection on 2026-10-09**, but official logo choice, usage rights and current item availability remain unapproved. See `knowledge/brand-visual-review.md`.
 

@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "captured_date": "2026-10-09",
+  "source": "Metricool connected TikTok analytics via authorized read-only connector",
+  "provider_brand_id": 7299230,
+  "account_username": "basicdiet.sa",
+  "metricool_timezone": "Africa/Cairo",
+  "report_timezone_note": "Africa/Cairo and Asia/Riyadh both UTC+03 on this reporting date. Provider date and publication timestamp semantics should be checked for further comparison.",
+  "measurement_horizon": {
+    "from": "2026-07-11",
+    "to": "2026-10-09",
+    "date_inclusion": "provider supplied"
+  },
+  "verified_network_connection": {
+    "tiktok": true,
+    "instagram": false,
+    "facebook": false,
+    "ads": false
+  },
+  "video_rows": [
+    {
+      "date": "2026-09-01",
+      "url": "https://www.tiktok.com/@basicdiet.sa/video/7680547265378929927",
+      "duration_seconds": 18,
+      "views": 662,
+      "likes": 15,
+      "comments": 3,
+      "shares": 1,
+      "reach": 514,
+      "source_caption_theme": "Generic subscription/DM CTA",
+      "avg_watch_seconds_reported": 6
+    },
+    {
+      "date": "2026-09-17",
+      "url": "https://www.tiktok.com/@basicdiet.sa/video/7686448192648432914",
+      "duration_seconds": 26,
+      "views": 53580,
+      "likes": 130,
+      "comments": 5,
+      "shares": 15,
+      "reach": 45981,
+      "source_caption_theme": "Saudi National Day offer, not current",
+      "avg_watch_seconds_reported": 4
+    },
+    {
+      "date": "2026-09-20",
+      "url": "https://www.tiktok.com/@basicdiet.sa/video/7687538917742103816",
+      "duration_seconds": 34,
+      "views": 22120,
+      "likes": 113,
+      "comments": 1,
+      "shares": 5,
+      "reach": 18217,
+      "source_caption_theme": "Taste/convenience hook with KSA96 promotion, not current",
+      "avg_watch_seconds_reported": 4
+    },
+    {
+      "date": "2026-09-23",
+      "url": "https://www.tiktok.com/@basicdiet.sa/video/7688792771418672402",
+      "duration_seconds": 14,
+      "views": 300,
+      "likes": 6,
+      "comments": 0,
+      "shares": 1,
+      "reach": 198,
+      "source_caption_theme": "National Day promotional expiry 30 Sep; never reuse as current",
+      "avg_watch_seconds_reported": 5
+    }
+  ],
+  "video_totals": {
+    "posts": 4,
+    "views": 76662,
+    "likes": 264,
+    "comments": 9,
+    "shares": 22
+  },
+  "last_30_day_published_video_totals": {
+    "from": "2026-09-09",
+    "to": "2026-10-09",
+    "posts": 3,
+    "views": 76000,
+    "likes": 249,
+    "comments": 6,
+    "shares": 21
+  },
+  "account_last_observed": {
+    "followers": 361,
+    "followers_observed_on": "2026-10-08"
+  },
+  "audience_distributions": {
+    "follower_country_share": {
+      "Saudi_Arabia": 0.7887,
+      "Egypt": 0.0169,
+      "other": 0.138,
+      "remaining_other_countries": "see Metricool"
+    },
+    "followers_gender_share": {
+      "male": 0.63,
+      "female": 0.37
+    },
+    "impression_source_fraction": {
+      "for_you": 0.9654,
+      "profile": 0.0112,
+      "search": 0.0015
+    },
+    "view_watch_metrics": {
+      "average_watch_seconds_reported": 4.8858,
+      "average_video_duration_seconds_reported": 24.6667
+    }
+  },
+  "best_time_heatmap_hypotheses": {
+    "source": "Metricool best times (7-day interval 2026-10-03 to 2026-10-09)",
+    "timezone": "Africa/Cairo",
+    "candidate_hours_local": [
+      "10:00",
+      "18:00"
+    ],
+    "warning": "Model heatmap values not guaranteed audience headcounts or causal performance; test before declaring best"
+  },
+  "scheduled_posts_october_2026_observed": 0,
+  "caveats": [
+    "Video counts are videos *published in selected window*, views may be lifetime totals as of fetch; don't sum with account view-in-period metrics.",
+    "Four videos is a small sample and their impressions may include promotion; TikTok Ads spend is not connected.",
+    "The Saudi share is a percentage of TikTok followers, NOT necessarily the viewers of each video.",
+    "TikTok engagement or views cannot be attributed to app/dashboard paid conversions.",
+    "Historical National Day promotions should not be stated as current offers.",
+    "Average watch seconds is a provider distribution aggregate, not an exact retention or completed-view rate."
+  ]
+}

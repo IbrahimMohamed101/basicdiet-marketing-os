@@ -1,5 +1,7 @@
 # Basic Diet Marketing OS — current state
 
+**TikTok connected via Metricool (2026-10-09):** Verified brand @basicdiet.sa with TikTok analytics and last 90-day published video data; 361 followers reported at 8 Oct; three videos published during the latest 30 days total 76,000 cumulative post views. See `docs/TIKTOK_INSIGHTS_2026-10-09.md`. Instagram/Facebook not connected; social-to-paid attribution and posting approval missing. The previous statements about no connected social networks in historical sections are superseded by this update.
+
 **Current as checked 2026-10-09:** Phase 4 read-only signed commercial sync succeeded for 2026-10-08 (report captured 2026-10-09). AI-in-chat is the creative engine; no independent autonomous creative model or social-account connector is deployed. See latest CI workflow for current test count; older counts later in this file are historical, **not current totals**.
 
 **Static image skill and brand consistency (2026-10-09):** New native `basic-diet-image-creative` skill, own-asset visual design system, static/carousel/Story playbook and candidate identity data. Two existing Basic Diet design references were visually reviewed; competitor Instagram grid unavailable, only site promo art/third-party Reel index seen. Palette/logo/font are NOT owner-approved. No social account connected, and no new visual published.

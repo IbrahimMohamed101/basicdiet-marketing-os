@@ -1,3 +1,10 @@
+## 2026-10-09 — Live TikTok Metricool source onboarded
+
+- Confirmed `@basicdiet.sa` TikTok is connected to the existing Metricool brand; authenticated read-only 30/90-day content, audience and timing data retrieved.
+- Added sourced aggregate historical-video snapshot (4 canonical public video links with metrics, no access credentials/customer data) and evidence-aware editorial strategy report.
+- Updated only TikTok connection as connected/metrics-enabled, Instagram and Facebook stay disconnected and posting/ad spending remain disabled.
+- Updated BOOT/STATE/SOURCE_MAP so the chat AI can ground future video concepts in actual account results. No TikTok/Instagram scheduling or publication performed.
+
 ## 2026-10-09 — image skill & consistent social identity, competitor evidence hygiene
 
 - Installed an actual third native image-creative skill covering ordinary still posts, Stories, carousel, original food composites and image generation prompts.
