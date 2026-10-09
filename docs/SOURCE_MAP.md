@@ -2,6 +2,9 @@
 
 ## AI-first creative operating entry points (2026-10-09)
 
+- **TikTok verified source 2026-10-09:** `data/sources/social-connections.json` and immutable initial `data/reports/social/2026-10-09/tiktok-metricool.json`. Interpret source fields through `docs/TIKTOK_INSIGHTS_2026-10-09.md`. Video view totals and follower demographics are NOT paid-app attribution.
+
+
 - **Static/design rulebook (2026-10-09):** `.agents/skills/basic-diet-image-creative/SKILL.md`, `docs/BRAND_VISUAL_SYSTEM.md`, `docs/IMAGE_CREATIVE_PLAYBOOK.md`, `assets/visual-identity.json` (owner-provisional design DNA from inspected Basic Diet Drive images).
 - **Limited competitor research:** `research/competitors/healthy-corner-2026-10-09.md` explicitly marks Instagram grid as inaccessible; own site banner and indexed Reel are used only for concept inspiration.
 
