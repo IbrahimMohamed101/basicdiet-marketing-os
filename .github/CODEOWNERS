@@ -1,0 +1,7 @@
+# Paths needing owner review. Enforcement requires branch rules requiring CODEOWNER approval.
+# GitHub Actions commercial sync writes only data/reports/commerce/ and remains separately authorized.
+/assets/drive-source-index.json @IbrahimMohamed101
+/content/production/ @IbrahimMohamed101
+/knowledge/brand.md @IbrahimMohamed101
+/scripts/ @IbrahimMohamed101
+/.github/workflows/ @IbrahimMohamed101

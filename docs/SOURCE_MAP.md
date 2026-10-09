@@ -59,3 +59,9 @@ Fresh, verified official source > dated working reports > dated marketing resear
 - `docs/DATA_CONTRACTS.md`: field contracts, migration and recovery; `docs/PHASE3_RUNBOOK.md`: commands and review; `docs/AUDIT_2026-10-08.md`: findings and test evidence.
 - `.agents/product-marketing.md`: vendor discovery adapter; `.agents/skill-overrides.json`: optional absent vendor reference routes.
 - Historical statements labelled production/confirmed in imported files retain their old date and are not independently verified by this audit.
+
+## P1 controlled approvals and copy
+
+- `knowledge/copy-rules.json` + `scripts/lint_copy.py`: executable conservative claim guardrails; `schemas/creative-record.schema.json` v2 and `scripts/validate_creative.py`: per-concept asset feasibility and measurement status.
+- `.github/CODEOWNERS`: required human reviewers once branch rules are enabled. The marketing sync workflow commits only `data/reports/commerce/`, outside code-owned content; no branch rules were changed automatically.
+- The brand facts entrypoint is `knowledge/brand.md`, supported by a dated pixel-inspection record `knowledge/brand-visual-review.md`; historical audience, offers and positioning variants remain preserved for migration integrity, not competing live canonical values.

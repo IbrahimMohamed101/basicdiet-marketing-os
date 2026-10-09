@@ -1,5 +1,5 @@
 ---
-schema_version: 1
+schema_version: 2
 record_id: "BD-20261009-001"
 date: "2026-10-09"
 status: "CONCEPT_DRAFT"
@@ -8,25 +8,41 @@ format: "Reel"
 concepts:
   - angle: "food_desire"
     hook: "وش رايك نبدأ بالغدا قبل الكلام عن الدايت؟"
-    visual: "Macro push-in across the real black-plate chicken-and-rice photo; no AI substitution"
-    score: 5
+    visual: "Macro push-in across the real chicken-and-rice photograph"
+    asset_ids: ["1H2InhiMdECMrs8bsf6L_h9yM-rOfYqw6"]
+    feasible_now: true
+    rejected_reason: null
+    score_breakdown: {brand_fit: 4, hook: 4, asset_fit: 5, execution: 5}
   - angle: "convenience"
     hook: "يومك زحمة؟ شوف وجبتك قبل ما تبدأ الدوام."
-    visual: "Daily planner-to-food photograph composition, calendar layers separate from product"
-    score: 3
+    visual: "Simple workday clock graphics around the same original photographed plate"
+    asset_ids: ["1H2InhiMdECMrs8bsf6L_h9yM-rOfYqw6"]
+    feasible_now: true
+    rejected_reason: null
+    score_breakdown: {brand_fit: 4, hook: 3, asset_fit: 4, execution: 4}
   - angle: "choice"
     hook: "يوم رز، ويوم تختار اللي يشهيك."
-    visual: "Split-frame comparison of two verified menu photos, second source still required"
-    score: 3
+    visual: "Split frame contrasting a second dish with the current photographed plate"
+    asset_ids: ["1H2InhiMdECMrs8bsf6L_h9yM-rOfYqw6"]
+    feasible_now: false
+    rejected_reason: "Needs an inspected second dish image; no verified matching second photo yet."
+    score_breakdown: {brand_fit: 4, hook: 3, asset_fit: 1, execution: 2}
 selected_angle: "food_desire"
-selection_reason: "The food appetite angle has one actually visually inspected source, specific appetizing texture and the fewest unsupported factual requirements. Scores are editorial predictions, not performance."
-asset_ids:
-  - "1H2InhiMdECMrs8bsf6L_h9yM-rOfYqw6"
+selection_reason: "Chosen angle is feasible as a draft today with one visually inspected actual image; its buyer appeal is a hypothesis, not tested results."
+asset_ids: ["1H2InhiMdECMrs8bsf6L_h9yM-rOfYqw6"]
+copy:
+  caption: "أحيانًا صورة الوجبة تخلّيك تقرر أسرع من الكلام. وش أول شيء شدّك في الطبق؟ شوف خيارات بيسك دايت من القناة الرسمية. #بيسك_دايت"
+  on_design_text: "وش رايك نبدأ بالغدا؟"
+  cta: "تصفّح المنيو"
+  stories: ["تبدأ من الرز ولا الدجاج؟", "تحب تشوف خيارات غدا أكثر؟", "شوف المنيو من الرابط الرسمي بعد التحقق"]
 primary_kpi:
-  name: "reach"
-  threshold: 200
+  name: "first_time_paid_attributed"
+  threshold: null
+  baseline: null
   window_days: 7
-  measurement_source: "Instagram Insights; unavailable until connected"
+  measurement_source: "Source-to-paid tracking unavailable; requires platform connection and attribution implementation."
+  source_status: "disconnected"
+  evidence: null
 approvals: []
 generated_asset_url: null
 publication: null
@@ -48,7 +64,7 @@ publication: null
 > وش أول شيء شدّك في الطبق؟
 >
 > شوف خيارات بيسك دايت من القناة الرسمية.
-> #بيسك_دايت #وجبات_صحية
+> #بيسك_دايت
 
 **Story 1:** "تبدأ من الرز ولا الدجاج؟" Poll. **Story 2:** crop of same approved photo; "تحب تشوف خيارات غدا أكثر؟". **Story 3:** link to currently confirmed official menu after verification.
 
@@ -58,4 +74,4 @@ Use the provided real photograph of the Basic Diet plated meal as the exact sour
 
 **Fallback (preferred for fidelity):** use a 2.5D slow pan/zoom of the actual static image with manual typography; no generative food alteration.
 
-**Blocked before production/publication:** owner approval of actual logo, asset commercial rights, dish currently on menu, official CTA destination, recent Instagram content review, and authorized posting. No video was generated, no social post scheduled/published, no seven-day metrics collected. KPI threshold 200 is a proposed testing goal only, not a forecast.
+**Blocked before production/publication:** owner approval of actual logo, asset commercial rights, dish currently on menu, official CTA destination, recent Instagram content review, and authorized posting. No video was generated, no social post scheduled/published, no seven-day metrics collected. Primary KPI is currently unmeasurable and has no target or baseline; it must be connected and defined before a ready-to-publish status.

@@ -17,11 +17,12 @@
     "primary_kpi",
     "approvals",
     "generated_asset_url",
-    "publication"
+    "publication",
+    "copy"
   ],
   "properties": {
     "schema_version": {
-      "const": 1
+      "const": 2
     },
     "record_id": {
       "type": "string",
@@ -64,7 +65,10 @@
           "angle",
           "hook",
           "visual",
-          "score"
+          "asset_ids",
+          "feasible_now",
+          "rejected_reason",
+          "score_breakdown"
         ],
         "properties": {
           "angle": {
@@ -87,10 +91,54 @@
             "type": "string",
             "minLength": 12
           },
-          "score": {
-            "type": "integer",
-            "minimum": 1,
-            "maximum": 5
+          "asset_ids": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 10
+            }
+          },
+          "feasible_now": {
+            "type": "boolean"
+          },
+          "rejected_reason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "score_breakdown": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "brand_fit",
+              "hook",
+              "asset_fit",
+              "execution"
+            ],
+            "properties": {
+              "brand_fit": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 5
+              },
+              "hook": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 5
+              },
+              "asset_fit": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 5
+              },
+              "execution": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 5
+              }
+            }
           }
         }
       }
@@ -116,8 +164,11 @@
       "required": [
         "name",
         "threshold",
+        "baseline",
         "window_days",
-        "measurement_source"
+        "measurement_source",
+        "source_status",
+        "evidence"
       ],
       "properties": {
         "name": {
@@ -125,7 +176,10 @@
           "minLength": 3
         },
         "threshold": {
-          "type": "number",
+          "type": [
+            "number",
+            "null"
+          ],
           "exclusiveMinimum": 0
         },
         "window_days": {
@@ -136,6 +190,26 @@
         "measurement_source": {
           "type": "string",
           "minLength": 8
+        },
+        "baseline": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "source_status": {
+          "enum": [
+            "disconnected",
+            "connected",
+            "manual_verified"
+          ]
+        },
+        "evidence": {
+          "type": [
+            "string",
+            "null"
+          ]
         }
       }
     },
@@ -195,6 +269,38 @@
         "verified_on": {
           "type": "string",
           "format": "date"
+        }
+      }
+    },
+    "copy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "caption",
+        "on_design_text",
+        "cta",
+        "stories"
+      ],
+      "properties": {
+        "caption": {
+          "type": "string",
+          "minLength": 10
+        },
+        "on_design_text": {
+          "type": "string",
+          "minLength": 3
+        },
+        "cta": {
+          "type": "string",
+          "minLength": 2
+        },
+        "stories": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
         }
       }
     }

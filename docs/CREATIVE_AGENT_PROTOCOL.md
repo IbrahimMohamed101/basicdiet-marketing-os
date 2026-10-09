@@ -75,3 +75,10 @@ Always report what was read, what changed, what was verified, what remains uncer
 ## Starter request to use in ChatGPT / Codex
 
 “Act as Basic Diet's AI Creative Director. First read AGENTS.md, STATE.md, .agents/skills/basic-diet-marketing/SKILL.md, and docs/CREATIVE_AGENT_PROTOCOL.md. Load mandatory task-specific skills; use the current official Drive assets and current verified business reports. Independently create three meaningfully different Saudi-market creative concepts; choose one, return the full creative package including caption, asset IDs and Google Flow/image prompt if relevant, identify all verification gaps, and update only justified durable project memory. No publishing, ad spending or invented facts.”
+
+## P1 human proof & feasibility rules — 2026-10-09
+
+- AI-inspected assets are `visual_review: ai_reviewed`; only an independent owner-reviewed change may use `human_reviewed` with an external evidence reference. For current images, rights and menu must separately be approved. YAML validators cannot authenticate a typed reviewer name: require GitHub owner approval via branch rules/CODEOWNERS for relevant sensitive paths.
+- Each of 3 concepts carries **its own** source asset IDs, draft feasibility and four-dimensional editorial score (brand fit, hook, asset fit, execution), plus a concrete rejection reason when currently infeasible. Selected concept must be feasible *as a draft*; this is not permission to publish.
+- Drafts may declare measurement `disconnected` with no baseline/threshold. `READY_FOR_HUMAN_APPROVAL` and later must have a real connected/measurable KPI, baseline and target; avoid fabricated `reach >= 200` targets.
+- Copy is machine-linted using `knowledge/copy-rules.json`; humans must still check all claims and tone. Current access to Instagram Insights and first-ever-paid attribution is not verified.
