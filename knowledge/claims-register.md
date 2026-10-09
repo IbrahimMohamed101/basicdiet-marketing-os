@@ -16,3 +16,7 @@ A claim without a fresh, attributable official source is **BLOCKED from final ma
 | "No 1", "best", absolute guaranteed results | BLOCKED | Independent substantiation (avoid by default) |
 
 For each verified claim, record `claim_id`, exact authorized source, captured date, validity constraints, verifier and next review date. Missing a claim row does not imply permission to state it.
+
+## Executable copy linter
+
+`knowledge/copy-rules.json` is the conservative machine-readable kill list, used by `scripts/lint_copy.py` against structured copy fields in creative production records. It flags specific health-positioning phrases such as `#وجبات_صحية` pending an approved claim review. This cannot prove a health claim is compliant, catch all paraphrases, or replace owner/legal review.

@@ -1,3 +1,12 @@
+## 2026-10-09 — second independent P1 audit remediation (approval, KPI and copy)
+
+- Separated AI visual inspection from independently human-reviewed source assets; CODEOWNERS proposed but branch protection must be enabled by an authorized repo administrator.
+- New per-idea feasibility/source IDs and editorial score rubric. Draft KPI is blocked rather than falsely "measurable"; readiness depends on actual connected measurement and baseline.
+- Built `lint_copy.py` and project-controlled conservative copy rules; removed unverified "#وجبات_صحية" claim from pilot.
+- Verified backend promoPerformance **does** filter usage createdAt, not payment paidAt. Documented why app-only KPI and promo counts aren't directly comparable.
+- PNG sampled via Pillow for candidate logo's exact most common green/orange pixel colors (still not owner-approved).
+- No social publication, campaign spend, Drive permissions or production backend changes.
+
 ## 2026-10-09 — P1 audit response: operability, evidence tests and first actual visual review
 
 - Replaced static "unverified forever" assertions with conditional evidence checks: reviewed pixels and rights/menu approvals can progress when verified by/date/evidence exists.

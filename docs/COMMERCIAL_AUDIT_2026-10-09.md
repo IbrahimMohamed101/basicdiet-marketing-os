@@ -19,7 +19,7 @@ Source: committed, signed read-only backend aggregates `data/reports/commerce/20
 
 ## Rolling window comparison
 
-KSA96 entries (attempts 109, consumed 81, paidCount 81, promo revenue 7,777,210 halala) are identical in 2026-10-07 and 2026-10-08 reports. This **may** happen if no relevant coupon record aged in/out of the rolling range; it also may indicate all-time rather than period-scoped promo aggregation. **Unresolved** until backend query/filter is audited. Other KPI and BASIC15 counts changed, so snapshots are not exact copies.
+KSA96 entries (attempts 109, consumed 81, paidCount 81, promo revenue 7,777,210 halala) are identical in 2026-10-07 and 2026-10-08 reports. **Backend code verified on 2026-10-09:** `buildBreakdowns()` creates `promoMatch.createdAt = {$gte: period.start, $lte: period.end}` and passes it to `PromoUsageModel.aggregate()`. Therefore promo usage rows **are filtered by PromoUsage.createdAt**, not all-time. However `paidCount` and `revenueHalala` join `_payment` and check its `status: paid` **without another `_payment.paidAt` period constraint**; these fields are grouped by *usage creation date*, not necessarily payment settlement date. Identical KSA96 rows across consecutive rolling windows can be legitimate if no relevant usage entered or exited. Exact source: `basicdiet145/src/services/dashboard/marketingAnalyticsService.js`, `buildBreakdowns`. Other KPI and BASIC15 counts changed, so snapshots are not exact copies.
 
 ## Decisions for attribution
 
@@ -31,3 +31,5 @@ KSA96 entries (attempts 109, consumed 81, paidCount 81, promo revenue 7,777,210 
 ## Follow-up and limitation
 
 A lightweight offline checker may assert the documented **source revenue** sum and **app source revenue** mapping, but MUST NOT fail on `promoPerformance.paidCount > app.paidTransactions` without a shared denominator/contract. No dashboard, payment or promo source code was changed by this audit. Live backend behavior remains to be investigated before interpreting "discount dependence."
+
+**Outstanding analytics work:** dashboard manual-source capture and cross-source first-paid reconciliation require separate backend scope/permission. Do not modify raw transaction records or claim ROI from promo counts alone.

@@ -6,7 +6,7 @@ Source: authenticated Google Drive raw image reads; observer: AI-assisted visual
 
 - `Logo-High-Qualty.png`, Drive ID `1I8-a2wQiP26JnHRblQYdM3fgE0WEQnAg`, PNG, **2880×2880**.
 - Appears to feature a green circle with a leaf, an orange dumbbell, Arabic **بيسك دايت** and curved BASIC DIET English lettering. Background appears transparent/dark in preview.
-- Approximate **sampled** color family from image: green around `#108050`, orange around `#E85828`. Pixel sampling/antialiasing yields many colors. **These are provisional palette samples, not approved production HEX brand tokens.**
+- Actual Pillow pixel frequency analysis of `Logo-High-Qualty.png` (2880×2880 RGBA, fully opaque colored pixels): most common green `#107F55` (99,755 px), orange `#E95D2C` (50,678 px). Anti-aliasing generates close shades. Reproduce with `scripts/sample_brand_colors.py` (requires Pillow locally). **Image-derived provisional samples only; owner approval still missing.**
 - The curved logotype needs enough margin; do not generate/retype distorted Arabic or use tiny illegible logo placement. Owner must identify the final logo variant.
 
 ## Meal-photo candidate — actually viewed

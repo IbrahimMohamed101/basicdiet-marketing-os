@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "note": "Only obvious forbidden/sensitive phrases. This linter does not replace regulatory or human review.",
+  "blocked_patterns": [
+    {
+      "pattern": "وجبات[_\\s]+صحية",
+      "reason": "Specific food health positioning requires approved claims review"
+    },
+    {
+      "pattern": "خس[ّ]?\\s*\\d+\\s*كيلو",
+      "reason": "Unsubstantiated weight loss promise"
+    },
+    {
+      "pattern": "النتيجة\\s+مضمونة",
+      "reason": "Guaranteed outcome"
+    },
+    {
+      "pattern": "أفضل\\s+أكل\\s+صحي",
+      "reason": "Unsubstantiated superiority"
+    },
+    {
+      "pattern": "نوصّل\\s+لك\\s+وين\\s+ما\\s+كنت",
+      "reason": "Unsubstantiated unlimited delivery"
+    },
+    {
+      "pattern": "مو\\s+بس\\s+دايت",
+      "reason": "Generic AI-tell copy"
+    },
+    {
+      "pattern": "عروض\\s+خرافية",
+      "reason": "Hype/unsupported offer"
+    }
+  ]
+}

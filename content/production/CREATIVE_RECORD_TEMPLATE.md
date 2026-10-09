@@ -1,5 +1,5 @@
 ---
-schema_version: 1
+schema_version: 2
 record_id: "BD-YYYYMMDD-001"
 date: "YYYY-MM-DD"
 status: "CONCEPT_DRAFT"
@@ -7,55 +7,55 @@ platform: "instagram"
 format: "Reel"
 concepts:
   - angle: "food_desire"
-    hook: "Insert original hook A"
-    visual: "Specific visual mechanism A"
-    score: 4
+    hook: "Describe the real hook"
+    visual: "Specific scene mechanism"
+    asset_ids: []
+    feasible_now: false
+    rejected_reason: "No specific verified asset selected"
+    score_breakdown: {brand_fit: 1, hook: 1, asset_fit: 1, execution: 1}
   - angle: "convenience"
-    hook: "Insert original hook B"
-    visual: "Distinct visual mechanism B"
-    score: 3
+    hook: "Different hook B"
+    visual: "Different mechanic B"
+    asset_ids: []
+    feasible_now: false
+    rejected_reason: "No source asset"
+    score_breakdown: {brand_fit: 1, hook: 1, asset_fit: 1, execution: 1}
   - angle: "choice"
-    hook: "Insert original hook C"
-    visual: "Distinct visual mechanism C"
-    score: 3
+    hook: "Different hook C"
+    visual: "Different mechanic C"
+    asset_ids: []
+    feasible_now: false
+    rejected_reason: "No source asset"
+    score_breakdown: {brand_fit: 1, hook: 1, asset_fit: 1, execution: 1}
 selected_angle: "food_desire"
-selection_reason: "Explain evidence, specificity and feasibility. Scores are editorial judgement, not measured impact."
+selection_reason: "Use a reason after evaluating viability and score breakdown."
 asset_ids: []
+brand_logo_asset_id: null
+copy:
+  caption: "Write original Saudi Arabic caption"
+  on_design_text: "Arabic overlay separate from AI image/video"
+  cta: "Actual verified CTA"
+  stories: ["One real story", "Another real story"]
 primary_kpi:
-  name: "reach"
-  threshold: 200
+  name: "first_time_paid_attributed"
+  threshold: null
+  baseline: null
   window_days: 7
-  measurement_source: "Instagram Insights, when connected"
+  measurement_source: "No verified attribution or connected platform."
+  source_status: "disconnected"
+  evidence: null
 approvals: []
 generated_asset_url: null
 publication: null
 ---
 
-# Creative — replace with actual subject
+# Human-facing creative production notes
 
-**This is a template, not an active creative.** The validation scanner ignores this file. Replace all placeholders before creating a dated creative Markdown file in `content/production/`.
+This template is ignored by the validator and does not constitute an approved or measured campaign.
 
-## Evidence and audience
-- Audience/hypothesis:
-- Source and as-of date:
-- Current menu, asset visual quality and rights independently checked:
-
-## Selected creative
-- Hook:
-- Scene-by-scene visual/shot plan:
-- Saudi Arabic caption:
-- CTA and destination verification:
-- Stories:
-- Paste-ready image prompt + negatives:
-- Google Flow/video prompt + negatives if video:
-- Fallback using original food image:
-
-## Readiness and results
-- Verification blockers:
-- Human owner approval evidence (if any):
-- Generated artifact (only if real):
-- Publication URL (only if verified):
-- Performance (only when real and measured):
-- Next action:
-
-The YAML frontmatter is machine-validated against `schemas/creative-record.schema.json` plus semantic rules in `scripts/validate_creative.py`. Allowed statuses: CONCEPT_DRAFT → NEEDS_ASSET_VISUAL_REVIEW → READY_FOR_HUMAN_APPROVAL → APPROVED_BY_OWNER → PRODUCED → PUBLISHED_VERIFIED. A record cannot jump ahead without the required evidence; a YAML claim alone never independently proves approval or publication.
+- Distinguish draft feasibility (assets available to make a draft) from publication readiness (owner-approved rights, menu, logo/brand and measurement).
+- Human approval only counts as a documented external owner action and a reviewed commit/PR, never as a model-written name in a field.
+- YAML alone **cannot authenticate** human identity; enable branch rules requiring CODEOWNERS approval and restrict GitHub direct-write access.
+- For a draft with unavailable measurement, leave KPI baseline/threshold null. READY or later requires an actual connected/verifiable source, non-null baseline and measurable threshold.
+- Keep exact selected image IDs, actual visual and menu evidence, source period, any paid code restrictions, editable caption, Stories, video prompt and constraints in body.
+- Publication logs require real canonical platform URL; never write a fake result just to pass CI.

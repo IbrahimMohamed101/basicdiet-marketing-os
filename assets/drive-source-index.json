@@ -4,7 +4,7 @@
   "source_mode": "authenticated_google_drive_list_folder",
   "source_status": "metadata_only_visuals_unverified",
   "commercial_rights_status": "unverified",
-  "note": "File names and IDs are observed, not proof of actual image content, authenticity, current menu status or usage rights. Browse the exact Drive file before creative use.",
+  "note": "File names and IDs are observed, not proof of actual image content, authenticity, current menu status or usage rights. Browse the exact Drive file before creative use. AI inspection is not owner approval; progression to human_reviewed requires human_visual_verified_by/on/evidence AND independent PR owner review under protected branch rules.",
   "root_folder_id": "1nYD1cr0eoByzNUAvvyHPUpSLnpZWUuFg",
   "brand_folder_id": "1ZplIhzIZKcK5ZCoe454exU445cL-Vhz-",
   "groups": [
@@ -75,13 +75,13 @@
       "file_id": "1I8-a2wQiP26JnHRblQYdM3fgE0WEQnAg",
       "name": "Logo-High-Qualty.png",
       "group": "logos",
-      "visual_review": "reviewed",
+      "visual_review": "ai_reviewed",
       "rights_verified": false,
       "menu_verified": false,
       "url": "https://drive.google.com/file/d/1I8-a2wQiP26JnHRblQYdM3fgE0WEQnAg/view",
       "visual_verified_by": "AI-assisted image inspection",
       "visual_verified_on": "2026-10-09",
-      "visual_evidence": "knowledge/brand-visual-review.md#logo-candidate--actually-viewed"
+      "visual_verified_evidence": "knowledge/brand-visual-review.md#logo-candidate--actually-viewed"
     },
     {
       "key": "logo_standard",
@@ -98,13 +98,13 @@
       "file_id": "1H2InhiMdECMrs8bsf6L_h9yM-rOfYqw6",
       "name": "دجاج بالزبدة.png",
       "group": "meal_photos_new",
-      "visual_review": "reviewed",
+      "visual_review": "ai_reviewed",
       "rights_verified": false,
       "menu_verified": false,
       "url": "https://drive.google.com/file/d/1H2InhiMdECMrs8bsf6L_h9yM-rOfYqw6/view",
       "visual_verified_by": "AI-assisted image inspection",
       "visual_verified_on": "2026-10-09",
-      "visual_evidence": "knowledge/brand-visual-review.md#meal-photo-candidate--actually-viewed"
+      "visual_verified_evidence": "knowledge/brand-visual-review.md#meal-photo-candidate--actually-viewed"
     },
     {
       "key": "steak_meal",
