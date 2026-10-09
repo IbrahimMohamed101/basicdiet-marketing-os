@@ -11,6 +11,7 @@ import re
 from pathlib import Path
 import sys
 import yaml
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from scripts.lint_copy import check_copy
 
 ROOT = Path(__file__).resolve().parents[1]
