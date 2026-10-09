@@ -46,7 +46,7 @@ def main() -> int:
             problems.append(f"Missing: {path}")
         elif git_blob_sha(file.read_bytes()) != expected:
             problems.append(f"Blob mismatch: {path}")
-    for name in skills + ["basic-diet-marketing", "storyboard-to-video"]:
+    for name in skills + ["basic-diet-marketing", "basic-diet-image-creative", "storyboard-to-video"]:
         file = ROOT / ".agents" / "skills" / name / "SKILL.md"
         if not file.is_file():
             problems.append(f"Missing skill: {name}")
@@ -93,7 +93,7 @@ def main() -> int:
         for problem in problems:
             print(" -", problem)
         return 1
-    print(f"PASS: {len(skills)} upstream skills, 67 references, MIT license, static review asset, video source, 2 native skills.")
+    print(f"PASS: {len(skills)} upstream skills, 67 references, MIT license, static review asset, video source, 3 native skills.")
     return 0
 
 if __name__ == "__main__":

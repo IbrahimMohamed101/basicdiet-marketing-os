@@ -10,10 +10,14 @@ A capable **AI in chat** does original research, creative thinking, asset select
 
 Primary business objective: **first-time paid subscribers** → retention → profitable revenue. Likes, reach, registrations and app checkouts are not proven paid conversions. The 30/60/90-day official reports overlap; never add their totals. Reports distinguish app and dashboard channels. No reliable social creative → first-ever paid attribution yet.
 
+## Mandatory image creative route (2026-10-09)
+
+For **any** image / designed post / carousel / Story / static food ad or image prompt: after cold start, read native `.agents/skills/basic-diet-image-creative/SKILL.md` → `docs/BRAND_VISUAL_SYSTEM.md` → `docs/IMAGE_CREATIVE_PLAYBOOK.md`; use `assets/visual-identity.json` and exact Google Drive originals. This route includes **ordinary feed posts without a Reel**. Treat sampled colors and candidate logo as provisional until owner approval. Use the pinned vendor `ad-creative` only when performance ad-specific guidance is relevant; it cannot override the native design rules. No competitor lookalike designs or unverifiable full Instagram-feed descriptions.
+
 ## Mandatory creative route
 
 - Daily organic/post/caption: `docs/CREATIVE_AGENT_PROTOCOL.md` + `content-strategy` and `social` skills (their **project digests first**, full vendor skills only as needed).
-- Visual/image prompt: above + `ad-creative`.
+- Visual/image/static post: native `basic-diet-image-creative` + design system/playbook, with vendor `ad-creative` on demand.
 - Reel/Google Flow: above + `video` and `docs/GOOGLE_FLOW_PRODUCTION.md`; `storyboard-to-video` only for explicitly requested detailed board/storyboard production.
 - Paid: `ads` + `ad-creative` + `attribution` and verified economics; never assume permission to spend.
 - Analysis: `analytics` + `attribution` if source-to-paid measurement matters.

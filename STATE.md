@@ -2,6 +2,8 @@
 
 **Current as checked 2026-10-09:** Phase 4 read-only signed commercial sync succeeded for 2026-10-08 (report captured 2026-10-09). AI-in-chat is the creative engine; no independent autonomous creative model or social-account connector is deployed. See latest CI workflow for current test count; older counts later in this file are historical, **not current totals**.
 
+**Static image skill and brand consistency (2026-10-09):** New native `basic-diet-image-creative` skill, own-asset visual design system, static/carousel/Story playbook and candidate identity data. Two existing Basic Diet design references were visually reviewed; competitor Instagram grid unavailable, only site promo art/third-party Reel index seen. Palette/logo/font are NOT owner-approved. No social account connected, and no new visual published.
+
 **P1 pilot:** A logo variant and one menu photo were visually inspected via the authenticated Drive connector. Their usage rights and current menu verification remain pending. One original creative draft is prepared in content/production/ (not approved, generated, posted or measured). No real publication evidence or 7-day performance was created.
 
 

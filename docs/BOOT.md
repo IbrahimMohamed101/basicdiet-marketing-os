@@ -15,7 +15,7 @@ The main Drive source: https://drive.google.com/drive/folders/1ZplIhzIZKcK5ZCoe4
 | When asked | Read next |
 | --- | --- |
 | “ننزل إيه النهاردة؟” / creative idea or caption | `docs/CREATIVE_AGENT_PROTOCOL.md`, `docs/SKILL_DIGEST.md`; actual `social` and `content-strategy` skills only for deeper guidance |
-| Branded image/ad design | above + `ad-creative` skill; inspect source photo/logo visually |
+| Static branded post, Story, carousel or image design | native `basic-diet-image-creative` skill, `docs/BRAND_VISUAL_SYSTEM.md`, `docs/IMAGE_CREATIVE_PLAYBOOK.md`, `assets/visual-identity.json`; `ad-creative` vendor only when helpful |
 | Google Flow/Reel | above + `video` skill and `docs/GOOGLE_FLOW_PRODUCTION.md`; storyboard skill only on request |
 | Commerce / paid media / attribution | latest relevant aggregate report and `analytics`/`attribution` skills as needed; preserve channel/window definitions |
 | Previous decisions / content use | `decisions/log.md`, `content/production/`, `content/published/publications.json` selectively; search IDs rather than loading full `creative.json` |
@@ -31,6 +31,8 @@ The main Drive source: https://drive.google.com/drive/folders/1ZplIhzIZKcK5ZCoe4
 4. Review brand, rights, current menu/claims, destination and actual platform history. If missing, label it and keep draft-only.
 5. Record accepted pilot in `content/production/` using validated YAML frontmatter. Do **not** record publication until real platform URL/verification exists; do not invent seven-day results.
 6. Record any adoption/learning in canonical decisions/state/measurement logs. No automatic publishing or ad spend.
+
+**Own visual identity evidence:** previously created Basic Diet images (not just logo) were visually inspected 2026-10-09. Cream patterned background, green/orange titles, and real circular logo repeat. Details in `docs/BRAND_VISUAL_SYSTEM.md` and `assets/visual-identity.json`. Final colors/fonts/logo remain owner-provisional. Competitor Instagram grid access remains unavailable; only an official site banner and a third-party indexed Reel were confirmed.
 
 **Canonical files:** root `AGENTS.md`, `STATE.md`, native skill, `docs/CREATIVE_AGENT_PROTOCOL.md`, `docs/GOOGLE_FLOW_PRODUCTION.md`, `assets/drive-source-index.json`, `knowledge/brand-visual-review.md`, `knowledge/saudi-voice.md`, `knowledge/claims-register.md`, `content/production/`, `data/reports/`.
 

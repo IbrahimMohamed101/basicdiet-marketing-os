@@ -16,7 +16,7 @@ Status: adopted creative operating process on 2026-10-09. This document instruct
 | Task | Mandatory read in addition to native skill | Conditional read |
 | --- | --- | --- |
 | Any organic idea, Reel, static post, caption, carousel or Stories | .agents/skills/content-strategy/SKILL.md and .agents/skills/social/SKILL.md | customer-research for VOC uncertainty |
-| Any image concept, composite, ad creative or branded visual prompt | content-strategy + social + .agents/skills/ad-creative/SKILL.md | video only for animation |
+| Any static post, image concept, composite, Story, carousel or branded visual prompt | **.agents/skills/basic-diet-image-creative/SKILL.md**, docs/BRAND_VISUAL_SYSTEM.md, docs/IMAGE_CREATIVE_PLAYBOOK.md, content-strategy + social | Vendor ad-creative for paid/performance-specific needs; video only for animation |
 | Any video script, Google Flow / Veo / image-to-video prompt | content-strategy + social + .agents/skills/video/SKILL.md | .agents/skills/storyboard-to-video/SKILL.md **only** for explicitly requested detailed storyboards/boards or complex multi-scene preproduction |
 | Paid campaign/boost concept | .agents/skills/ads/SKILL.md + ad-creative + .agents/skills/attribution/SKILL.md | analytics for KPI baseline |
 | Performance review / experiments | .agents/skills/analytics/SKILL.md + attribution | ab-testing if testing variants |
@@ -82,3 +82,7 @@ Always report what was read, what changed, what was verified, what remains uncer
 - Each of 3 concepts carries **its own** source asset IDs, draft feasibility and four-dimensional editorial score (brand fit, hook, asset fit, execution), plus a concrete rejection reason when currently infeasible. Selected concept must be feasible *as a draft*; this is not permission to publish.
 - Drafts may declare measurement `disconnected` with no baseline/threshold. `READY_FOR_HUMAN_APPROVAL` and later must have a real connected/measurable KPI, baseline and target; avoid fabricated `reach >= 200` targets.
 - Copy is machine-linted using `knowledge/copy-rules.json`; humans must still check all claims and tone. Current access to Instagram Insights and first-ever-paid attribution is not verified.
+
+## Same-brand visual DNA for daily images (2026-10-09)
+
+Every image/graphic task is governed by the native image skill and visually observed Basic Diet design references, not by generative output defaults. Choose the proper family (product_hero, choice_comparison, editorial_statement, offer_card or story_micro) and retain original logo, cream/green/orange visual language, organic motifs and readable Arabic. Status remains owner-provisional. The account healthy_corner_sa was **not** available for a full Instagram grid audit; the limited source-backed observation lives in `research/competitors/healthy-corner-2026-10-09.md`. Never describe or mimic inaccessible competitor posts as verified. Distinguish an ordinary still post from a Reel; one static poster should have one message and a verified original image where food is featured.

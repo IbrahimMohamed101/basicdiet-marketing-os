@@ -2,6 +2,10 @@
 
 ## AI-first creative operating entry points (2026-10-09)
 
+- **Static/design rulebook (2026-10-09):** `.agents/skills/basic-diet-image-creative/SKILL.md`, `docs/BRAND_VISUAL_SYSTEM.md`, `docs/IMAGE_CREATIVE_PLAYBOOK.md`, `assets/visual-identity.json` (owner-provisional design DNA from inspected Basic Diet Drive images).
+- **Limited competitor research:** `research/competitors/healthy-corner-2026-10-09.md` explicitly marks Instagram grid as inaccessible; own site banner and indexed Reel are used only for concept inspiration.
+
+
 - docs/BOOT.md: short task-based read path; docs/SKILL_DIGEST.md: vendor skill routing summary, full originals on demand.
 - docs/OPERATING_HISTORY_2026-10-09.md: archived verbose root contract to avoid repeated cold-start context load.
 - knowledge/brand-visual-review.md: two pixels-inspected Drive images with sampled provisional color observations (not approved brand style).
@@ -21,7 +25,7 @@
 
 - `AGENTS.md`, `STATE.md`: required session bootstrap and phase status.
 - `.agents/skills/basic-diet-marketing/SKILL.md`: native Basic Diet marketing rules.
-- `.agents/skills/README.md`: **15 active skill entries** (13 vendored + 2 native).
+- `.agents/skills/README.md`: **16 active skill entries** (13 vendored + 3 native).
 - `docs/SKILLS_PHASE2.md`, `docs/UPSTREAM_MANIFEST.json`: pinned upstream source and verification.
 - `.agents/skills/storyboard-to-video/references/user-submitted-2026-10-08.md`: user-provided video pipeline source; task-specific reference only.
 
