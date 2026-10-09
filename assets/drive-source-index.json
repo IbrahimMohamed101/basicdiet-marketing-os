@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "source_mode": "authenticated_google_drive_list_folder",
+  "source_status": "metadata_only_visuals_unverified",
+  "commercial_rights_status": "unverified",
+  "note": "File names and IDs are observed, not proof of actual image content, authenticity, current menu status or usage rights. Browse the exact Drive file before creative use.",
+  "root_folder_id": "1nYD1cr0eoByzNUAvvyHPUpSLnpZWUuFg",
+  "brand_folder_id": "1ZplIhzIZKcK5ZCoe454exU445cL-Vhz-",
+  "groups": [
+    {
+      "key": "logos",
+      "folder_id": "1A6QAwP2xpVA6MKC2WQDjyxn2_NK_IebS",
+      "listed_count": 12
+    },
+    {
+      "key": "meal_photos_new",
+      "folder_id": "1bsi2L_sMvJ6le7B042g9jHEN_0uk4tBE",
+      "listed_count": 49
+    },
+    {
+      "key": "meal_photos_legacy",
+      "folder_id": "1A4XFyN4h1762R9GLnBeyTdND9AyA84CU",
+      "listed_count": 8
+    },
+    {
+      "key": "new_menu_assets",
+      "folder_id": "1_UBARrwvaY_HmASRtPUjy6K2UD-BoSQr",
+      "listed_count": 19
+    },
+    {
+      "key": "salads",
+      "folder_id": "1eeyxW4Dhtv2_R0Mo8midIYSZZmEO9Wpc",
+      "listed_count": 7
+    },
+    {
+      "key": "sandwiches",
+      "folder_id": "1-36DPbjhWHwcL4WNBVrNDTzX1XXzrKgc",
+      "listed_count": 11
+    },
+    {
+      "key": "desserts",
+      "folder_id": "1rsJzGam7ouvYxgXRcFtgzeQwd9tu4cag",
+      "listed_count": 7
+    },
+    {
+      "key": "videos",
+      "folder_id": "1rjXYaPDznneZy3MEDYXx_jv7O2M_dvPY",
+      "listed_count": 7
+    },
+    {
+      "key": "design_posts",
+      "folder_id": "1SeoxeZAstTLnjsn9w64J9MtOuyyIwNkc",
+      "listed_count": 3
+    },
+    {
+      "key": "design_stories",
+      "folder_id": "1WFDt0vMtb33pDYtoPV9e3XJ9bbYmqkn0",
+      "listed_count": 4
+    }
+  ],
+  "candidate_files": [
+    {
+      "key": "logo_white",
+      "file_id": "1-O2bOXFYJzh8KpouVNxe0H-Xm3Qm7ESz",
+      "name": "Logo-white.png",
+      "group": "logos",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1-O2bOXFYJzh8KpouVNxe0H-Xm3Qm7ESz/view"
+    },
+    {
+      "key": "logo_high_quality",
+      "file_id": "1I8-a2wQiP26JnHRblQYdM3fgE0WEQnAg",
+      "name": "Logo-High-Qualty.png",
+      "group": "logos",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1I8-a2wQiP26JnHRblQYdM3fgE0WEQnAg/view"
+    },
+    {
+      "key": "logo_standard",
+      "file_id": "1IuC6F1_uyUQWuueJJstD0j-5ywIN1DDV",
+      "name": "Logo.png",
+      "group": "logos",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1IuC6F1_uyUQWuueJJstD0j-5ywIN1DDV/view"
+    },
+    {
+      "key": "butter_chicken",
+      "file_id": "1H2InhiMdECMrs8bsf6L_h9yM-rOfYqw6",
+      "name": "دجاج بالزبدة.png",
+      "group": "meal_photos_new",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1H2InhiMdECMrs8bsf6L_h9yM-rOfYqw6/view"
+    },
+    {
+      "key": "steak_meal",
+      "file_id": "1tASbr8vUBgPqdeJywruTTGdUrS7l-unS",
+      "name": "وجبة ستيك.png",
+      "group": "meal_photos_new",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1tASbr8vUBgPqdeJywruTTGdUrS7l-unS/view"
+    },
+    {
+      "key": "alfredo_pasta",
+      "file_id": "1JR-lQhqRwbwjB9p7nk2n6LNBBiAW1Dne",
+      "name": "باستا الفريدو.png",
+      "group": "meal_photos_new",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1JR-lQhqRwbwjB9p7nk2n6LNBBiAW1Dne/view"
+    },
+    {
+      "key": "red_sauce_pasta",
+      "file_id": "1O54P_hDBopu9POcVVB6XEOYeNdLiYFR5",
+      "name": "باستا صوص أحمر.png",
+      "group": "meal_photos_new",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1O54P_hDBopu9POcVVB6XEOYeNdLiYFR5/view"
+    },
+    {
+      "key": "mexican_chicken",
+      "file_id": "1yNQ7wL18thnC2t8ntuWYY7j6UV2k1yFm",
+      "name": "دجاج مكسيكي.png",
+      "group": "meal_photos_new",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1yNQ7wL18thnC2t8ntuWYY7j6UV2k1yFm/view"
+    },
+    {
+      "key": "burger",
+      "file_id": "1x7vUZBAaWcLR8z8N7feuntgrN5w9d4b2",
+      "name": "برجر .png",
+      "group": "meal_photos_new",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1x7vUZBAaWcLR8z8N7feuntgrN5w9d4b2/view"
+    },
+    {
+      "key": "fish",
+      "file_id": "1POU5X9gYEz1ohchifjwDVbCR_jTnJ7Bg",
+      "name": "سمك فيليه.png",
+      "group": "meal_photos_new",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1POU5X9gYEz1ohchifjwDVbCR_jTnJ7Bg/view"
+    },
+    {
+      "key": "shrimp",
+      "file_id": "1bezXaW35QSvbEV7yEWtShjbltYsN5E1b",
+      "name": "جمبري .png",
+      "group": "meal_photos_new",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1bezXaW35QSvbEV7yEWtShjbltYsN5E1b/view"
+    },
+    {
+      "key": "tuna_salad",
+      "file_id": "18agybLqHrPNAxEgKfhzZnQY6Fpg5noV9",
+      "name": "سلطة التونا.png",
+      "group": "salads",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/18agybLqHrPNAxEgKfhzZnQY6Fpg5noV9/view"
+    },
+    {
+      "key": "greek_salad",
+      "file_id": "1QSkqR9fYxMC2mR-0cgLGMPaOZ7qJNWT3",
+      "name": "سلطة يونانية.png",
+      "group": "salads",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1QSkqR9fYxMC2mR-0cgLGMPaOZ7qJNWT3/view"
+    },
+    {
+      "key": "chicken_sandwich",
+      "file_id": "1Jk3Xg_v-3dQRVx41KNlq_cr5F3aGYZHC",
+      "name": "دجاج مشوي.png",
+      "group": "sandwiches",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1Jk3Xg_v-3dQRVx41KNlq_cr5F3aGYZHC/view"
+    },
+    {
+      "key": "turkey_sandwich",
+      "file_id": "18NreM3mE8ojn2xLMg3mAFsPHv0vTqTIZ",
+      "name": "تركي.png",
+      "group": "sandwiches",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/18NreM3mE8ojn2xLMg3mAFsPHv0vTqTIZ/view"
+    },
+    {
+      "key": "strawberry_cheesecake",
+      "file_id": "1r2WcoxoHFG8iM2RfqzYfKo6tiKqZ7ohF",
+      "name": "تشيز كيك فراولة.png",
+      "group": "desserts",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1r2WcoxoHFG8iM2RfqzYfKo6tiKqZ7ohF/view"
+    },
+    {
+      "key": "granola",
+      "file_id": "1q4xWlnkZAdAQZ7ACHdDnOZ4ONpXw3VEL",
+      "name": "جرانولا بالفواكه و العسل .png",
+      "group": "new_menu_assets",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1q4xWlnkZAdAQZ7ACHdDnOZ4ONpXw3VEL/view"
+    },
+    {
+      "key": "falafel",
+      "file_id": "1YKPJ9BsoRyqu9BQHBtuJm1aOoVMXJ2QY",
+      "name": "فلافل.png",
+      "group": "new_menu_assets",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1YKPJ9BsoRyqu9BQHBtuJm1aOoVMXJ2QY/view"
+    },
+    {
+      "key": "video_0614",
+      "file_id": "1Nsf0QJmt1_ECd1m0k8pVM7mAYhXTKNvz",
+      "name": "0614.mp4",
+      "group": "videos",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1Nsf0QJmt1_ECd1m0k8pVM7mAYhXTKNvz/view"
+    },
+    {
+      "key": "video_0609_v1",
+      "file_id": "1mpqIP18SoOBfYUo7F_wjDztm8ngwadFB",
+      "name": "0609 (1)(1).mp4",
+      "group": "videos",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1mpqIP18SoOBfYUo7F_wjDztm8ngwadFB/view"
+    },
+    {
+      "key": "post_reference_1",
+      "file_id": "1MPUrpuVRaSgx649HQ8UD8hFkWsiC-pOs",
+      "name": "1.png",
+      "group": "design_posts",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1MPUrpuVRaSgx649HQ8UD8hFkWsiC-pOs/view"
+    },
+    {
+      "key": "story_reference_1",
+      "file_id": "13ipP058ByJ3wEJUyapay_lnrXoN5hM8G",
+      "name": "1.png",
+      "group": "design_stories",
+      "visual_review": "not_done",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/13ipP058ByJ3wEJUyapay_lnrXoN5hM8G/view"
+    }
+  ]
+}

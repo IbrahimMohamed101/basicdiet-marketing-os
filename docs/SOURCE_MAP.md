@@ -1,5 +1,15 @@
 # Source map — current
 
+## AI-first creative operating entry points (2026-10-09)
+
+- docs/CREATIVE_AGENT_PROTOCOL.md: mandatory original ideation, skill loading, proof, six role handoffs, creative deliverable, review gates, and durable memory.
+- .agents/workflows/ai-creative-production.md: AI supervisor procedure; does not add an autonomous runtime.
+- docs/GOOGLE_FLOW_PRODUCTION.md: companion to video and task-specific storyboard-to-video skills.
+- assets/drive-source-index.json: authenticated 2026-10-09 Drive **metadata** source IDs, not visually approved creative; actual folder contents may change.
+- content/production/CREATIVE_RECORD_TEMPLATE.md: one selected creative's source references, hypotheses, approval and results.
+- Exact Basic Diet Google Drive child: https://drive.google.com/drive/folders/1ZplIhzIZKcK5ZCoe454exU445cL-Vhz- ; nested under the prior parent folder.
+- Existing daily_brief.py: reproducible deterministic baseline, not an AI-driven content generation brain.
+
 ## Operating source of truth
 
 - `AGENTS.md`, `STATE.md`: required session bootstrap and phase status.

@@ -26,3 +26,12 @@ Only add decisions when explicitly adopted or validated. A drafted idea or exper
 - **Persistence:** normal local runs reserve ideas; dry runs/Actions do not. Commit useful reservations and source-linked results. Immutable archives protect history while working records may evolve with evidence.
 - **Provider/CI:** one explicit bounded optional AI request; no retries, separate unverified output. Read-only pinned Actions and full-source PR checks.
 - **Verification:** local validator, 44 tests and C003 offline dry run. See `docs/AUDIT_2026-10-08.md`. No business outcomes or publishing claimed.
+
+
+## 2026-10-09 — Creative Director protocol and Drive source of truth
+
+- **Adopted:** Marketing OS is the durable project memory, while the signed read-only backend sync provides aggregate commercial context and authenticated Drive holds real source media; do not start from scratch in a new chat.
+- **Mandatory cold start:** AGENTS.md → STATE.md → native basic-diet-marketing skill → docs/CREATIVE_AGENT_PROTOCOL.md; task-specific installed skills must be read before creative ideation.
+- **Creative quality:** supervised AI proposes multiple genuinely distinct original Saudi-market concepts and full production prompts; deterministic Python daily briefs are offline examples, not autonomous creative reasoning.
+- **Drive assets:** keep the precise folder/file references in assets/drive-source-index.json; do not treat file existence as pixel inspection, menu approval, commercial rights or published status.
+- **Controls:** all actual generated media, publications, direct messages, budgets and integrations remain subject to separate authorization. Persist only decisions, confirmed sources, adopted briefs and evidenced outcomes.

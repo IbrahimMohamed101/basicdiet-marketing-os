@@ -12,6 +12,8 @@
 
 No posting integration, scheduler or live advertising account is connected.
 
+**AI creative director path:** When a capable supervising AI is asked to think or create original content, use .agents/workflows/ai-creative-production.md and docs/CREATIVE_AGENT_PROTOCOL.md (with mandatory task-specific skills and actual Drive sources). The deterministic CLI below is a separate offline pilot, not the AI creative workflow.
+
 ## Executable manual pilot
 
 Run `python3 scripts/daily_brief.py --channel instagram --goal auto` or manually dispatch `.github/workflows/daily-content-brief.yml`. The result is an offline approval-only creative brief in output/daily or a GitHub Actions artifact. Normal local runs reserve their idea; `--dry-run` and Actions do not. Commit reviewed reservations for the next session. See `docs/DATA_CONTRACTS.md`. Optional AI suggestions require explicit opt-in and OPENAI_API_KEY. This does not publish, schedule, spend or verify current live pricing/media.

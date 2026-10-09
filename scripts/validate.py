@@ -10,6 +10,9 @@ sys.path.insert(0, str(ROOT))
 from scripts.security import contains_credential
 required = [
     "README.md", "AGENTS.md", "STATE.md", "CHANGELOG.md",
+    "docs/CREATIVE_AGENT_PROTOCOL.md", "docs/GOOGLE_FLOW_PRODUCTION.md",
+    ".agents/workflows/ai-creative-production.md", "content/production/CREATIVE_RECORD_TEMPLATE.md",
+    "assets/drive-source-index.json", "tests/test_creative_protocol.py",
     ".agents/skills/basic-diet-marketing/SKILL.md",
     ".agents/workflows/daily-content.md", ".agents/product-marketing.md",
     "content/ideas/backlog.json", "content/ideas/creative.json",
