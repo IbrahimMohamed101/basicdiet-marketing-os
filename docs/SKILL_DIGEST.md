@@ -5,7 +5,7 @@ This concise digest supplements and **does not replace** the installed full skil
 | Task | Skills | Practical Basic Diet decision |
 | --- | --- | --- |
 | Social idea/caption/Stories | content-strategy + social | One buyer objection, one hook, one product visual, one human CTA; 3 distinct angles before selection. No AI clichés or speculative nutrition. |
-| Images/composites | ad-creative | Use exact visually inspected official product references; do not redraw logos or alter ingredients. Type Arabic overlays separately. |
+| Static image posts, Stories, carousel / food composite | **native basic-diet-image-creative first**; ad-creative vendor only for paid/performance technique | Read brand visual system and exact real food/logo references; preserve the family look on every post, use Arabic editor overlays, no product hallucination. |
 | Short Reel/Flow | video | Prefer real footage, otherwise image-to-video from real photograph; 9:16, first 2 seconds, camera/motion, shot timing and fallback; detailed scene continuity only when asked. |
 | Complex multi-shot video | storyboard-to-video (on explicit request) | Story → necessary reference board → consistent scene beats → generation prompt; explicit approval before actual generation. |
 | Paid creative | ads + ad-creative + attribution | No spend without explicit permission and real tracking/economics; avoid guessing ROAS. |

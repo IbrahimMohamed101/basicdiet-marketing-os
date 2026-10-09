@@ -6,3 +6,7 @@
 - No owner-approved brand style guide or typography has been provided yet. On 2026-10-09 one candidate logo PNG and food image were visually inspected; measured pixel-color samples are described in `knowledge/brand-visual-review.md`, but **not yet approved as official palette**. Do not confuse AI inspection with brand-owner signoff.
 
 Historical source: `basicdiet145/marketing/STATE.md` (2026-10-07); see `docs/SOURCE_MAP.md`.
+
+## Actual visual identity evidence — 2026-10-09
+
+The existing Basic Diet Drive static and Story references show repeated cream organic motifs, green/orange hierarchy and exact logo. See `docs/BRAND_VISUAL_SYSTEM.md` for the image/Story/carousel rules and `assets/visual-identity.json` for the candidate tokens and original source IDs. This is **observed, not finally owner-approved**; never substitute competitor colors or AI-generated logotypes.

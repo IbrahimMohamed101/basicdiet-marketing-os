@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "status": "observed_provisional_not_owner_approved",
+  "source_refs": [
+    {
+      "type": "own_design_photo_verified",
+      "drive_file_id": "1MPUrpuVRaSgx649HQ8UD8hFkWsiC-pOs",
+      "name": "Existing Basic Diet static post 1.png"
+    },
+    {
+      "type": "own_design_photo_verified",
+      "drive_file_id": "13ipP058ByJ3wEJUyapay_lnrXoN5hM8G",
+      "name": "Existing Basic Diet story menu 1.png"
+    },
+    {
+      "type": "own_logo_pixels_verified_candidate",
+      "drive_file_id": "1I8-a2wQiP26JnHRblQYdM3fgE0WEQnAg",
+      "name": "Logo-High-Qualty.png"
+    }
+  ],
+  "palette": {
+    "green": {
+      "hex": "#107F55",
+      "status": "measured_from_candidate_logo_not_approved"
+    },
+    "orange": {
+      "hex": "#E95D2C",
+      "status": "measured_from_candidate_logo_not_approved"
+    },
+    "cream": {
+      "hex": "#F7F4E6",
+      "status": "design_proposal_not_measured_or_approved"
+    }
+  },
+  "brand_layout": {
+    "motifs": "low contrast organic curves inspired by own verified artworks",
+    "logo_position": "top consistent with clear margins",
+    "headline": "clear short Arabic, 1-2 lines",
+    "rtl_required": true,
+    "logo_generation_forbidden": true,
+    "food_resynthesis_forbidden": true
+  },
+  "families": [
+    "product_hero",
+    "choice_comparison",
+    "editorial_statement",
+    "offer_card",
+    "story_micro"
+  ],
+  "placements": {
+    "instagram_feed": {
+      "width": 1080,
+      "height": 1350
+    },
+    "instagram_story": {
+      "width": 1080,
+      "height": 1920
+    },
+    "square": {
+      "width": 1080,
+      "height": 1080
+    }
+  },
+  "approvals": {
+    "final_logo": false,
+    "official_colors": false,
+    "typefaces": false,
+    "commercial_photo_rights": false
+  },
+  "competitor_sourced_identity": false
+}

@@ -3,6 +3,7 @@
 ## Native / project skills
 
 - [basic-diet-marketing](basic-diet-marketing/SKILL.md) — **always first** for Basic Diet tasks; grounded brand, operational approvals, persistence.
+- [basic-diet-image-creative](basic-diet-image-creative/SKILL.md) — **mandatory for every static feed post, Story, carousel, product image or image prompt**; consistent own-brand visual style, exact photo fidelity and Arabic typesetting.
 - [storyboard-to-video](storyboard-to-video/SKILL.md) — task-specific AI video pipeline from user's uploaded Markdown file, **not auto-run on upload**.
 
 ## Selected and installed upstream skills

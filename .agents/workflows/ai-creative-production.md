@@ -5,7 +5,7 @@
 **This workflow belongs to a supervising AI assistant.** It is not executed automatically by Python, GitHub Actions or six independent agents.
 
 1. Read AGENTS.md → STATE.md → .agents/skills/basic-diet-marketing/SKILL.md → docs/CREATIVE_AGENT_PROTOCOL.md.
-2. Read .agents/skills/README.md and the task-mandatory skill files. For any post: content-strategy + social. For image: ad-creative. For video: video + docs/GOOGLE_FLOW_PRODUCTION.md. For detailed boards, storyboard-to-video only when explicitly requested. Paid creative adds ads + attribution.
+2. Read .agents/skills/README.md and the task-mandatory skill files. For any post: content-strategy + social. For any image/static post/Story/carousel: native basic-diet-image-creative, docs/BRAND_VISUAL_SYSTEM.md and docs/IMAGE_CREATIVE_PLAYBOOK.md; ad-creative vendor only when relevant. For video: video + docs/GOOGLE_FLOW_PRODUCTION.md. For detailed boards, storyboard-to-video only when explicitly requested. Paid creative adds ads + attribution.
 3. Ground in the exact Drive file IDs from assets/drive-source-index.json and fresh relevant business records, current menu/claim checks, actual platform history when available and the audience hypothesis.
 4. Create three distinct ideas **using AI reasoning**. Do not copy the deterministic scripts/daily_brief.py output as the final creative. Select one with a short, transparent rationale.
 5. Deliver the source-backed creative package (hook, visuals, Saudi caption, Stories, CTA, image/video prompts, negatives, source links, KPI, checks). Prefer authenticity and visual retention of real product assets.

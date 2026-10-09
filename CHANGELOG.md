@@ -1,3 +1,11 @@
+## 2026-10-09 — image skill & consistent social identity, competitor evidence hygiene
+
+- Installed an actual third native image-creative skill covering ordinary still posts, Stories, carousel, original food composites and image generation prompts.
+- Built a provisional Basic Diet visual system based on **inspected past Basic Diet Drive artwork**, sampled logo colors and original food photos, with 5 design families for a coherent but non-repetitive feed.
+- Explicitly documented limits to competitor Instagram access: only verified own site promo and a third-party-indexed influencer video, not an invented audit of the latest Instagram posts.
+- Routed the new image skill from bootstrap, marketing native skill, source map, skill directory and executable skill validator; preserved every byte of 13 upstream marketing skills.
+- Current final logo/rights/typography and platform publication remain pending real owner approval; no media posted or ad budgets touched.
+
 ## 2026-10-09 — second independent P1 audit remediation (approval, KPI and copy)
 
 - Separated AI visual inspection from independently human-reviewed source assets; CODEOWNERS proposed but branch protection must be enabled by an authorized repo administrator.
