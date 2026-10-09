@@ -30,6 +30,7 @@ concepts:
 selected_angle: "food_desire"
 selection_reason: "Use a reason after evaluating viability and score breakdown."
 asset_ids: []
+brand_logo_asset_id: null
 copy:
   caption: "Write original Saudi Arabic caption"
   on_design_text: "Arabic overlay separate from AI image/video"

@@ -18,7 +18,8 @@
     "approvals",
     "generated_asset_url",
     "publication",
-    "copy"
+    "copy",
+    "brand_logo_asset_id"
   ],
   "properties": {
     "schema_version": {
@@ -303,6 +304,13 @@
           }
         }
       }
+    },
+    "brand_logo_asset_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 10
     }
   }
 }

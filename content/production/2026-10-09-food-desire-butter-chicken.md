@@ -30,6 +30,7 @@ concepts:
 selected_angle: "food_desire"
 selection_reason: "Chosen angle is feasible as a draft today with one visually inspected actual image; its buyer appeal is a hypothesis, not tested results."
 asset_ids: ["1H2InhiMdECMrs8bsf6L_h9yM-rOfYqw6"]
+brand_logo_asset_id: null
 copy:
   caption: "أحيانًا صورة الوجبة تخلّيك تقرر أسرع من الكلام. وش أول شيء شدّك في الطبق؟ شوف خيارات بيسك دايت من القناة الرسمية. #بيسك_دايت"
   on_design_text: "وش رايك نبدأ بالغدا؟"

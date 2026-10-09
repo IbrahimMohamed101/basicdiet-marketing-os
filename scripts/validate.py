@@ -14,6 +14,7 @@ required = [
     ".agents/workflows/ai-creative-production.md", "content/production/CREATIVE_RECORD_TEMPLATE.md",
     "assets/drive-source-index.json", "tests/test_creative_protocol.py",
     "docs/BOOT.md", "docs/SKILL_DIGEST.md",
+    "knowledge/copy-rules.json", "scripts/lint_copy.py", ".github/CODEOWNERS",
     "scripts/validate_creative.py", "schemas/creative-record.schema.json",
     "knowledge/brand-visual-review.md", "knowledge/saudi-voice.md",
     "knowledge/claims-register.md", "docs/COMMERCIAL_AUDIT_2026-10-09.md",
