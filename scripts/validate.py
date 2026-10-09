@@ -13,6 +13,10 @@ required = [
     "docs/CREATIVE_AGENT_PROTOCOL.md", "docs/GOOGLE_FLOW_PRODUCTION.md",
     ".agents/workflows/ai-creative-production.md", "content/production/CREATIVE_RECORD_TEMPLATE.md",
     "assets/drive-source-index.json", "tests/test_creative_protocol.py",
+    "docs/BOOT.md", "docs/SKILL_DIGEST.md",
+    "scripts/validate_creative.py", "schemas/creative-record.schema.json",
+    "knowledge/brand-visual-review.md", "knowledge/saudi-voice.md",
+    "knowledge/claims-register.md", "docs/COMMERCIAL_AUDIT_2026-10-09.md",
     ".agents/skills/basic-diet-marketing/SKILL.md",
     ".agents/workflows/daily-content.md", ".agents/product-marketing.md",
     "content/ideas/backlog.json", "content/ideas/creative.json",
@@ -43,3 +47,5 @@ subprocess.run([sys.executable, str(ROOT / "scripts/verify_migration.py")], chec
 subprocess.run([sys.executable, str(ROOT / "scripts/validate_skills.py")], check=True)
 
 subprocess.run([sys.executable, str(ROOT / "scripts/validate_operations.py")], check=True)
+
+subprocess.run([sys.executable, str(ROOT / "scripts/validate_creative.py")], check=True)

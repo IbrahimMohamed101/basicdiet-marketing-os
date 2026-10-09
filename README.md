@@ -2,9 +2,9 @@
 
 **Status: audited Phase 3; Phase 4 read-only measurement intake implemented, 2026-10-08 (live baseline pending).** Private operating memory and a runnable daily brief for a Saudi meal-subscription restaurant. Commercial objective: first-time **paid** subscribers, then retention and profitable revenue.
 
-A new agent starts at [AGENTS.md](AGENTS.md) → [STATE.md](STATE.md) → [native skill](.agents/skills/basic-diet-marketing/SKILL.md). The [source map](docs/SOURCE_MAP.md) distinguishes operating records from historical research and live sources. No previous chat is required.
+A new agent starts at [AGENTS.md](AGENTS.md) → [compact BOOT](docs/BOOT.md) → [current STATE](STATE.md) → [native skill](.agents/skills/basic-diet-marketing/SKILL.md). The [source map](docs/SOURCE_MAP.md) distinguishes operating records from historical research and live sources. No previous chat is required.
 
-**Creative Director protocol (2026-10-09):** Start at AGENTS.md → STATE.md → .agents/skills/basic-diet-marketing/SKILL.md → docs/CREATIVE_AGENT_PROTOCOL.md. For original AI-assisted content, use .agents/workflows/ai-creative-production.md and assets/drive-source-index.json, not only the deterministic CLI. For video prompts read .agents/skills/video/SKILL.md and docs/GOOGLE_FLOW_PRODUCTION.md. All creative is review-only unless separately authorized.
+**Creative Director protocol (2026-10-09):** Start at AGENTS.md → docs/BOOT.md → STATE.md → .agents/skills/basic-diet-marketing/SKILL.md → docs/CREATIVE_AGENT_PROTOCOL.md. For original AI-assisted content, use .agents/workflows/ai-creative-production.md and assets/drive-source-index.json, not only the deterministic CLI. For video prompts read .agents/skills/video/SKILL.md and docs/GOOGLE_FLOW_PRODUCTION.md. All creative is review-only unless separately authorized.
 
 ## Basic Diet Mode — ننزل إيه النهارده؟
 

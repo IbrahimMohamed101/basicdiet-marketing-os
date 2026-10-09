@@ -1,13 +1,15 @@
 # Basic Diet Marketing OS — current state
 
-**Last verified: 2026-10-08. Phase 3: audited local draft workflow.**
-**Current implementation: Phase 4 commercial read-only OIDC sync LIVE and verified 2026-10-08; official 30/60/90-day aggregate snapshots through 2026-10-07 are recorded.**
+**Current as checked 2026-10-09:** Phase 4 read-only signed commercial sync succeeded for 2026-10-08 (report captured 2026-10-09). AI-in-chat is the creative engine; no independent autonomous creative model or social-account connector is deployed. See latest CI workflow for current test count; older counts later in this file are historical, **not current totals**.
 
-## 2026-10-09 — proposed AI-first creative protocol
+**P1 pilot:** A logo variant and one menu photo were visually inspected via the authenticated Drive connector. Their usage rights and current menu verification remain pending. One original creative draft is prepared in content/production/ (not approved, generated, posted or measured). No real publication evidence or 7-day performance was created.
+
+
+## 2026-10-09 — implemented AI-first creative protocol (with P1 quality improvements)
 
 - The canonical original-content workflow is docs/CREATIVE_AGENT_PROTOCOL.md plus .agents/workflows/ai-creative-production.md, gated in AGENTS.md and the native skill. It instructs a supervising capable AI to generate and evaluate distinct creative options; it does not transform deterministic Python into autonomous model workers.
 - Authenticated Google Drive folder listing found the Basic Diet materials child 1ZplIhzIZKcK5ZCoe454exU445cL-Vhz-, logo variants, a 49-entry New meal-photo folder, three direct MP4s and existing social designs. Exact selected IDs are indexed in assets/drive-source-index.json. **Filename/ID access only; visual quality, logo approval, up-to-date menu and legal rights are not verified.**
-- Video prompt guidance: docs/GOOGLE_FLOW_PRODUCTION.md (used after installed video skill; detailed storyboard skill only for explicit requests). No video was generated, no social accounts connected, and no campaign changes performed.
+- Video prompt guidance: docs/GOOGLE_FLOW_PRODUCTION.md (used after installed video skill; detailed storyboard skill only for explicit requests). No video was generated, no social accounts connected, and no campaign changes performed. Short entry is docs/BOOT.md; source status and pilot follow knowledge/brand-visual-review.md and content/production/.
 - Next: visually inspect/approve the real Drive source files and brand marks, choose one AI-originated creative pilot, verify its claims and official CTA, then review before any production or publication.
 
 ## Business and evidence
@@ -53,6 +55,7 @@ The realistic offline Instagram run selected **C003**, awareness: **«إذا ق�
 
 ## Blockers and next actions
 
+0. Owner to approve final logo variant and usage rights; recheck named dish in current menu. Review prepared pilot and verify publishing destination before generation or posting.
 1. Verify recent actual social history and an exact approved media file/rights for the first reviewed idea; populate publication records only from real evidence.
 2. Commercial 30/60/90-day baseline is now available under `data/reports/commerce/2026-10-07/`. Use and compare it with official dashboard records; verify next scheduled run before claiming recurring updates are proven.
 3. Reconcile source-to-first-paid attribution. Install/first-open counts, CAC and ROAS are not established here; historical backend capability claims were not reverified.

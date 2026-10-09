@@ -1,0 +1,202 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Basic Diet creative record metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_id",
+    "date",
+    "status",
+    "platform",
+    "format",
+    "concepts",
+    "selected_angle",
+    "selection_reason",
+    "asset_ids",
+    "primary_kpi",
+    "approvals",
+    "generated_asset_url",
+    "publication"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "record_id": {
+      "type": "string",
+      "pattern": "^BD-[0-9]{8}-[0-9]{3}$"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "status": {
+      "enum": [
+        "CONCEPT_DRAFT",
+        "NEEDS_ASSET_VISUAL_REVIEW",
+        "READY_FOR_HUMAN_APPROVAL",
+        "APPROVED_BY_OWNER",
+        "PRODUCED",
+        "PUBLISHED_VERIFIED"
+      ]
+    },
+    "platform": {
+      "enum": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "snapchat"
+      ]
+    },
+    "format": {
+      "type": "string",
+      "minLength": 2
+    },
+    "concepts": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "angle",
+          "hook",
+          "visual",
+          "score"
+        ],
+        "properties": {
+          "angle": {
+            "enum": [
+              "food_desire",
+              "convenience",
+              "choice",
+              "trust",
+              "education",
+              "offer",
+              "community",
+              "behind_scenes"
+            ]
+          },
+          "hook": {
+            "type": "string",
+            "minLength": 5
+          },
+          "visual": {
+            "type": "string",
+            "minLength": 12
+          },
+          "score": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          }
+        }
+      }
+    },
+    "selected_angle": {
+      "type": "string"
+    },
+    "selection_reason": {
+      "type": "string",
+      "minLength": 15
+    },
+    "asset_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 10
+      }
+    },
+    "primary_kpi": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "threshold",
+        "window_days",
+        "measurement_source"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 3
+        },
+        "threshold": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "window_days": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 90
+        },
+        "measurement_source": {
+          "type": "string",
+          "minLength": 8
+        }
+      }
+    },
+    "approvals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "by",
+          "date",
+          "evidence"
+        ],
+        "properties": {
+          "by": {
+            "type": "string",
+            "minLength": 2
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 8
+          }
+        }
+      }
+    },
+    "generated_asset_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "publication": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "url",
+        "verified_by",
+        "verified_on"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "verified_by": {
+          "type": "string",
+          "minLength": 2
+        },
+        "verified_on": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    }
+  }
+}

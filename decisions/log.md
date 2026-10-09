@@ -35,3 +35,12 @@ Only add decisions when explicitly adopted or validated. A drafted idea or exper
 - **Creative quality:** supervised AI proposes multiple genuinely distinct original Saudi-market concepts and full production prompts; deterministic Python daily briefs are offline examples, not autonomous creative reasoning.
 - **Drive assets:** keep the precise folder/file references in assets/drive-source-index.json; do not treat file existence as pixel inspection, menu approval, commercial rights or published status.
 - **Controls:** all actual generated media, publications, direct messages, budgets and integrations remain subject to separate authorization. Persist only decisions, confirmed sources, adopted briefs and evidenced outcomes.
+
+
+## 2026-10-09 — Adopt P1 corrections after external audit
+
+- Fix tests that incorrectly require asset verification to remain false. Permit evidence-backed transitions; no hardcoded snapshot date.
+- Read short root AGENTS and docs/BOOT as startup, with task-targeted skills and evidence retrieval, not every full vendor skill/idea profile by default. Preserve old root contract in docs/OPERATING_HISTORY_2026-10-09.md.
+- Track actual visually inspected sources and a first original creative draft, without calling rights, menu, public posts or purchase attribution verified.
+- Enforce YAML-frontmatter creative metadata with semantic tests. Actual publishing and seven-day performance remain blocked until independently verifiable.
+- Aggregate report's dashboard counts are not app checkout attribution; do not use promo records as a partition of app KPI. See docs/COMMERCIAL_AUDIT_2026-10-09.md.
