@@ -45,3 +45,11 @@ OUTPUT: [generation clip(s) or preproduction prompt only]; final graphics/captio
 One production brief and chosen image/video source IDs; 3–5 beat timeline; paste-ready model prompt; negative prompt; exact Arabic overlays/caption typed separately; alternate fallback using real footage; review checklist and status. Save under content/production/ only when the concept is actually selected. Record model/tool and observed outcome after execution, not before.
 
 No AI video runtime is automatically connected by this repository; Google Flow usage and cost/credit requirements must be checked in its own interface.
+
+## 2026-10-12 — validated preference from a user-produced living poster Reel
+
+- An 8-second, vertical 720×1280 user-produced Google Flow animated poster was supplied in chat on 2026-10-11. Exact asset filename/hash, references and status: `content/production/2026-10-12-living-poster-steam-leaves.md`. **Do not claim it was published or that all food details are authentic.**
+- **Motion recipe for an existing branded poster:** camera locked, preserve entire starting composition continuously; only small realistic steam rising from already-present food plus existing decorative leaves gently swaying **at their existing positions**. Leaves do **not** drop, fall, fly, drift off-frame or multiply. Original food, Arabic, logo, border, colors and footer stay fixed. No additional effects.
+- **Avoid a known failure:** previous Flow attempts zoomed/cropped the artwork excessively; issue prompts with emphatic "full-frame composition visible from first to last frame; NO zoom, pan, crop, parallax or reframing." Another earlier cinematic model attempt transformed real butter chicken into visually different chicken/bites and added sides; do not use that output as authentic meal advertising.
+- **Preferred fallback:** source poster fixed in a 9:16 canvas; composite steam and masked leaf sways as separate editable layers when image-to-video changes source pixels.
+- **Source caution:** the user's chosen poster was in-chat AI-designed based on real meal references, so it is not independently verified as an exact photo composite. Original photos/logo from Drive are still needed for final fidelity/approval checks; no published result or sales learning may be inferred.
