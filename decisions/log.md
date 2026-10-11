@@ -44,3 +44,9 @@ Only add decisions when explicitly adopted or validated. A drafted idea or exper
 - Track actual visually inspected sources and a first original creative draft, without calling rights, menu, public posts or purchase attribution verified.
 - Enforce YAML-frontmatter creative metadata with semantic tests. Actual publishing and seven-day performance remain blocked until independently verifiable.
 - Aggregate report's dashboard counts are not app checkout attribution; do not use promo records as a partition of app KPI. See docs/COMMERCIAL_AUDIT_2026-10-09.md.
+
+## 2026-10-12 — Reuse living-poster Reel concept as a creative format
+
+- **User-directed decision:** preserve the user-made **«وش تختار اليوم؟»** three-meal poster + 8-second Google Flow animation as a tracked *creative draft*, to avoid losing the concept in future sessions. Track it at `content/production/2026-10-12-living-poster-steam-leaves.md`.
+- **Production lesson:** choose a stable 9:16 full-poster composition and restrict motion to upward food steam and decorative green leaves swaying in place; **no zoom, no falling leaves, no color change, no new objects, no changed branding or food**. AI may alter the dish during generation; verify against genuine photos.
+- **Not implied:** no confirmed Instagram/TikTok publication, final owner creative approval, advertising usage rights, actual menu matches, published URL, attributed orders or performance. Need a stable approved media storage reference and real platform URLs to advance those steps.
