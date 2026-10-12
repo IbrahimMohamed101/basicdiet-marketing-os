@@ -47,3 +47,12 @@ Drive folder `1rjXYaPDznneZy3MEDYXx_jv7O2M_dvPY` contains three vertically shot 
 - **Read and viewed:** actual 0614/0609 footage, one seasonal Ramadan MP4 and relevant image sources from Google Drive.
 - **Produced:** one edited local vertical MP4 draft using the *same true video pixels* (with only cut ordering, resizing and title overlays).
 - **Not performed:** Instagram/TikTok upload, scheduling, advertising, billing, changes to Drive or published/performance ledgers.
+
+
+## Music synced version — 2026-10-12
+
+- **User-provided selected track:** `mixkit-gimme-that-groove-872.mp3`, titled *Gimme That Groove!* by Michael Ramir C., not committed to GitHub. User explicitly supplied the MP3 after receiving the real-food edit and requested music matched to shot transitions.
+- **Signal inspection:** track original approx 88.42s, approximate detected beat `112.35 BPM` (estimate), beat period `~0.534s`. Existing video has 2.0s main scene cuts at 2/4/6/8/10/12s, so pick track offset `2.740s` with aligned quarter-note beats at ~2.74, 4.88, 7.04, 9.17, 11.31, 13.44, 15.58 seconds; apply `atempo=1.0681` to match four beats per ~2.0s cut (pitch-preserving) without altering picture timing or food pixels.
+- **Final conversation download artifact (NOT durable Drive URL):** `Basic_Diet_Real_Food_Reel_Beat_Synced.mp4`. About 14.00s, 1080x1920, H.264 video copied unchanged from draft, 44.1kHz stereo AAC sound at 192 kbps; intro fade 0.10s, outro fade 0.62s, loudness target -16 LUFS, true-peak -1.5 dBTP.
+- **Quality check:** ffprobe verified audio+video streams and duration; previewed first seven seconds of actual resulting sound, no silent audio issue. Musical beat detection and alignment are approximate, not professional stem-level mixing.
+- **Publishing gate remains:** user/restaurant verifies video source rights, embedded old contact/handle, current menu, and platform-specific commercial music usage conditions; this is an unposted edit. Do not commit copyrighted audio/video bytes, signed URLs or publish without explicit approval.
