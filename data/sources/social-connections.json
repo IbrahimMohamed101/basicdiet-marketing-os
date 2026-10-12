@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_checked": "2026-10-09",
+  "last_checked": "2026-10-12",
   "connections": [
     {
       "platform": "instagram",
       "provider": "Metricool/Meta",
-      "status": "not_connected",
-      "account_id": null,
+      "status": "connected",
+      "account_id": "basicdiet.sa",
       "metrics_enabled": false
     },
     {
@@ -27,5 +27,5 @@
   "credentials_policy": "oauth_provider_only_never_commit_secrets",
   "posting_enabled": false,
   "paid_spend_enabled": false,
-  "notes": "Connected network analytics were verified through Metricool read-only reports 2026-10-09. Platform connection does not imply posting permission or TikTok Ads connection. TikTok full tracking to paid subscriptions is not implemented."
+  "notes": "2026-10-12 Metricool getBrandSettings verifies both instagramData=basicdiet.sa and tiktokData=basicdiet.sa. TikTok analytics readable. Instagram posts/reels/stories and demographics returned no rows despite connection; a zero-like evolution response does not establish zero followers. Instagram metrics_enabled remains false pending real populated data and nightly sync. Facebook was not in brand networksData. Posting, ad spend and social-to-first-paid attribution remain unauthorized/unverified. See data/reports/social/2026-10-12/instagram-tiktok-metricool.json."
 }
