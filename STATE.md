@@ -1,5 +1,12 @@
 # Basic Diet Marketing OS — current state
 
+## 2026-10-12 — Seven original Instagram concept ideas saved (C032–C038)
+
+- User liked **all seven** new creative directions and requested durable storage, not execution or posting. Added them to `content/ideas/backlog.json` + `content/ideas/creative.json` and a full recall brief `content/ideas/2026-10-12-seven-creative-concepts.md`.
+- C032 «قلت دايت… تخيلت خس؟»; C033 «ملف القضية رقم 01»; C034 «اجتماع وش ناكل تم إلغاؤه»; C035 «قبل ما تشوف الطبق»; C036 «اشتراكك على مقاس يومك»; C037 «الحلا له كلمة ثانية»; C038 «خل الصورة تكمل الكلام». All are saved, **unpublished/unreserved**, and require fresh menu/rights/brand/link checks before production.
+- Recommend C032 as a first distinct pilot only if current Alfredo menu eligibility and media rights check out; avoid consecutive same-dish C032/C033, do not feature steak while Soon, and do not repeat today's C031 or the held-for-later «رسالة من معدتك».
+- This save **does not** grant publish, spend, or media-generation authorization. The user's exact seven concepts are preserved for future conversations.
+
 ## 2026-10-12 — Instagram permalink supplied, publication recorded as C031
 
 - User previously confirmed posting **«وش غداك اليوم؟»** to Instagram and has now provided the exact permalink: https://www.instagram.com/p/DeZshuboWWP/. Logged in `content/published/publications.json` as C031 with **publisher-user-supplied URL** evidence, not independently viewable media verification.
