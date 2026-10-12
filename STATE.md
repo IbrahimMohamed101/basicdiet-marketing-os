@@ -1,5 +1,13 @@
 # Basic Diet Marketing OS — current state
 
+## 2026-10-12 — User confirms today's Instagram feed post, URL pending
+
+- **Publication report:** user explicitly confirmed publishing the Instagram post with the idea/headline **«وش غداك اليوم؟»** today. Source: current conversation; canonical post URL, exact media and native insights not supplied or independently verified.
+- **Durable report:** `content/published/pending-verification-2026-10-12.md`. Do **not** insert it into the schema-validated `content/published/publications.json` until exact verified post URL is available. Metricool posts returned empty rows on 2026-10-12; missing data does **not** mean it is unpublished or had zero views.
+- **Editorial memory:** avoid immediate re-use of the «وش غداك اليوم؟» idea. **«رسالة من معدتك» remains saved for a future post featuring a different dish**, not marked published.
+- **Next:** request exact Instagram Copy Link for verification; capture native reach/interactions after 24 hours. Additional feed post today not needed; optional Story repost with link sticker is a proposal, not executed.
+
+
 ## 2026-10-12 — V3 completed from Drive-only footage; silent master and editable pieces
 
 - **Current user ask:** stronger professional video editing with a hook and closing brand card, no original speaker voice, music *after* visual review. Read current write-up: `plans/2026-10-12-drive-only-real-footage-reel.md#v3--actual-motion-led-edit-with-clear-startend-voice-removed-2026-10-12`.
