@@ -65,3 +65,30 @@ Drive folder `1rjXYaPDznneZy3MEDYXx_jv7O2M_dvPY` contains three vertically shot 
 - **New local corrective preview** (not published): `revision/Basic_Diet_Natural_Edit_V2_SOURCE_AUDIO.mp4`: 11.2s, 1080×1920, five different-length true-source shots from `0614.mp4`; no synthetic visuals, no new captions, no MP3 tempo manipulation or beat forcing. Uses the already-embedded original `0614.mp4` audio as a continuous quieter section (rights for that original source audio remain unverified). Silent equivalent `revision/Basic_Diet_Natural_Edit_V2_SILENT_FOR_NATIVE_AUDIO.mp4` for adding a **separately verified licensed** sound within the platform.
 - **New source section timing:** 20.1–22.0; 12.0–14.5; 16.2–18.1; 29.8–32.3; 0.1–2.5. Straight true cuts, no speed change or generated food. Original source's embedded footer and branding remain and require owner verification.
 - **Commercial posting safety:** do not assume the sound inside the Drive video is licensed for redistributing on Meta or TikTok. TikTok's Commercial Music Library is a safer native choice for business account music; licensed independent audio is acceptable only after rights check. Keep both versions DRAFT until human review; do not claim that V2 solved the user's dissatisfaction without receiving feedback.
+
+
+## V3 — Actual motion-led edit with clear start/end, voice removed (2026-10-12)
+
+**User request:** create a stronger attention-led video from existing Drive footage only, with a clear beginning, story and closing card; remove the original speech and put licensed music later. Offer individually extracted clips as a fallback for manual assembly.
+
+**Skill references reviewed:** `AGENTS.md`, `docs/BOOT.md`, `STATE.md`, `.agents/skills/basic-diet-marketing/SKILL.md`, `.agents/skills/video/SKILL.md`, `.agents/skills/social/SKILL.md`, `.agents/skills/content-strategy/SKILL.md`, `docs/CREATIVE_AGENT_PROTOCOL.md`, `docs/GOOGLE_FLOW_PRODUCTION.md` and the ongoing distribution incident.
+
+**Real sources:** `0614.mp4` Drive `1Nsf0QJmt1_ECd1m0k8pVM7mAYhXTKNvz` and `0609 (1).mp4` Drive `1lJg70H6XN_OYwTUVDcJfv9UxAMp_UIVv`. Inspected source contact sheets and individual cropped frames. Videos already shared in source Drive; no new camera footage or generated food.
+
+**Actual local output created and decoded successfully:** `basicdiet_premium_v3/Basic_Diet_Professional_Reel_V3_SILENT.mp4`, **14.30s, 1080×1920 30fps, H.264, no audio stream**. Seven real footage excerpts, composed with source aspect-consistent editorial cropping to hide old baked-in phone/social handles and watermark text, modest color normalization, Arabic typography over real footage and a separate cream/green end card with the source logo and `basicdietksa.com`. Opening message: `الأكل قدامك / من بيسك دايت`. Mid message: `من التقديم للطبق`. No invented menu, pricing, nutrition or promises. End card: logo / `وجبتك الجاية؟` / `شوف الخيارات في موقعنا` / `basicdietksa.com`. Branding is the supplied logo candidate, which still needs owner signoff.
+
+**Exact editable segment cuts**, local source seconds (start, seconds of use), ordered:
+1. `0614` 22.40, 1.85s — genuine food hero;
+2. `0609 (1)` 3.80, 1.70s — gloved server;
+3. `0614` 11.60, 1.55s — buffet/service;
+4. `0609 (1)` 16.20, 1.75s — salads;
+5. `0614` 24.20, 1.70s — plated meal;
+6. `0614` 30.40, 1.85s — pasta/food;
+7. `0614` 0.55, 1.95s — verified actual storefront;
+8. **generated static branded endcard** 1.85s.
+
+**Manual-edit backup produced:** `basicdiet_premium_v3/Basic_Diet_V3_Editable_Clips.zip` containing eight silent MP4 pieces, the actual still cover, transparent intro/mid PNG overlay graphics, branded ending and an Arabic shot guide. Archive integrity verified with `unzip -t`. Full finished video has been decoded frame-by-frame with ffmpeg and `ffprobe` confirmed the total frame count **429** and absence of an audio stream.
+
+**Audio decision:** no soundtrack was embedded in V3. An old Mixkit Funk pairing was rejected by the user; do not reuse it. Mixkit `Sweet September` by Arulo is only a possible contrasting chill-lofi candidate located in the licensed Mixkit Lo-Fi library; its track audio was **not** downloaded or auditioned against this cut. Never call it selected, synced or approved. The edited silent video is ready for an appropriately licensed music track after visual approval, e.g. business-safe music selected within the native platform's library. Source speech remains fully removed.
+
+**Not approved or published; not an alleged performance winner.** The user has not reviewed this specific V3. Check human/owner permission for serving employee image, restaurant/source footage, correct logo, current status of visible meals, web URL, and commercial track rights/platform eligibility before any upload. TikTok prior low-view incident unresolved; creative edits cannot fix account eligibility restrictions.
