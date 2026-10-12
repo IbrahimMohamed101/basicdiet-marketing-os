@@ -1,5 +1,14 @@
 # Basic Diet Marketing OS — current state
 
+## 2026-10-12 — First-party Instagram insights on latest Reel (more reliable than missing Metricool rows)
+
+- **Current new-content focus:** user provided canonical Instagram post URL `https://www.instagram.com/p/DeXlqySIUxl/` and a *native Instagram View Insights screenshot*. Preserve the screenshot-derived **500 views**, **343 viewers** (screen calls these `المشاهدون`, not explicitly 'reach'), **56% of views from nonfollowers**, **44% followers**, **3 interactions** (2 likes, 1 share, 0 comments, 0 saves), **2 engaged accounts**, **0 follows / 0 profile activity**, and **96 separately reported Facebook views** (0 Facebook engagement). Recorded verbatim with source limitations in `data/reports/social/2026-10-12/instagram-last-reel-user-insights.json`.
+- **Diagnosis:** Instagram provided distribution beyond the followers, but engagement and subsequent profile action are small. Retention/watch time unavailable. The 3/500 = 0.6% is a descriptive interaction-per-view ratio, **not** Meta's official engagement rate. Do not claim account shadowban or that a first-second hook is proven the cause.
+- **TikTok latest:** Metricool returned just **2 views**, 0 reactions and a conflicting/non-comparable reach reading for the 8-sec Oct 11 post `https://www.tiktok.com/@basicdiet.sa/video/7695519331622456596`. Check TikTok Studio's public visibility, For You eligibility and actual native video insights before any deletion/reupload; avoid guessing about algorithm or account restrictions.
+- **Important source distinction:** Metricool Instagram is OAuth-connected but historical per-post API queries are empty. First-party screenshot is **valid evidence for that single reel**, not proof of broader account trends. User explicitly wants focus on *their newly posted content*, not September TikTok promotional videos. Next analysis should focus on this Instagram Reel and the October TikTok video, documenting new 24h/72h/7d results.
+- **Next creative iteration:** test actual unaltered food footage with a compelling first 1–2s visual, short Saudi copy, a clear relevant CTA and correct logo; compare matched post snapshots, not aggregate reach from overlapping date windows.
+- No verified Instagram-to-paid conversions or posting authorization was produced by this screenshot review.
+
 ## 2026-10-12 — Instagram newly connected; social analysis refreshed
 
 - **Live Metricool account `basicdiet.sa` verified:** both `instagramData` and `tiktokData` exist for brand `7299230`. TikTok analytics is readable, but Instagram evolution returned a zero-like aggregate and Instagram posts, Reels, Stories, countries, cities and age/gender datasets returned **no historical rows**, so **do not report Instagram followers/views/reach as 0**. Facebook network remains absent. Metricool syncs daily; recheck Instagram after the next overnight import, preserving connection method if troubleshooting.
