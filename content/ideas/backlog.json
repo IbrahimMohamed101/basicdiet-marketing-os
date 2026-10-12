@@ -250,6 +250,62 @@
       "hook": "وش غداك اليوم؟",
       "grounding": "User-confirmed Instagram feed post, 2026-10-12, with user-supplied post permalink; exact media and menu claims not independently inspected",
       "goal": "Engagement"
+    },
+    {
+      "id": "C032",
+      "pillar": "Food Desire",
+      "format": "Static",
+      "hook": "قلت دايت… تخيلت خس؟",
+      "grounding": "Original Basic Diet Alfredo pasta photograph (Drive 1JR-lQhqRwbwjB9p7nk2n6LNBBiAW1Dne); current menu/rights approval required",
+      "goal": "Awareness"
+    },
+    {
+      "id": "C033",
+      "pillar": "Engagement",
+      "format": "Static/Carousel",
+      "hook": "ملف القضية رقم 01: المتهم باستا الفريدو",
+      "grounding": "Original Basic Diet pasta image (Drive 1JR-lQhqRwbwjB9p7nk2n6LNBBiAW1Dne); original editorial case-file layout, NOT competitor design",
+      "goal": "Engagement"
+    },
+    {
+      "id": "C034",
+      "pillar": "Lifestyle",
+      "format": "Static",
+      "hook": "اجتماع «وش ناكل؟» تم إلغاؤه",
+      "grounding": "Original calendar metaphor + optional authentic Basic Diet meal photograph; convenience positioning is a hypothesis",
+      "goal": "Consideration"
+    },
+    {
+      "id": "C035",
+      "pillar": "Trust",
+      "format": "Carousel",
+      "hook": "قبل ما تشوف الطبق",
+      "grounding": "Authentic in-restaurant footage: 0614.mp4 (Drive 1Nsf0QJmt1_ECd1m0k8pVM7mAYhXTKNvz/view) and 0609 existing footage; real motion frames previously inspected",
+      "goal": "Trust"
+    },
+    {
+      "id": "C036",
+      "pillar": "Conversion",
+      "format": "Carousel",
+      "hook": "اشتراكك على مقاس يومك",
+      "grounding": "Current Basic Diet Flutter app genuine native screenshots to be captured and verified; subscription selector options must match live app",
+      "goal": "Conversion"
+    },
+    {
+      "id": "C037",
+      "pillar": "Food Desire",
+      "format": "Static",
+      "hook": "وصلنا للجزء الحلو من الموضوع",
+      "grounding": "Existing authentic dessert assets: mango cheesecake Drive 1_8glX_iGoP-FuaAs77ONJbTq2tdG8AvZ; brownie Drive 1YfqmYzRPFcG1TSGU3lJWp-80kQ4WS33-",
+      "goal": "Awareness"
+    },
+    {
+      "id": "C038",
+      "pillar": "Food Desire",
+      "format": "Static",
+      "hook": "خل الصورة تكمل الكلام",
+      "grounding": "Full-height close crop of authentic Basic Diet dish (e.g. butter chicken Drive 1H2InhiMdECMrs8bsf6L_h9yM-rOfYqw6) with no food regeneration; steak specifically excluded while Soon",
+      "goal": "Awareness"
     }
   ]
 }
