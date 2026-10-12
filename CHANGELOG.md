@@ -1,5 +1,12 @@
 ## 2026-10-09 — Live TikTok Metricool source onboarded
 
+## 2026-10-12 — Review-only Instagram image pilot
+
+- Produced an actual 1080×1350 food hero from inspected Drive photo/logo; retained editable SVG/HTML and required handoff files locally under `output/creative-pilot-2026-10-12/`. Added source-hash-checked local renderer; optional graphics dependencies are isolated from validation requirements.
+- Recorded live official-site image-ID match, three distinct concepts, visual QA fixes, pending rights/identity/menu gates and updated six AI visual-review references. No publication or performance ledger changed.
+- Validation passed; 77 unit tests passed; renderer/export checks and offline dry-run inspection passed. See `content/production/2026-10-12-instagram-food-hero-pilot.md`.
+
+
 - Confirmed `@basicdiet.sa` TikTok is connected to the existing Metricool brand; authenticated read-only 30/90-day content, audience and timing data retrieved.
 - Added sourced aggregate historical-video snapshot (4 canonical public video links with metrics, no access credentials/customer data) and evidence-aware editorial strategy report.
 - Updated only TikTok connection as connected/metrics-enabled, Instagram and Facebook stay disconnected and posting/ad spending remain disabled.
