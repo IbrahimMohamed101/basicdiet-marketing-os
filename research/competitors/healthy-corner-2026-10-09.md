@@ -2,7 +2,7 @@
 
 **Provided account:** https://www.instagram.com/healthy_corner_sa/ .
 
-**Access result:** Instagram profile/grid was not accessible via public web fetch; therefore no credible full feed audit, current post-count, post-by-post colors, frequency, captions, or audience-performance claims. Do not use this note as proof of the competitor's current posting visual system.
+**Access result AT THIS DATE (2026-10-09):** Instagram profile/grid was not accessible via public web fetch; therefore this dated report alone supports no Instagram-grid visual audit, current post-count, frequency, captions, or audience-performance claims. **Update (2026-10-12):** four **user-provided Instagram grid screenshot collages** were visually inspected separately; consult [the new firsthand thumbnail audit](healthy-corner-visual-audit-2026-10-12.md). This does **not** retrospectively turn 2026-10-09 website/third-party references into verified Instagram posts, and still supplies **no performance data**.
 
 ### What was independently available
 
