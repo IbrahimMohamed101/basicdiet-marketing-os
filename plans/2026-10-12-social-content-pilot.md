@@ -1,5 +1,7 @@
 # First measured Instagram + TikTok organic content test — 12–18 October 2026
 
+> **IMPORTANT UPDATE — 2026-10-12: PAUSE the initial schedule.** After the first new TikTok Reel returned only two views and the latest Instagram Reel showed 3 interactions from 500 views, the user requested a creative reset and TikTok diagnostics. The dated dates/format ideas below are historical *proposals only*, NOT tasks to auto-publish or repeat. The latest active troubleshooting and alternative three-concept plan is `docs/INCIDENT_2026-10-12_NEW_REELS_LOW_DISTRIBUTION.md`. Before producing/scheduling TikTok content, check native TikTok Studio post visibility, For You eligibility and Account check; do not infer shadowban. Prioritize real kitchen footage or verified app demo, subject to approval.
+
 **Status:** proposal only; not scheduled, not posted, not pre-approved. **Checked:** 2026-10-12; timezone **Asia/Riyadh**. Evidence: `data/reports/social/2026-10-12/instagram-tiktok-metricool.json` and official 30-day commerce snapshot `data/reports/commerce/2026-10-08/30d.json`.
 
 ## Decision context
