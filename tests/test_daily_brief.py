@@ -72,7 +72,11 @@ class DailyBriefTests(unittest.TestCase):
         source=d.ROOT/'content/ideas/backlog.md'
         rows=migrate(source,dest)
         self.assertEqual(len(rows),30)
-        self.assertEqual(rows,self.ideas)
+        # The original 30 migrated ideas are immutable; later appended ideas
+        # are deliberately not part of the historical 30-row legacy export.
+        self.assertEqual(rows,self.ideas[:30])
+        self.assertGreaterEqual(len(self.ideas),len(rows))
+        self.assertEqual(len({row['id'] for row in self.ideas}),len(self.ideas))
         with self.assertRaises(FileExistsError):migrate(source,dest)
 
     def test_publication_excluded_on_every_channel(self):
