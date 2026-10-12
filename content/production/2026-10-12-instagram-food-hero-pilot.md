@@ -156,3 +156,5 @@ Editorial QA scores /5: product fidelity 5, brand continuity 4 (provisional toke
 - Renderer rerun after source hash gates: succeeded; true 1080×1350 PNG, parseable SVG, all six required artifacts nonempty. Final SHA-256: `05adc21d320fb427b654c61c9eb1a97060bcab6f7a32fe70243cd055e2862fd1`.
 - Inspected deterministic offline dry-run `2026-10-12-instagram-C003-2fac58289ef5` under `offline-check/`; draft only, AI disabled, no reservation or publication. Its C003 Reel is a regression artifact, **not this selected still or a new creative recommendation**.
 - Local `validation.log`, `tests.log`, `render-evidence.json` hold actual evidence. No human approval or platform results claimed.
+
+Repository handoff: [PR #12](https://github.com/IbrahimMohamed101/basicdiet-marketing-os/pull/12), production commit `a48b453`; media remains local/ignored. Git push used the existing authenticated GitHub CLI credential helper for this command only after the default HTTPS helper was absent. No credentials were printed or committed.
