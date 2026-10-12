@@ -242,6 +242,14 @@
       "hook": "كبسة ولا باستا؟ فطور ولا ساندوتش؟ اختار منيو بكرة",
       "grounding": "real menu categories",
       "goal": "Engagement"
+    },
+    {
+      "id": "C031",
+      "pillar": "Food Desire",
+      "format": "Static",
+      "hook": "وش غداك اليوم؟",
+      "grounding": "User-confirmed Instagram feed post, 2026-10-12, with user-supplied post permalink; exact media and menu claims not independently inspected",
+      "goal": "Engagement"
     }
   ]
 }

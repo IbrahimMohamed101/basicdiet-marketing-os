@@ -1,5 +1,13 @@
 # Basic Diet Marketing OS — current state
 
+## 2026-10-12 — Instagram permalink supplied, publication recorded as C031
+
+- User previously confirmed posting **«وش غداك اليوم؟»** to Instagram and has now provided the exact permalink: https://www.instagram.com/p/DeZshuboWWP/. Logged in `content/published/publications.json` as C031 with **publisher-user-supplied URL** evidence, not independently viewable media verification.
+- Link syntax is valid. Browser fetch blocked; Metricool posts for 10–12 Oct still returned empty rows. Platform media/caption/metrics remain unverified and must not be invented.
+- Earlier URL-pending note reconciled in `content/published/pending-verification-2026-10-12.md`. Do not repeat this idea immediately. **«رسالة من معدتك»** is held for a different dish/creative.
+- No additional feed post, Story, ads or scheduling were carried out by the agent. Next useful action: obtain first-party Instagram post Insights at a common 24-hour observation interval.
+
+
 ## 2026-10-12 — User confirms today's Instagram feed post, URL pending
 
 - **Publication report:** user explicitly confirmed publishing the Instagram post with the idea/headline **«وش غداك اليوم؟»** today. Source: current conversation; canonical post URL, exact media and native insights not supplied or independently verified.

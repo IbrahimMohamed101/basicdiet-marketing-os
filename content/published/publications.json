@@ -1,4 +1,15 @@
 {
   "schema_version": 1,
-  "publications": []
+  "publications": [
+    {
+      "id": "C031",
+      "date": "2026-10-12",
+      "channel": "instagram",
+      "status": "published",
+      "url": "https://www.instagram.com/p/DeZshuboWWP/",
+      "verified_by": "publisher_user",
+      "verified_on": "2026-10-12",
+      "verification_source": "User confirmed publishing the «وش غداك اليوم؟» post and supplied its Instagram post URL directly in conversation on 2026-10-12; link format checked. Platform content not independently fetched; Metricool posts still unavailable."
+    }
+  ]
 }
