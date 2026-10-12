@@ -97,3 +97,10 @@ Leave all other pixels and all branding completely static. Do not rewrite Arabic
 - Saudi social caption: **وش تختار اليوم؟ دجاج بالزبدة، ستيك، ولا باستا ألفريدو؟ اكتب اختيارك بالتعليقات.**
 - No unverified price, discount, calories, weight loss or delivery guarantee. Check that dishes are actually offered, rights are granted, logo and Arabic are correct, and the reel has no large letterboxes/crops.
 - If published, obtain the **actual canonical Instagram/TikTok URL**, verify date/platform, then record it in `content/published/publications.json` using the publication contract. Only after seven days, log actual engagement/retention diagnostics separately from revenue/first-time-paid attribution.
+
+## Post-creation user review and early platform observations (2026-10-12)
+
+- **User assessment:** This Reel concept did **not** achieve the desired result; repeated Google Flow prompt/render work did not translate into satisfactory recent organic performance. Treat the content as a creative archive/lesson, not the default next Reel. This supersedes any implied preference to keep making similar posters.
+- **TikTok:** the latest TikTok post, Oct 11 (`https://www.tiktok.com/@basicdiet.sa/video/7695519331622456596`), showed 2 views and 0 reactions in Metricool twice on Oct 12. **Exact MP4 equivalence with the in-chat Flow file remains unverified**, and TikTok visibility/For You eligibility is not yet known.
+- **Instagram:** the user supplied native insights for `https://www.instagram.com/p/DeXlqySIUxl/` showing 500 views, 3 interactions and 0 profile activity, but the media's exact identity relative to this creative record has not been independently linked.
+- **Operational response:** halt default reuse of low-motion static-poster Reels, diagnose TikTok's native post/account status, develop three genuinely different ideas based on authentic kitchen and/or verified app footage. See `docs/INCIDENT_2026-10-12_NEW_REELS_LOW_DISTRIBUTION.md`. Do not label any post as 'failed due to algorithm' or claim tracked sales. Structured `CONCEPT_DRAFT` metadata remains unchanged until actual approvals and publication-link matching are verified.
