@@ -1,5 +1,14 @@
 # Basic Diet Marketing OS — current state
 
+## 2026-10-12 — PRIORITY INCIDENT: latest TikTok Reel 2 views; change creative approach
+
+- **Read first:** `docs/INCIDENT_2026-10-12_NEW_REELS_LOW_DISTRIBUTION.md`. The user explicitly reports that the new three-meal living-poster idea performed far below expectation and asks for different concepts and TikTok troubleshooting rather than more variants of the same static-animated poster.
+- **TikTok latest (Oct 11 video; checked again Oct 12):** Metricool still reports **2 views, 0 likes, 0 comments, 0 shares** for `https://www.tiktok.com/@basicdiet.sa/video/7695519331622456596`. Low distribution is observed, **NOT** a proven shadowban/content penalty. Need the user's TikTok Studio video Analytics/For You eligibility, privacy and Account check screenshots.
+- **Instagram user screenshot:** `https://www.instagram.com/p/DeXlqySIUxl/` showed 500 views; 56% from nonfollowers, 3 interactions and no profile activity or new follows. Retention unavailable; do not infer precise causal mechanism.
+- **Creative course correction:** stop automatically selecting three-plate posters with steam/leaf motion as TikTok Reels. Test (A) true kitchen preparation/packing, (B) real app-screen package explainer, (C) workday lunch problem with authentic footage. Choose **A** only when genuine approved footage exists; else prioritize verified **B**. Only approved foods/logo/rights; no false testimonial or fabricated scene. Content optimization cannot fix an eligibility/privacy restriction if it exists.
+- **Posting strategy:** hold delete/reupload/boost of the weak TikTok post pending Studio checks. No publishing/scheduling/spend action authorized. Existing dated plan `plans/2026-10-12-social-content-pilot.md` is a proposal, **not** a committed publish schedule; its initial convenience-Reel direction is suspended pending this incident.
+- **Evidence:** incident document plus `data/reports/social/2026-10-12/instagram-last-reel-user-insights.json` and TikTok source rows. No proof exact user-uploaded Flow MP4 equals the published TikTok file; maintain careful media identity separation.
+
 ## 2026-10-12 — First-party Instagram insights on latest Reel (more reliable than missing Metricool rows)
 
 - **Current new-content focus:** user provided canonical Instagram post URL `https://www.instagram.com/p/DeXlqySIUxl/` and a *native Instagram View Insights screenshot*. Preserve the screenshot-derived **500 views**, **343 viewers** (screen calls these `المشاهدون`, not explicitly 'reach'), **56% of views from nonfollowers**, **44% followers**, **3 interactions** (2 likes, 1 share, 0 comments, 0 saves), **2 engaged accounts**, **0 follows / 0 profile activity**, and **96 separately reported Facebook views** (0 Facebook engagement). Recorded verbatim with source limitations in `data/reports/social/2026-10-12/instagram-last-reel-user-insights.json`.
