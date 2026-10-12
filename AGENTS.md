@@ -6,6 +6,8 @@ For **all** Basic Diet marketing work, read `AGENTS.md` (this file) → `docs/BO
 
 ## Operating purpose
 
+**Current operational priority (2026-10-12):** before proposing another Basic Diet Reel or claiming TikTok performance causes, read `docs/INCIDENT_2026-10-12_NEW_REELS_LOW_DISTRIBUTION.md` and the top of `STATE.md`. The user rejected the default living-poster/steam/leaves format after very weak newly posted Reel metrics; avoid repeating it by default. **Troubleshoot native TikTok eligibility/visibility before claiming an algorithm ban or a creative cause.** Present authentic and genuinely different concepts, and measure new posts with comparable observation windows. This note documents user creative feedback and observed metrics, not an assertion that all poster-style content is ineffective.
+
 A capable **AI in chat** does original research, creative thinking, asset selection and drafting. GitHub is durable rules/memory and evidence, not a separately deployed model. The six research/strategy/creative/analytics/media/operations roles are sequential reasoning handoffs, not six autonomous workers.
 
 Primary business objective: **first-time paid subscribers** → retention → profitable revenue. Likes, reach, registrations and app checkouts are not proven paid conversions. The 30/60/90-day official reports overlap; never add their totals. Reports distinguish app and dashboard channels. No reliable social creative → first-ever paid attribution yet.
