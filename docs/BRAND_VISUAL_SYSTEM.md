@@ -43,6 +43,16 @@ Reviewed 2026-10-09 against exact Basic Diet Google Drive raw PNGs. Keep proven 
 
 A successful grid has a **family resemblance without clones**: share logo, greens/oranges, cream field, heading hierarchy and footer line, while alternating hero, choice, editorial and Story designs. Avoid an endless feed of the same 3-card composition.
 
+## Reference-led originality (screenshot research, 2026-10-12)
+
+The source registry at `research/competitors/VISUAL_INSPIRATION_LIBRARY.md` includes a first-hand **thumbnail-only** audit of user-provided Diet Hub screenshots (`research/competitors/diet-hubsa-visual-audit-2026-10-12.md`). Observed competitors can teach **attention mechanisms**, not Basic Diet brand tokens. Useful mechanisms are: one heroic real food item, a single visual metaphor (clock/dumbbell/choice marker), real-life use context, a real app demonstration, and alternation between product and short editorial posts. These are hypotheses, not measured winning styles.
+
+- Do **not** adopt Diet Hub's saturated backgrounds as the Basic Diet palette, its exact logo placement/shape, specific character composition, tiny footer or original slogan.
+- Keep the own brand's airy cream canvas, candidate real logo, green/orange contrast and uncluttered Saudi Arabic typography. Test stronger food framing/props *within that identity*.
+- For a proposed nine-tile grid, avoid nine near-identical posters: vary food hero, real process, app screen, editorial question and verified offer **only where justified by real assets and facts**.
+- At feed-thumbnail size the meal and one short hook must remain legible; at native-size the dish and Arabic must be accurate. Real photographed menu items and real packaging cannot be generated as if authentic.
+- A grid screenshot offers no evidence about Reel motion, publish dates, views or sales. The active 2026-10-12 TikTok incident favors real footage over another animated still for video tests.
+
 ## Consistency check (human-visible)
 
 Before each export ask: Can you identify Basic Diet with the text hidden? Is the original food still the same actual dish? Is the hook readable on a 6-inch display? Does Arabic shape correctly? Are all claims and menu details grounded? Does this layout look like part of the previous 3 posts without appearing duplicated? If any answer is no, revise.

@@ -6,7 +6,8 @@
 
 
 - **Static/design rulebook (2026-10-09):** `.agents/skills/basic-diet-image-creative/SKILL.md`, `docs/BRAND_VISUAL_SYSTEM.md`, `docs/IMAGE_CREATIVE_PLAYBOOK.md`, `assets/visual-identity.json` (owner-provisional design DNA from inspected Basic Diet Drive images).
-- **Limited competitor research:** `research/competitors/healthy-corner-2026-10-09.md` explicitly marks Instagram grid as inaccessible; own site banner and indexed Reel are used only for concept inspiration.
+- **Visual inspiration index (2026-10-12):** `research/competitors/VISUAL_INSPIRATION_LIBRARY.md` links evidence-scoped competitor sources and an originality-first method. `research/competitors/diet-hubsa-visual-audit-2026-10-12.md` is based on **three user-uploaded Diet Hub Instagram thumbnail grid collages**, not direct post URLs or performance. The screenshots are not committed; never treat them as reuse rights or proof of sales.
+- **Limited older competitor research:** `research/competitors/healthy-corner-2026-10-09.md` explicitly marks **Healthy Corner's** Instagram grid as inaccessible; its own site banner and indexed Reel are used only for concept inspiration.
 
 
 - docs/BOOT.md: short task-based read path; docs/SKILL_DIGEST.md: vendor skill routing summary, full originals on demand.

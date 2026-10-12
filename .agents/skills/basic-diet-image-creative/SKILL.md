@@ -57,7 +57,11 @@ metadata:
 
 ## Competition and learning
 
-\`research/competitors/healthy-corner-2026-10-09.md\` is a **limited** source record: Instagram grid could not be viewed in this run. Do not claim inspection of all posts or competitor feed uniformity. Use general mechanisms learned from verified public ads (food prominence, one-message promotion) without copying layouts, photos, slogans or protected identity.
+Before a competitor-led image concept, inspect `research/competitors/VISUAL_INSPIRATION_LIBRARY.md` and its **specific evidence record**. The user supplied three **Diet Hub grid screenshot collages** on 2026-10-12; the observed recurring prop-led food heroes, concise Arabic headline hierarchy, mobile UI, packaging, gym context and seasonal cues are documented in `research/competitors/diet-hubsa-visual-audit-2026-10-12.md`. This proves only visible thumbnail patterns, **not** performance, current offers, post-by-post dates, rights or official color values.
+
+`research/competitors/healthy-corner-2026-10-09.md` remains a **limited** source record: its Instagram grid could not be viewed. Never generalize across unverifiable posts. Use inspiration at the **communication-mechanism level** only; no copying competitor image pixels, layout, recognizable arrangement, logos, lookalike palettes, slogans or protected characters. Retain Basic Diet's own provisional cream/green/orange design system and its **authentic** assets.
+
+When reviewing a group of concepts, vary the visual mechanism (meal hero / lived context / real app demonstration / verified packaging / editorial question), not just text placement. Do a phone-thumbnail legibility check and do not default to the already rejected moving-static-poster Reel format. A reference can inform a **draft** but never establishes what drove competitor conversions.
 
 ## Approval / persistence
 
