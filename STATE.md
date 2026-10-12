@@ -1,5 +1,11 @@
 # Basic Diet Marketing OS — current state
 
+## 2026-10-12 — User rejected the Funk music edit; correction preview exists
+
+- The user assessed `Basic_Diet_Real_Food_Reel_Beat_Synced.mp4` with **Gimme That Groove!** as **«سيئ جدا للأسف»**. **Do not call the music pairing successful or reuse automatically.** Specific reason was not determined.
+- A distinct 11.2s five-shot revision from original `0614.mp4` was locally produced, with no force-matched beat, no new text, and either existing original Drive clip sound at lower volume (license **unverified**) or a completely silent platform-audio-ready file. Source video remains real; no new footage is needed. Await user quality feedback.
+- Read details at `plans/2026-10-12-drive-only-real-footage-reel.md#user-creative-feedback-and-v2-corrective-edit--2026-10-12`. Do **not** publish/edit platform posts or reuse original video sound commercially before rights approval.
+
 ## 2026-10-12 — Drive-only real-footage alternative prepared (awaiting user approval)
 
 - **User constraint:** no new restaurant filming; work only with existing authenticated Basic Diet Google Drive assets. Selected real original [0614.mp4](https://drive.google.com/file/d/1Nsf0QJmt1_ECd1m0k8pVM7mAYhXTKNvz/view) from Drive's videos folder after **visual inspection** of its actual frames. It contains real buffet/serving/plates and the storefront, 36.1s vertical 2160×3840. Backup 0609 footage has similar scenes; Ramadan clips with expired promotional overlay must NOT be reused as current offers.
