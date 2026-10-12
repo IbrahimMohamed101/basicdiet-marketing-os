@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "captured_date": "2026-10-12",
+  "source": "User-supplied first-party Instagram View Insights screenshot in current conversation; not Metricool analytics",
+  "platform": "instagram",
+  "post_url_user_supplied": "https://www.instagram.com/p/DeXlqySIUxl/",
+  "post_identity_note": "URL supplied directly before screenshot; no independent API identity match or publication timestamp was available.",
+  "observed_metrics": {
+    "views": 500,
+    "viewers": 343,
+    "viewer_definition": "Screenshot Arabic label: المشاهدون; do not independently relabel as platform reach.",
+    "view_share_followers_percent": 44,
+    "view_share_nonfollowers_percent": 56,
+    "interactions": 3,
+    "likes": 2,
+    "comments": 0,
+    "saves": 0,
+    "shares": 1,
+    "interacting_accounts": 2,
+    "profile_activity": 0,
+    "follows": 0,
+    "facebook_crosspost_views_reported": 96,
+    "facebook_interactions": 0,
+    "facebook_follows": 0
+  },
+  "derived": {
+    "interactions_per_100_views": 0.6,
+    "views_per_reported_viewer": 1.458,
+    "note": "Ratios are descriptive only; not Meta's official engagement metric. Facebook views are separate and should not be added to Instagram views as if unique people."
+  },
+  "interpretation": [
+    "Instagram clearly registered views from nonfollowers; no evidence of a total distribution block on this post.",
+    "Engagement and subsequent profile action are low in this screenshot; creative/CTA may merit test, but causality is not established.",
+    "Instagram average watch time, three-second hold and audience retention were not shown, so no conclusion about first-seconds retention.",
+    "Metricool has confirmed Instagram OAuth, but its analytics returned zero historical post/reel rows at query time; user native screenshot supplies limited post-specific evidence."
+  ],
+  "compared_new_tiktok": {
+    "post_url": "https://www.tiktok.com/@basicdiet.sa/video/7695519331622456596",
+    "observed_on": "2026-10-12",
+    "metricool_views": 2,
+    "age_note": "TikTok 8-second post dated Oct 11; view count early. No proof of TikTok shadowban or a platform eligibility issue.",
+    "caution": "Video content identity with this Instagram post was not verified pixel-by-pixel. Don't assume accounts expose media in exactly the same way."
+  },
+  "needed_evidence": [
+    "Instagram reel watch-time and retention screenshot",
+    "TikTok Studio analytics and For You eligibility status for the specific new video",
+    "Freshly synced provider data 24-72 hours post publication and view-growth measurements"
+  ],
+  "privacy": "Only aggregate insights and user-provided public post URL; screenshot binary not committed",
+  "operational_state": "analysis_only_no_publish_no_ads"
+}
