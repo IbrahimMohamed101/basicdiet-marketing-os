@@ -1,5 +1,12 @@
 # Basic Diet Marketing OS — current state
 
+## 2026-10-12 — V3 completed from Drive-only footage; silent master and editable pieces
+
+- **Current user ask:** stronger professional video editing with a hook and closing brand card, no original speaker voice, music *after* visual review. Read current write-up: `plans/2026-10-12-drive-only-real-footage-reel.md#v3--actual-motion-led-edit-with-clear-startend-voice-removed-2026-10-12`.
+- **Completed local outputs (current conversation only, not retained as GitHub binaries):** `basicdiet_premium_v3/Basic_Diet_Professional_Reel_V3_SILENT.mp4` (14.30s, 1080x1920 H.264 at 30fps; **zero audio streams**); `basicdiet_premium_v3/Basic_Diet_V3_Editable_Clips.zip` (eight silent MP4s, intro/mid overlays, end branding card, cover, Arabic shot guide). Both exact paths verified; the entire video decoded successfully and the archive passed zip integrity check. Actual Drive clips: `0614.mp4` and `0609 (1).mp4`, true original footage only.
+- **Creative direction:** lead with an actual dish (not a static poster), show staff/meal preparation buffet and salads, end with an authentic storefront and a separate short logo/website card. Source-editor crop removed old baked-in phone/handle graphics at vertical edges. Draft does not imply menu/footage/employee rights approval.
+- **Music gate:** user's previous `Gimme That Groove!` mix was rejected. No new track was acquired or falsely claimed to be synced. V3 intentionally has **no speech and no added music**. Next step if visuals accepted: audition a different properly licensed *real* instrumental against V3, or use commercially available platform music. No publishing or paid advertising permission.
+
 ## 2026-10-12 — User rejected the Funk music edit; correction preview exists
 
 - The user assessed `Basic_Diet_Real_Food_Reel_Beat_Synced.mp4` with **Gimme That Groove!** as **«سيئ جدا للأسف»**. **Do not call the music pairing successful or reuse automatically.** Specific reason was not determined.
