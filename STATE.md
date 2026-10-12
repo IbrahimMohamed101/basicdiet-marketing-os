@@ -1,5 +1,12 @@
 # Basic Diet Marketing OS — current state
 
+## 2026-10-12 — Drive-only real-footage alternative prepared (awaiting user approval)
+
+- **User constraint:** no new restaurant filming; work only with existing authenticated Basic Diet Google Drive assets. Selected real original [0614.mp4](https://drive.google.com/file/d/1Nsf0QJmt1_ECd1m0k8pVM7mAYhXTKNvz/view) from Drive's videos folder after **visual inspection** of its actual frames. It contains real buffet/serving/plates and the storefront, 36.1s vertical 2160×3840. Backup 0609 footage has similar scenes; Ramadan clips with expired promotional overlay must NOT be reused as current offers.
+- **Prepared unposted DRAFT:** 14s 1080×1920 silent Reel cut from 0614, begins with real finished plate, includes authentic serving/buffet/food and ends with the store facade. Overlays `من قلب بيسك دايت` / `شوف المنيو في البايو`. Local preview file shared in conversation only; **no GitHub binary or actual platform post**. Embedded source phone/brand handle, footage rights and current menu status must be checked by owner before publication; use appropriately licensed audio.
+- **Canonical brief:** `plans/2026-10-12-drive-only-real-footage-reel.md` includes three distinct creative options, exact Drive references, source seconds, caption, QA gate, and proposed same-account measurement. Continue diagnosing low TikTok distribution in `docs/INCIDENT_2026-10-12_NEW_REELS_LOW_DISTRIBUTION.md` rather than pretending this creative fixes any account-level restriction.
+- **Scope:** concept + local edit only. User has not yet approved or authorized actual Instagram/TikTok posting, scheduling or spend.
+
 ## 2026-10-12 — PRIORITY INCIDENT: latest TikTok Reel 2 views; change creative approach
 
 - **Read first:** `docs/INCIDENT_2026-10-12_NEW_REELS_LOW_DISTRIBUTION.md`. The user explicitly reports that the new three-meal living-poster idea performed far below expectation and asks for different concepts and TikTok troubleshooting rather than more variants of the same static-animated poster.
