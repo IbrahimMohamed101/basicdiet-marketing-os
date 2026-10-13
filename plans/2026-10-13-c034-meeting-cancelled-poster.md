@@ -37,3 +37,10 @@
 شوف تفاصيل الاشتراكات من الرابط في البايو.»
 
 No post, Story, advertising, account action or paid distribution authorized by this creative draft.
+
+## User review — REJECTED 2026-10-13
+
+- The user reacted to the final poster with **«لا لا سئ جدا ازاي يعني»**. Do **not** treat previous assistant self-rating (8/10) or claimed approval-readiness as valid user validation.
+- After independent image re-inspection, the rejected poster has a flat app-card composition unlike the requested premium advertising style: oversized empty dark field, calendar dominates, isolated logo on white card, plate cropped by lower edge, and redundant copy. Source fidelity alone does not compensate for a weak visual.
+- Further AI-generated office-poster explorations also generated invented restaurant branding/food and repeated stamping/marketing copy. They were **not approved**, **not published**, and are **not an acceptable solution**. No fabricated assets should be represented as real Basic Diet products.
+- Treat C034 as **CREATIVE_REJECTED_REDESIGN_REQUIRED**, not publish-ready. Return to art direction and propose a materially new photographic composition before producing another final. Prefer an authentic food/brand composite with a real coherent tabletop scene and one small calendar prop; no oversized text blocks or invented packaging. Seek user approval of direction before investing in another variant.
