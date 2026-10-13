@@ -1,40 +1,61 @@
-# Basic Diet — 5-stage daily creative pipeline
+# Basic Diet — Reliable 5-stage scheduled creative pipeline (v2)
 
-## Purpose and authority
+**Date:** 2026-10-13. **Status:** scheduled tasks configured; end-to-end overnight generation and persistent image upload still **unproven**. This protocol increases recoverability but does not provide guaranteed completion, runtime length or image-tool access. User authorizes creation and review of **drafts**, not posting, social scheduling, spending paid external API/credits, customer contact, or commercial rights approval.
 
-Daily **review-only** social creative pipeline, Asia/Riyadh timezone. User-authorized: research, critique, revise, produce visual drafts if a supported tool is actually available, review them, and document outputs. **NOT authorized:** publishing or scheduling social posts, buying ads, editing actual customer data, changing prices/offers, or falsely claiming brand/menu/asset approval.
+## Canonical sources and schedule
 
-This document is an execution contract for scheduled ChatGPT tasks, **not proof that connectors or image generation are usable in the scheduled runtime**. Each run must explicitly report the truth. Source of truth: `AGENTS.md`, current `STATE.md`, `.agents/skills/basic-diet-marketing/SKILL.md`, `.agents/skills/basic-diet-image-creative/SKILL.md`, `docs/CREATIVE_AGENT_PROTOCOL.md`, `docs/BRAND_VISUAL_SYSTEM.md`, original Google Drive files and accepted/rejected `plans/` entries. Actual publication is proved only by a real platform URL, not by a concept/brief, scheduled task, or repost intention.
+Repository: `IbrahimMohamed101/basicdiet-marketing-os`.
+Read `AGENTS.md` → `docs/BOOT.md` → current `STATE.md` → native marketing + image-creative skills → needed specific source records. Use actual Google Drive images for real products and logos; never invent logo, meal, label, packaging, app UI or people and imply real Basic Diet products.
+All date calculations use **Asia/Riyadh** (not account UI timezone). Run at 04:00, 05:30, 07:00, 08:30 and 10:00 Saudi time, daily. The 90-minute intervals space *starts*, not guaranteed durations or process limits.
 
-## Run identity / durable handoff
+Daily handoff path: `automation/daily/YYYY-MM-DD/` (the date each task is executing in Riyadh).
+Stage files (in execution order):
+1. `01-ideas.md` — selection & asset references.
+2. `02-critique.md` — independent editorial criticism, alternatives, choice.
+3. `03-approved-brief.md` — production directions; *automation-ready*, never human-approved for publishing.
+4. `04-draft-images.md` — **real verified draft image links** and actual dimensions or explicit technical blocker.
+5. `05-final-review.md` — pixel-inspected critique, repairs, final *review* link if genuinely available, caption and unresolved permissions.
 
-- Compute **today's date in Asia/Riyadh** (`YYYY-MM-DD`) at each execution.
-- The single shared handoff directory for that date is `automation/daily/YYYY-MM-DD/`.
-- For each stage, **read all predecessor stage files that exist for exactly that day**. Never substitute old-day results when today's predecessor is absent or failed.
-- Stage outputs are short complete Markdown files on GitHub, one per date, with one of these exact filenames:
-  1. `01-ideas.md`
-  2. `02-critique.md`
-  3. `03-approved-brief.md` (this means approved for automated draft production ONLY, not owner-approved)
-  4. `04-draft-images.md`
-  5. `05-final-review.md`
-- Header of each file: `date`, `stage`, `status=COMPLETED|BLOCKED|NEEDS_USER_REVIEW|READY_FOR_USER_REVIEW`, `source_refs`, `predecessor_refs`, `generated_at_riyadh`, `next_action` with timestamps or links. Add factual outputs below.
-- Do not overwrite good evidence with conjecture. If the GitHub connector cannot write, clearly report the stage text and the error; **later stages must not claim the handoff was saved**.
-- Every stage shall state whether connected Drive, GitHub, image tools and latest social data were actually available in that run.
+Every stage file has an unambiguous header:
+```text
+date: YYYY-MM-DD
+stage: 01|02|03|04|05
+status: COMPLETED|BLOCKED|NEEDS_USER_REVIEW
+run_key: YYYY-MM-DD:0X
+source_refs: [actual paths/IDs]
+predecessor_refs: [same-day verified stage links]
+attempts: 1|2|3
+generated_at_riyadh: YYYY-MM-DDTHH:MM:SS+03:00
+next_action: ...
+```
+Status `COMPLETED` requires the actual stage output **and a successful refetch from GitHub**. Image stage requires accessible and visually inspected image files, not descriptions. Never turn a missing/failed predecessor into a fictitious completion.
 
-## Stages
+## Retry + recovery rules (mandatory EACH task)
 
-1. **04:00 Riyadh — Research/selection.** Inspect state, existing and rejected concepts, publications (verify whether posts are actually published vs only discussed), pending drafts and genuine image/video sources. Select one primary new idea and two backups (not a repeated recent post); include ID, audience, goal, source media IDs, factual/rights gaps, rationale. Save `01-ideas.md`.
-2. **05:30 — Critical review.** Only proceed if today's `01-ideas.md` is `COMPLETED`. Critically score 3 concepts for originality, actual source availability, Saudi relevance, claim truth and plausibility; find weaknesses and choose strongest, not merely echo previous praise. Save `02-critique.md`.
-3. **07:00 — Art direction revision.** Only proceed if today's 1 and 2 are complete. Apply the criticisms and previous user rejections, especially C034 meeting-poster rejection; design 4:5 static production brief with source-specific stills, realistic layout, short Arabic type, one CTA, strict rejection gates, and caption. Save `03-approved-brief.md`. No fake product, app UI, reviews, labels or sponsorship.
-4. **08:30 — Production.** Only proceed if today's `03-approved-brief.md` completed. Use live authentic Drive media as source. If the scheduled runtime has an image-generation/editing/compositing tool, produce **up to two** substantially different 1080x1350 visual draft(s), inspect actual image pixels, and save stable accessible media links or authorized Drive uploads; record actual dimensions and links in `04-draft-images.md`. Never use fake generated restaurant logo/food/packaging as authentic. If unavailable or if outputs cannot persist, mark **BLOCKED**, state exactly what failed, and provide a truthful production-ready asset assembly plan instead of fabricated image links. Do not spend on a separate paid image API without budget approval.
-5. **10:00 — Image critique/final candidate.** Only proceed if today's 4 exists with actual inspectable images. Inspect rendered pixels visually (not prompt descriptions). Score product/logo/source fidelity, legible Arabic, mobile hierarchy, aesthetics, composition, clarity, claim accuracy and CTA out of 10. Hard reject any invented product/logo, fake app UI, unsupported material claim, or broken Arabic. Select best and repair with supported tools if available, up to **two** fixes, then re-check actual result; include a stable image link and short Saudi caption. If score <8.5/10 or critical gate unmet, status `NEEDS_USER_REVIEW` or `BLOCKED`, never invent a publish-ready claim. Use `READY_FOR_USER_REVIEW` status only if actual image inspection scores at least 8.5/10 without hard blockers, otherwise `NEEDS_USER_REVIEW` or `BLOCKED`. Save `05-final-review.md`. No social upload.
+1. **Idempotency:** Read today's own stage file first. If a complete, valid `COMPLETED` file exists, don't regenerate/call paid services; reuse its URL and report success. If existing file is `BLOCKED`, assess and attempt recovery only if the blocker has changed or was transient.
+2. **Bounded retries:** On intermittent GitHub/Drive/asset-reading or saving errors (temporary network/5xx/429/timeout), try **up to 3 total attempts within the same scheduled run**; re-fetch source and detect any previously successful write before retrying. On SHA conflicts reread the latest file and reconcile rather than overwriting another run. Do not spin endlessly. Count attempts and write reason to stage report. No timer/sleep functionality should be assumed.
+3. **Dependency self-repair:** Check same-day predecessor status. If missing or invalid, re-fetch up to 3 times. If still absent, **attempt to complete the missing upstream stage(s) in order within THIS run**, only if their source facts/tools are actually available; save and refetch each stage before proceeding. Cap catch-up to the day's five defined stages, never go into previous-day artifacts. If catch-up is impossible, create a `BLOCKED` note for current stage with precise remedy and deliver useful partial results. Never pretend a scheduled run was triggered or has completed.
+4. **Write verification:** Use GitHub update_file/create_file with the actual SHA, then **fetch_file** and verify date, stage, status, content and original source links. On transient failure retry within bounds. If write cannot be verified, tell the user it is unsaved; never claim persistence.
+5. **External generation safety:** Do not blindly retry image submission or billed jobs on timeout. Outcome may be unknown; inspect returned job ID/status or destination first, and only resubmit if confirmed no generation occurred and user-approved budget permits. Two separate *visual revisions* maximum after successful render; do not conflate design iteration with network retry.
+6. **Fallback:** On missing premium generation features/permissions, source rights, actual media, or persistent network failure, prepare the best useful next artifact (strong verified brief, source list, caption and QA checklist), mark `BLOCKED`, and notify clearly instead of inventing image links. **Never bypass critical quality gates** to produce a falsely approved design.
+7. **Limit repeated work:** Use stable `run_key`, the exact same-day stage names, and do not create duplicate selected ideas or files when retrying; never infer `PUBLISHED` from draft status.
 
-## General safeguards
+## Stage-specific deliverables
 
-- Each stage may run without its predecessor: **STOP / BLOCKED** rather than reconstruct or assume the missing stage completed.
-- 90 minutes is spacing between **scheduled start times**, not a guaranteed runtime duration, service level or completion deadline. The next stage must check file status even if the schedule time has passed.
-- Assets from project chat attachments are not reliably accessible from scheduled tasks. Retrieve original media through authenticated **Google Drive** or persisted authorized links; never assume a sandbox link survives.
-- Labels and authentic logo must be copied faithfully; use native source pixels and typeset Arabic separately with RTL support. If a desired branded packaging type is conceptual, call it concept art, not real current packaging.
-- Respect plan/tool limits, permissions, source rights and financial approvals; no posting, marketing spend or customer data exports without explicit permission.
-- Notify the user of stage result or blocker, with direct links to the real handoff file and produced media when available; avoid false success language.
+**1 / 04:00 — Selection.** Cross-check actual publication ledger, accepted and rejected visual feedback, current source asset metadata vs inspected pixels, menu availability. Select 1 primary *new* idea and 2 backups, distinct from recently published and C034 rejected treatment, with ID, objective, authentic asset IDs, blockers, expected audience. Persist `01-ideas.md`.
 
+**2 / 05:30 — Critique.** Read verified Stage 1 (or backfill) and challenge all three ideas. Score originality, brand truth, real asset quality, audience relevance, caption hook and practicality. Choose 1 winner, 1 fallback and precise changes. Persist `02-critique.md`.
+
+**3 / 07:00 — Revised art direction.** Read verified Stages 1–2 (or backfill). Convert criticism into final **production brief**, NOT a publicly approved post: exact real Drive photo/logo/label IDs and status, 1080×1350 layout, textual overlay with proper Saudi Arabic RTL, hook, short caption, CTA, explicit negative constraints (no invented food or branding), what visual inspection must confirm. Persist `03-approved-brief.md`.
+
+**4 / 08:30 — Image creation.** Read verified Stages 1–3 (or backfill). Check what native image editing/compositing tools actually exist **in this scheduled run** and whether persistent authorized Google Drive/GitHub upload is possible. Produce up to 2 truly distinct 4:5 draft images from original brand assets, not fabricated product identities. If files created, verify size, visually review pixels, ensure durable URLs (not ephemeral sandbox paths), and persist `04-draft-images.md` with those accessible links. If image tools not available, optionally inspect an existing connected image-generation provider **but do not spend paid credits or buy an API** without separate approval; do not claim that provider is available just because it is listed. Otherwise mark `BLOCKED` and provide exact composition recipe/source IDs.
+
+**5 / 10:00 — Visual QA / correction.** Read verified Stages 1–4 (or backfill) and **actually open each real image**. Score /10 for originality, photographed-food fidelity, exact logo/label, accurate claims, RTL type legibility on phone, composition and CTA. Reject automatically on fake logo/meal/label, counterfeit app screens, invented promotional claim or broken Arabic. Choose strongest, correct up to **2** times if editing is really supported, reinspect pixels, and persist `05-final-review.md` with final real image URL + caption + detailed QA. Require overall >=8.5/10 and no critical failures for `NEEDS_USER_REVIEW`; note remaining human rights/menu approvals. If no qualifying image, mark `BLOCKED` and attach diagnosis rather than claim final output.
+
+## Reliability limitations and user notification
+
+- ChatGPT Tasks do not guarantee other separate tasks finished on time; catch-up only works if the scheduled runner has enough runtime and tool access. These prompts **do not install a persistent background worker or queue**.
+- Stage 4 & 5 cannot promise a created image until *actual tool access*, real asset processing and durable upload are verified during a run. A text prompt is not a completed visual.
+- No formal fixed-duration sleep or future rerun within the same day is available to these 5 schedules; bounded retry happens **within the task execution**. On hard failure record and report a blocker. A sixth scheduled watchdog is not installed.
+- Check task notifications in ChatGPT Settings: currently notifications were observed **disabled**; only the user can enable push/email in the UI.
+- Report one completed daily review with real links or accurate BLOCKED details; never auto-post, spend or claim a customer subscription outcome.
