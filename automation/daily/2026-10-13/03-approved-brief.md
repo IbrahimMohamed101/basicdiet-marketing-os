@@ -1,24 +1,21 @@
 date: 2026-10-13
 stage: 03
-status: BLOCKED
+status: COMPLETED
 run_key: 2026-10-13:03
-source_refs: [STATE.md, content/ideas/2026-10-12-seven-creative-concepts.md, assets/drive-source-index.json, Google Drive 1_8glX_iGoP-FuaAs77ONJbTq2tdG8AvZ, Google Drive 1I8-a2wQiP26JnHRblQYdM3fgE0WEQnAg]
+source_refs: [automation/daily/2026-10-13/01-ideas.md, automation/daily/2026-10-13/02-critique.md, Drive:1_8glX_iGoP-FuaAs77ONJbTq2tdG8AvZ, Drive:1I8-a2wQiP26JnHRblQYdM3fgE0WEQnAg]
 predecessor_refs: [automation/daily/2026-10-13/01-ideas.md, automation/daily/2026-10-13/02-critique.md]
-attempts: 1
-generated_at_riyadh: 2026-10-13T07:05:00+03:00
-next_action: Repair stage 01 to include all three options and stage 02 to COMPLETED, then revalidate this brief.
+attempts: 2
+generated_at_riyadh: 2026-10-13T08:37:00+03:00
+next_action: Stage 04 create and inspect two real 1080x1350 image drafts and save them to Google Drive.
 
-# C037 — الحلا له كلمة ثانية
-Draft production directions only; NOT human-approved.
-
-- Canvas: Instagram 1080x1350, 4:5, safe margins 72px.
-- Photo: original real mango cheesecake jar PNG, Drive 1_8glX_iGoP-FuaAs77ONJbTq2tdG8AvZ, 1856x2304. Preserve lid, mango pieces, creamy layers and crumb base. Original has NO visible branded label.
-- Candidate logo: original transparent PNG, Drive 1I8-a2wQiP26JnHRblQYdM3fgE0WEQnAg. Do not redraw, distort, or crop it. Owner approval pending.
-- Sticker design source exists in Drive folder 1MKzSewAb59yixil9bh1_77zTgqndFF_U (PDFs 1X6sheu6YBcuTMga0-dOTOPwROFebinKf and 1CD-tL5mAHz4vFVA3_p18n6dYNGEs3dSb). Neither is visually verified for this dessert. Do NOT add a label to this unlabelled source jar.
-- Design: premium photo-led editorial layout. Large original jar occupying lower central 60%, warm cream background #F7F4E6, restrained brand green #107F55 and orange #E95D2C, all provisional. No calendar, app cards, invented props or false packaging.
-- Headline: «الحلا له كلمة ثانية»; subline omitted. Keep large Arabic RTL, high contrast, 1-2 lines. Small logo in upper safe zone. CTA in tiny bottom strip: «شوف الخيارات من الرابط في البايو» (link must be checked).
-- Alternative variation: same real jar, tighter photographic crop with green editorial side-rail, no fake food.
-- Caption draft: «للحلا حضوره بعد الوجبة. تشيز كيك المانجا في الصورة من تصوير بيسك دايت. وش أكثر حلا تحب تشوفه؟ شوف خياراتنا من الرابط في البايو.» Product naming/availability must be verified before publishing.
-- Negative: no generated food, fruit, cream, toppings, invented brand label, logo retyping, fake delivery bag, fabricated app UI, calories, prices, discount, customer endorsement or health claim.
-- Reject on food pixel substitution, broken Arabic, logo mismatch, unreadable phone-size text, crop cutting jar, low contrast, stale/unverified menu claim. Must inspect exported actual pixels.
-- Rights, menu availability, official logo and CTA destination are NOT verified. No publication.
+# C037 creative production brief
+Format: Instagram feed 1080x1350 (4:5), RGB PNG, safe area 72 px.
+Original dessert image: Google Drive 1_8glX_iGoP-FuaAs77ONJbTq2tdG8AvZ, 1856x2304. Inspected 2026-10-13: transparent-lidded jar with mango chunks, cream and crumb layers on pale studio background. Keep original food pixels and lid; do not add a label.
+Original logo image: Google Drive 1I8-a2wQiP26JnHRblQYdM3fgE0WEQnAg, transparent PNG 2880x2880. Keep exact logo pixels.
+Palette provisional: green #107F55, orange #E95D2C, cream #F7F4E6.
+Headline in correctly shaped RTL Arabic: «الحلا له كلمة ثانية».
+Footer: «شوف الخيارات من الرابط في البايو».
+Variation A: bright photo-led editorial composition, original jar central and intact, concise headline in upper cream negative space, small authentic logo and restrained footer.
+Variation B: distinctive dark green split editorial composition, cream-framed original logo, exact original photo and short white headline, without cropping the jar.
+Caption draft: «للحلا حضوره بعد الوجبة. وش أكثر حلا تحب تشوفه؟ شوف خيارات بيسك دايت من الرابط في البايو.»
+Reject: altered food/ingredients, false label, re-created logo, broken Arabic, clipped jar, misleading offer or unsupported menu claim. Photo rights, current menu, logo variant and CTA target still require owner approval. Draft only; do not publish.
