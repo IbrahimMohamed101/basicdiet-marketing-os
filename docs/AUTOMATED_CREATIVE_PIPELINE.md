@@ -13,8 +13,8 @@ Stage files (in execution order):
 1. `01-ideas.md` — selection & asset references.
 2. `02-critique.md` — independent editorial criticism, alternatives, choice.
 3. `03-approved-brief.md` — production directions; *automation-ready*, never human-approved for publishing.
-4. `04-draft-images.md` — **real verified draft image links** and actual dimensions or explicit technical blocker.
-5. `05-final-review.md` — pixel-inspected critique, repairs, final *review* link if genuinely available, caption and unresolved permissions.
+4. `04-draft-images.md` — **real verified draft image links** and actual dimensions or explicit technical blocker; when COMPLETED include one header line `draft_image_urls: https://<working-permanent-image-URL>` (additional URLs may follow).
+5. `05-final-review.md` — pixel-inspected critique, repairs, final *review* link if genuinely available, caption and unresolved permissions; when NEEDS_USER_REVIEW include one header line `final_image_url: https://<working-permanent-image-URL>`.
 
 Every stage file has an unambiguous header:
 ```text
@@ -51,6 +51,10 @@ Status `COMPLETED` requires the actual stage output **and a successful refetch f
 **4 / 08:30 — Image creation.** Read verified Stages 1–3 (or backfill). Check what native image editing/compositing tools actually exist **in this scheduled run** and whether persistent authorized Google Drive/GitHub upload is possible. Produce up to 2 truly distinct 4:5 draft images from original brand assets, not fabricated product identities. If files created, verify size, visually review pixels, ensure durable URLs (not ephemeral sandbox paths), and persist `04-draft-images.md` with those accessible links. If image tools not available, optionally inspect an existing connected image-generation provider **but do not spend paid credits or buy an API** without separate approval; do not claim that provider is available just because it is listed. Otherwise mark `BLOCKED` and provide exact composition recipe/source IDs.
 
 **5 / 10:00 — Visual QA / correction.** Read verified Stages 1–4 (or backfill) and **actually open each real image**. Score /10 for originality, photographed-food fidelity, exact logo/label, accurate claims, RTL type legibility on phone, composition and CTA. Reject automatically on fake logo/meal/label, counterfeit app screens, invented promotional claim or broken Arabic. Choose strongest, correct up to **2** times if editing is really supported, reinspect pixels, and persist `05-final-review.md` with final real image URL + caption + detailed QA. Require overall >=8.5/10 and no critical failures for `NEEDS_USER_REVIEW`; note remaining human rights/menu approvals. If no qualifying image, mark `BLOCKED` and attach diagnosis rather than claim final output.
+
+## Independent overnight audit
+
+A separate GitHub Actions health-check may run after the five start windows using `scripts/check_scheduled_pipeline.py`. It validates stage handoff filenames, dates, status, idempotency keys, essential fields and documented image URLs; an audit PASS is **not** proof that an image actually matches the logo/menu or is approved for posting. Scheduled Task retries remain the primary recovery mechanism. An audit failure must not be hidden and does not itself re-run ChatGPT Tasks.
 
 ## Reliability limitations and user notification
 
