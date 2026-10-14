@@ -14,3 +14,5 @@ C035 «قبل ما تشوف الطبق» **7.6/10; fallback.** Originality 7, Sa
 C036 «اشتراكك على مقاس يومك» **5.3/10; not production-ready.** Originality 8, Saudi fit 9, asset 1, brand 6, claim safety 4, production 4. Requires real current Flutter screenshots and checked plan rules; no fake UI/prices.
 
 C031 is user-reported published; C034 was rejected; C037 was drafted yesterday, not known published. Reject made-up food, logo, labels, prices, offers, macros, or distorted Arabic. Source media rights, current menu and official logo approval are unresolved. No image or publication created.
+
+Stage 03 correction: C032 must feature the intact black plate, strong contrast and one Saudi headline; do not add fictional toppings or reuse C034 calendar/app-card layout.
