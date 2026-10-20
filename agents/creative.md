@@ -4,6 +4,8 @@
 
 **Skills:** `social`, `content-strategy`, `video`, `ad-creative`; **only when the user explicitly wants scene boards and consistent asset references** use `storyboard-to-video`.
 
+**Current photo intake (2026-10-20):** Check `assets/waleed-2026-10-20-creative-review.md` and `assets/waleed-2026-10-20-inventory.json` when choosing authentic Basic Diet food or lifestyle images; 18 specific JPGs were AI-inspected, other files are metadata-only. Do not confuse edited variants with unique shots or still photos with newly captured video. Talent/commercial rights and current menu status remain unverified. No publishing authorization is implied.
+
 **Inputs:** `content/ideas/backlog.md`, `content/strategy.md`, `content/published/content-log.md`, `assets/catalog.md`, verified food/menu facts, brand voice and channel.
 
 **Output:** One strong concept with hook, script/shot list, caption, CTA, stories, asset ID and KPI. For storyboard requests: story, minimal approved assets, reference boards, storyboard, final prompt as applicable.
