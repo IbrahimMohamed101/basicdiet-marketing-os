@@ -2,9 +2,9 @@
   "schema_version": 1,
   "checked_at": "2026-10-20",
   "source_mode": "authenticated_google_drive_list_folder",
-  "source_status": "metadata_catalogued_with_selected_ai_pixel_review",
+  "source_status": "all_100_edited_jpegs_ai_reviewed_origins_inventory_only",
   "commercial_rights_status": "unverified",
-  "note": "Google Drive inventory/listing metadata and 18 specifically named AI-viewed JPEG images are documented. AI visual inspection is NOT human/rights/current menu approval. New Waleed photos: assets/waleed-2026-10-20-creative-review.md; full manifest assets/waleed-2026-10-20-inventory.json. Verify each selected source and any recognizable people before publication.",
+  "note": "Authenticated 929 photo-file metadata catalogue (414 ARW, 415 camera JPEG, 100 edited JPEG). ALL 100 edited JPEGs were visually reviewed in contact sheets and per-file categorized on 2026-10-20 in assets/waleed-2026-10-20-editorial-curation.json; ranked Top 20 there and preliminary five-slide content brief in plans/2026-10-20-waleed-photo-pilot.md. Existing candidate_files only contains earlier individually viewed references and must not be mistaken for full coverage. RAW/original JPG images remain metadata-only. Rights, likeness, final logo and menu are not verified.",
   "root_folder_id": "1nYD1cr0eoByzNUAvvyHPUpSLnpZWUuFg",
   "brand_folder_id": "1ZplIhzIZKcK5ZCoe454exU445cL-Vhz-",
   "groups": [
