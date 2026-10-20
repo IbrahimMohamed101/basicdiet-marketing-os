@@ -10,6 +10,8 @@ https://drive.google.com/drive/folders/1nYD1cr0eoByzNUAvvyHPUpSLnpZWUuFg
 
 [Waleed](https://drive.google.com/drive/folders/1633A3wK8lV6eZ4pwcB9ancpOYnYnKo4c): 930 entries, 929 images (414 RAW, 415 camera JPG, 100 edited JPEG across three edit folders) and 1 .lnk shortcut. Camera originals and edits overlap. No MP4s in the new Waleed folder. Full ID manifest: [2026-10-20 inventory](waleed-2026-10-20-inventory.json). Visual inspection, shortlist and campaign ideas: [2026-10-20 creative review](waleed-2026-10-20-creative-review.md). Original Drive assets were not moved. Rights/menu/talent sign-off pending.
 
+**2026-10-20 editorial update:** All 100 edited JPEGs in Waleed were visually sorted (51 process, 23 food, 26 people) and a **20-image candidate shortlist** was selected with exact Drive IDs. See [per-file triage and ranked 20](waleed-2026-10-20-editorial-curation.json) and [proposed non-published content pilot](../plans/2026-10-20-waleed-photo-pilot.md). The camera RAW/JPG files remain inventory-only; do not infer commercial rights, menu availability, 100 unique photos, or active social posting.
+
 ## Key reusable asset groups
 
 ### Video
