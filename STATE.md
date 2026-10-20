@@ -1,3 +1,10 @@
+## 2026-10-20 — Complete visual triage of edited Waleed image set and Top 20
+
+- **Completed:** inspected all **100 edited JPEGs** across Waleed's three edit folders in labeled contact sheets and full-size samples, preserving source originals. Recorded **51 prep/process, 23 food/product, 26 people/lifestyle** as primary editorial categories in [per-file curated index](assets/waleed-2026-10-20-editorial-curation.json), with 20 selected exact Drive IDs, human/rights/menu flags and burst-alternative handling. Counts refer to edited photos only, not all 929 inventoried image files.
+- **Top 20:** 8 process, 7 food, 5 people; local image review contact sheet shared with the user. The work does **not** establish 20 wholly distinct shoots, verified rights, approved logo or active menu availability. Raw and camera images remain inventoried only; source pairing is not content approval.
+- **Creative handoff:** [one draft Instagram carousel and two distinct alternative editorial concepts](plans/2026-10-20-waleed-photo-pilot.md), led by authentic kitchen images without pretending different dishes form one meal's prep sequence. No social post, ad, photo edit or Drive reorganization executed.
+- **Next gate:** restaurant permission for the photographs and depicted people, current menu checks, final owner review; only then proceed to native feed/Story design and publication approval.
+
 ## 2026-10-20 — New Waleed image library indexed (no new video in this folder)
 
 - Authenticated Drive folder [Waleed](https://drive.google.com/drive/folders/1633A3wK8lV6eZ4pwcB9ancpOYnYnKo4c), uploaded as a folder on 2026-10-19. Four immediate subfolders have **930 entries: 929 image files + one .lnk**, including 414 RAW ARW, 415 camera JPG, 68 edited JPG, 25 Lightroom edited JPG, 7 LR 4 JPG. Original and retouched sets overlap; **NOT 929 unique photos**.
