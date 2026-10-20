@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-12",
+  "checked_at": "2026-10-20",
   "source_mode": "authenticated_google_drive_list_folder",
-  "source_status": "metadata_only_visuals_unverified",
+  "source_status": "metadata_catalogued_with_selected_ai_pixel_review",
   "commercial_rights_status": "unverified",
-  "note": "File names and IDs are observed, not proof of actual image content, authenticity, current menu status or usage rights. Browse the exact Drive file before creative use. AI inspection is not owner approval; progression to human_reviewed requires human_visual_verified_by/on/evidence AND independent PR owner review under protected branch rules.",
+  "note": "Google Drive inventory/listing metadata and 18 specifically named AI-viewed JPEG images are documented. AI visual inspection is NOT human/rights/current menu approval. New Waleed photos: assets/waleed-2026-10-20-creative-review.md; full manifest assets/waleed-2026-10-20-inventory.json. Verify each selected source and any recognizable people before publication.",
   "root_folder_id": "1nYD1cr0eoByzNUAvvyHPUpSLnpZWUuFg",
   "brand_folder_id": "1ZplIhzIZKcK5ZCoe454exU445cL-Vhz-",
   "groups": [
@@ -57,6 +57,26 @@
       "key": "design_stories",
       "folder_id": "1WFDt0vMtb33pDYtoPV9e3XJ9bbYmqkn0",
       "listed_count": 4
+    },
+    {
+      "key": "waleed_camera_originals",
+      "folder_id": "1-3ULvqtmE5plxZRZX9TUcDh_igPkGMRa",
+      "listed_count": 829
+    },
+    {
+      "key": "waleed_edited_jpg",
+      "folder_id": "18HvLjn8aw8THQW6PwzDTTPFguDFpCiYg",
+      "listed_count": 68
+    },
+    {
+      "key": "waleed_lightroom_edit",
+      "folder_id": "1vcflxT0Zz8hSUXq8y5lTV9WU8lbgSRqN",
+      "listed_count": 26
+    },
+    {
+      "key": "waleed_lr4",
+      "folder_id": "1nC80jbLPc2hkRZCpkQBYWpGZmFhA_ShZ",
+      "listed_count": 7
     }
   ],
   "candidate_files": [
@@ -291,6 +311,240 @@
       "rights_verified": false,
       "menu_verified": false,
       "url": "https://drive.google.com/file/d/13ipP058ByJ3wEJUyapay_lnrXoN5hM8G/view"
+    },
+    {
+      "key": "w1132",
+      "file_id": "1sBfIWWEq7ZiHpLSy8C3YPbnO5kxOcAku",
+      "name": "_DSC1132.jpg",
+      "group": "waleed_edited_jpg",
+      "visual_review": "ai_reviewed",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1sBfIWWEq7ZiHpLSy8C3YPbnO5kxOcAku/view",
+      "visual_verified_by": "AI-assisted image inspection",
+      "visual_verified_on": "2026-10-20",
+      "visual_verified_evidence": "assets/waleed-2026-10-20-creative-review.md#visual-inspection-vs-approval"
+    },
+    {
+      "key": "w1127",
+      "file_id": "14pah0yo1PjGPwfBFeph3pxHZ3yflYV-L",
+      "name": "_DSC1127.jpg",
+      "group": "waleed_edited_jpg",
+      "visual_review": "ai_reviewed",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/14pah0yo1PjGPwfBFeph3pxHZ3yflYV-L/view",
+      "visual_verified_by": "AI-assisted image inspection",
+      "visual_verified_on": "2026-10-20",
+      "visual_verified_evidence": "assets/waleed-2026-10-20-creative-review.md#visual-inspection-vs-approval"
+    },
+    {
+      "key": "w1041",
+      "file_id": "1rqvddtXPQbmEIavb3bcDI9M598CnvEic",
+      "name": "_DSC1041.jpg",
+      "group": "waleed_edited_jpg",
+      "visual_review": "ai_reviewed",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1rqvddtXPQbmEIavb3bcDI9M598CnvEic/view",
+      "visual_verified_by": "AI-assisted image inspection",
+      "visual_verified_on": "2026-10-20",
+      "visual_verified_evidence": "assets/waleed-2026-10-20-creative-review.md#visual-inspection-vs-approval"
+    },
+    {
+      "key": "w0915",
+      "file_id": "1f8wiUuAeDGc_seVnyqJut7cbKgBklr-T",
+      "name": "_DSC0915.jpg",
+      "group": "waleed_edited_jpg",
+      "visual_review": "ai_reviewed",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1f8wiUuAeDGc_seVnyqJut7cbKgBklr-T/view",
+      "visual_verified_by": "AI-assisted image inspection",
+      "visual_verified_on": "2026-10-20",
+      "visual_verified_evidence": "assets/waleed-2026-10-20-creative-review.md#visual-inspection-vs-approval"
+    },
+    {
+      "key": "w0846",
+      "file_id": "1DEcrPnEl0WQ9f_hUckF6h4qduUaNkdfP",
+      "name": "_DSC0846.jpg",
+      "group": "waleed_edited_jpg",
+      "visual_review": "ai_reviewed",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1DEcrPnEl0WQ9f_hUckF6h4qduUaNkdfP/view",
+      "visual_verified_by": "AI-assisted image inspection",
+      "visual_verified_on": "2026-10-20",
+      "visual_verified_evidence": "assets/waleed-2026-10-20-creative-review.md#visual-inspection-vs-approval"
+    },
+    {
+      "key": "w0742",
+      "file_id": "1vQXHMY4ShfRXLLL20nerw8K_hODNjTVT",
+      "name": "_DSC0742.jpg",
+      "group": "waleed_edited_jpg",
+      "visual_review": "ai_reviewed",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1vQXHMY4ShfRXLLL20nerw8K_hODNjTVT/view",
+      "visual_verified_by": "AI-assisted image inspection",
+      "visual_verified_on": "2026-10-20",
+      "visual_verified_evidence": "assets/waleed-2026-10-20-creative-review.md#visual-inspection-vs-approval"
+    },
+    {
+      "key": "w0604",
+      "file_id": "1rABxgYJBfk2scC47jlWmypXts7-As13A",
+      "name": "_DSC0604.jpg",
+      "group": "waleed_edited_jpg",
+      "visual_review": "ai_reviewed",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1rABxgYJBfk2scC47jlWmypXts7-As13A/view",
+      "visual_verified_by": "AI-assisted image inspection",
+      "visual_verified_on": "2026-10-20",
+      "visual_verified_evidence": "assets/waleed-2026-10-20-creative-review.md#visual-inspection-vs-approval"
+    },
+    {
+      "key": "w0592",
+      "file_id": "1YSg_uZe8mRrDDIxjQzyQxD7jZ3uTNyE0",
+      "name": "_DSC0592.jpg",
+      "group": "waleed_edited_jpg",
+      "visual_review": "ai_reviewed",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1YSg_uZe8mRrDDIxjQzyQxD7jZ3uTNyE0/view",
+      "visual_verified_by": "AI-assisted image inspection",
+      "visual_verified_on": "2026-10-20",
+      "visual_verified_evidence": "assets/waleed-2026-10-20-creative-review.md#visual-inspection-vs-approval"
+    },
+    {
+      "key": "w0462",
+      "file_id": "1k25-_yt-IFCE0bHpqGcx3dafDjhjaIg6",
+      "name": "_DSC0462.jpg",
+      "group": "waleed_edited_jpg",
+      "visual_review": "ai_reviewed",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1k25-_yt-IFCE0bHpqGcx3dafDjhjaIg6/view",
+      "visual_verified_by": "AI-assisted image inspection",
+      "visual_verified_on": "2026-10-20",
+      "visual_verified_evidence": "assets/waleed-2026-10-20-creative-review.md#visual-inspection-vs-approval"
+    },
+    {
+      "key": "w0367",
+      "file_id": "1lyFvFcMGI0suDu0I3ltUFPPAGyW3jo_S",
+      "name": "_DSC0367.jpg",
+      "group": "waleed_edited_jpg",
+      "visual_review": "ai_reviewed",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1lyFvFcMGI0suDu0I3ltUFPPAGyW3jo_S/view",
+      "visual_verified_by": "AI-assisted image inspection",
+      "visual_verified_on": "2026-10-20",
+      "visual_verified_evidence": "assets/waleed-2026-10-20-creative-review.md#visual-inspection-vs-approval"
+    },
+    {
+      "key": "w0213",
+      "file_id": "1CoV6AypLZCAk_bhWL3JnvXaQvjf9QbyV",
+      "name": "_DSC0213.jpg",
+      "group": "waleed_edited_jpg",
+      "visual_review": "ai_reviewed",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1CoV6AypLZCAk_bhWL3JnvXaQvjf9QbyV/view",
+      "visual_verified_by": "AI-assisted image inspection",
+      "visual_verified_on": "2026-10-20",
+      "visual_verified_evidence": "assets/waleed-2026-10-20-creative-review.md#visual-inspection-vs-approval"
+    },
+    {
+      "key": "w0135",
+      "file_id": "12ulQKpHDutxeqg_8HYRYazBi9vrjoh3l",
+      "name": "_DSC0135.jpg",
+      "group": "waleed_edited_jpg",
+      "visual_review": "ai_reviewed",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/12ulQKpHDutxeqg_8HYRYazBi9vrjoh3l/view",
+      "visual_verified_by": "AI-assisted image inspection",
+      "visual_verified_on": "2026-10-20",
+      "visual_verified_evidence": "assets/waleed-2026-10-20-creative-review.md#visual-inspection-vs-approval"
+    },
+    {
+      "key": "w0795",
+      "file_id": "1ekHAbxtni4lmCP_DDY-n0SclJdHVgGu5",
+      "name": "_DSC0795.jpg",
+      "group": "waleed_edited_jpg",
+      "visual_review": "ai_reviewed",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1ekHAbxtni4lmCP_DDY-n0SclJdHVgGu5/view",
+      "visual_verified_by": "AI-assisted image inspection",
+      "visual_verified_on": "2026-10-20",
+      "visual_verified_evidence": "assets/waleed-2026-10-20-creative-review.md#visual-inspection-vs-approval"
+    },
+    {
+      "key": "w3993",
+      "file_id": "1y6Y7PfqVJRu7dDE9mVQ6h-XsTvhl5KQr",
+      "name": "_DSC3993.jpg",
+      "group": "waleed_lightroom_edit",
+      "visual_review": "ai_reviewed",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1y6Y7PfqVJRu7dDE9mVQ6h-XsTvhl5KQr/view",
+      "visual_verified_by": "AI-assisted image inspection",
+      "visual_verified_on": "2026-10-20",
+      "visual_verified_evidence": "assets/waleed-2026-10-20-creative-review.md#visual-inspection-vs-approval"
+    },
+    {
+      "key": "w4054",
+      "file_id": "1lo1iWbYcRaWQ-8erb2MxLYAXiEQp3lai",
+      "name": "_DSC4054.jpg",
+      "group": "waleed_lightroom_edit",
+      "visual_review": "ai_reviewed",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1lo1iWbYcRaWQ-8erb2MxLYAXiEQp3lai/view",
+      "visual_verified_by": "AI-assisted image inspection",
+      "visual_verified_on": "2026-10-20",
+      "visual_verified_evidence": "assets/waleed-2026-10-20-creative-review.md#visual-inspection-vs-approval"
+    },
+    {
+      "key": "w4208",
+      "file_id": "1Zk8Gdypcit7RZH9vq6vkBrcYth4fcMkp",
+      "name": "_DSC4208.jpg",
+      "group": "waleed_lightroom_edit",
+      "visual_review": "ai_reviewed",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1Zk8Gdypcit7RZH9vq6vkBrcYth4fcMkp/view",
+      "visual_verified_by": "AI-assisted image inspection",
+      "visual_verified_on": "2026-10-20",
+      "visual_verified_evidence": "assets/waleed-2026-10-20-creative-review.md#visual-inspection-vs-approval"
+    },
+    {
+      "key": "w4474",
+      "file_id": "1EIVfIuPERHJ-UcCT937vEczgMuRvhdH5",
+      "name": "_DSC4474.jpg",
+      "group": "waleed_lightroom_edit",
+      "visual_review": "ai_reviewed",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1EIVfIuPERHJ-UcCT937vEczgMuRvhdH5/view",
+      "visual_verified_by": "AI-assisted image inspection",
+      "visual_verified_on": "2026-10-20",
+      "visual_verified_evidence": "assets/waleed-2026-10-20-creative-review.md#visual-inspection-vs-approval"
+    },
+    {
+      "key": "w4741",
+      "file_id": "1w607hP2CtY2f_bcekeToiy9rxBZh5vPO",
+      "name": "_DSC4741.jpg",
+      "group": "waleed_lr4",
+      "visual_review": "ai_reviewed",
+      "rights_verified": false,
+      "menu_verified": false,
+      "url": "https://drive.google.com/file/d/1w607hP2CtY2f_bcekeToiy9rxBZh5vPO/view",
+      "visual_verified_by": "AI-assisted image inspection",
+      "visual_verified_on": "2026-10-20",
+      "visual_verified_evidence": "assets/waleed-2026-10-20-creative-review.md#visual-inspection-vs-approval"
     }
   ]
 }
