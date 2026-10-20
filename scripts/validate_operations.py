@@ -18,7 +18,7 @@ def workflow_errors(path):
     if not isinstance(doc,dict):
         return ["Workflow must be a mapping"]
     special=path.name=="sync-commerce.yml"
-    permissions={"contents":"write","id-token":"write"} if special else {"contents":"read"}
+    permissions={"contents":"write","id-token":"write"} if special else ({"contents":"read","issues":"write"} if path.name=="overnight-creative-audit.yml" else {"contents":"read"})
     errors=[]
     if doc.get("permissions") != permissions:
         errors.append("Workflow must have limited permissions")

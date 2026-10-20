@@ -1,10 +1,14 @@
 # Marketing Asset Catalog
 
-**Catalog version:** v1  
-**Last reviewed:** 2026-10-07
+**Catalog version:** v2  
+**Last reviewed:** 2026-10-20
 
 Primary Drive:
 https://drive.google.com/drive/folders/1nYD1cr0eoByzNUAvvyHPUpSLnpZWUuFg
+
+## New intake (20 October 2026): Waleed photo library
+
+[Waleed](https://drive.google.com/drive/folders/1633A3wK8lV6eZ4pwcB9ancpOYnYnKo4c): 930 entries, 929 images (414 RAW, 415 camera JPG, 100 edited JPEG across three edit folders) and 1 .lnk shortcut. Camera originals and edits overlap. No MP4s in the new Waleed folder. Full ID manifest: [2026-10-20 inventory](waleed-2026-10-20-inventory.json). Visual inspection, shortlist and campaign ideas: [2026-10-20 creative review](waleed-2026-10-20-creative-review.md). Original Drive assets were not moved. Rights/menu/talent sign-off pending.
 
 ## Key reusable asset groups
 
