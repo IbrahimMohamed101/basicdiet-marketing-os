@@ -50,6 +50,10 @@ The following **18 named JPEGs** were opened and visually inspected with AI on 2
 6. **Never infer motion from these stills.** A slideshow/photo-animation is not newly shot video. Use verified older footage if a genuine real-motion reel is needed.
 7. **No auto-publish:** check current menu availability, talent rights, restaurant image rights, authentic logo, typography, linked destination, and complete vertical composition.
 
+## Additional full edited-photo visual review — 2026-10-20
+
+The original initial 18 direct photo inspections described above have now been expanded with **all 100 edited JPEGs** shown and reviewed in labeled contact sheets (68 `jpg edit 2`, 25 `lightroom edit`, 7 `LR 4`). The additional per-file editorial categories, 20 chosen candidates and Drive IDs are in [the curated ranking](waleed-2026-10-20-editorial-curation.json). Overall: **51 process/preparation, 23 product/food, 26 people/lifestyle**. These are editorial categories, not an authenticity/rights/menu/legal clearance, and 100 assets are not 100 unique compositions. The new [photo-only content pilot](../plans/2026-10-20-waleed-photo-pilot.md) refines three campaign approaches, without implying any real social publication.
+
 ## Three distinct candidate campaigns (not yet approved)
 
 ### A — «من الصينية لوجبتك» (preferred first draft; process/story)
