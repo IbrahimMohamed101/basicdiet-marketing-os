@@ -1,3 +1,11 @@
+## 2026-10-20 — New Waleed image library indexed (no new video in this folder)
+
+- Authenticated Drive folder [Waleed](https://drive.google.com/drive/folders/1633A3wK8lV6eZ4pwcB9ancpOYnYnKo4c), uploaded as a folder on 2026-10-19. Four immediate subfolders have **930 entries: 929 image files + one .lnk**, including 414 RAW ARW, 415 camera JPG, 68 edited JPG, 25 Lightroom edited JPG, 7 LR 4 JPG. Original and retouched sets overlap; **NOT 929 unique photos**.
+- [Full file-by-file ID inventory](assets/waleed-2026-10-20-inventory.json); [AI visual review of 18 selected JPEGs and creative shortlist](assets/waleed-2026-10-20-creative-review.md); 18 IDs also registered in [assets/drive-source-index.json](assets/drive-source-index.json). **No new video files were present in the four Waleed subfolders**; ask for an exact folder link if new video was uploaded elsewhere.
+- Strong observed themes: real food preparation/serving, branded bowls, fruit/salad details, restaurant lifestyle/human scenes and plated-food shots. Current first-draft preference: a **real-photo assembly carousel** from `_DSC0592` / `_DSC0742` / `_DSC0604` / `_DSC0367`; alternatives lifestyle and visual poll documented in the review.
+- **Editorial gates:** exact file pixel review for only 18; all other entries metadata-only. Neither commercial rights, likeness permissions, current menu inclusion, nor final logo/design sign-off has been established. Do not publish, schedule or spend; do not call photo slideshows freshly filmed video.
+- Next: owner chooses one concept and confirms usage rights and featured food before final visual design. No assets moved/deleted in Drive, no posts published.
+
 # Basic Diet Marketing OS — current state
 
 ## 2026-10-12 — Seven original Instagram concept ideas saved (C032–C038)
